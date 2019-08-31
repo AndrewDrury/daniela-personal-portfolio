@@ -24,6 +24,11 @@ npm run test
 ```
 npm run lint
 ```
+### Run lint, build, and deploy to gh-pages
+```
+.\deploy.sh
+```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

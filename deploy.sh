@@ -23,6 +23,7 @@ git add -A
 git commit -m 'deploy'
 
 # deploy
-git push -f git@github.com:AndrewDrury/daniela-personal-portfolio.git gh-pages
+git subtree push --prefix dist origin gh-pages
+#git push -f git@github.com:AndrewDrury/daniela-personal-portfolio.git gh-pages
 
 cd -

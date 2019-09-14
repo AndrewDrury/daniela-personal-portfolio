@@ -1,31 +1,55 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    
+    <b-navbar toggleable="md" class="d-fixed">
+      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+
+      <b-navbar-brand to="/">D</b-navbar-brand>
+
+      <b-collapse is-nav id="nav_collapse">
+
+        <!-- Right aligned nav items, collapsed on mobile -->
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item class="tab" href="#projects" right>projects</b-nav-item>
+          <b-nav-item class="tab" right>resume</b-nav-item>
+          <b-nav-item class="tab" to="/about" right>about</b-nav-item>
+          <b-nav-item class="tab" right>let's chat!</b-nav-item>
+        </b-navbar-nav>
+
+      </b-collapse>
+    </b-navbar>
+
+    <!-- Dynamic Content -->
+    <transition name="fade">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
-<style>
+<style lang="scss">
+$primary: #814CF3;
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 2.5em;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.tab {
+  margin-left: 0.75em;
+  font-size: 1.25em;
 }
 </style>
+
+<script lang="ts">
+import Vue from 'vue'
+// @ is an alias to /src
+
+export default Vue.extend({
+  name: 'home'
+})
+</script>

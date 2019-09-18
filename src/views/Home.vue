@@ -14,20 +14,23 @@
             <b-col class="col-8" align="left">
               <h4 class="purple" style="font-size:1.75em">
                 I’m an empathetic
-                <b class="purple">UX designer</b> who uses psychology and design to understand people and improve their interactions with technology. Living and learning in Toronto, Canada.
+                <b class="purple">UX designer</b> who uses psychology and design
+                to understand people and improve their interactions with
+                technology. Living and learning in Toronto, Canada.
               </h4>
             </b-col>
           </b-row>
           <b-row style="margin-top: 8em">
             <b-col>
               <section id="Projects">
-                <h2 class="mb-5" to="#Projects"><b class="purple">My Projects</b></h2>
+                <h2 class="mb-5" to="#Projects">
+                  <b class="purple">My Projects</b>
+                </h2>
                 <b-row>
                   <b-col class="mx-3" align="left">
-                    <img src="@/assets/iPhone.png" height="500px">
+                    <img src="@/assets/iPhone.png" height="500px" />
                   </b-col>
                 </b-row>
-
               </section>
             </b-col>
           </b-row>
@@ -38,7 +41,7 @@
 </template>
 
 <style lang="scss">
-$primary: #814CF3;
+$primary: #814cf3;
 
 .purple {
   color: $primary;

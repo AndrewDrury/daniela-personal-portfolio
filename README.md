@@ -35,7 +35,7 @@ npm run lint
 1. Commit the `.gitignore` file with 'dist' uncommented.
 2. Comment out 'dist'.
 3. Run `.\deploy.sh`.
-4.
+4. Uncomment 'dist' in the `.gitignore` file.
 
 ### Deploy Manually to gh-pages
 

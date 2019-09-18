@@ -32,19 +32,21 @@ npm run lint
 
 ### Run lint, build, and deploy to gh-pages
 
-```
-.\deploy.sh
-```
+1. Commit the `.gitignore` file with 'dist' uncommented.
+2. Comment out 'dist'.
+3. Run `.\deploy.sh`.
+4.
 
 ### Deploy Manually to gh-pages
 
-1. Commit the `.gitignore` file with 'dist' uncommented.
-2. Comment out 'dist'.
-3. Run `npm run build`.
-4. Run `git add dist`.
-5. Run `git commit -m "deploying dist"`
-6. Run `git subtree push --prefix dist origin gh-pages`
-7. Uncomment 'dist' in the `.gitignore` file.
+1. Run `npm run lint`.
+2. Commit the `.gitignore` file with 'dist' uncommented.
+3. Comment out 'dist'.
+4. Run `npm run build`.
+5. Run `git add dist`.
+6. Run `git commit -m "deploying dist"`
+7. Run `git subtree push --prefix dist origin gh-pages`
+8. Uncomment 'dist' in the `.gitignore` file.
 
 ### Customize configuration
 

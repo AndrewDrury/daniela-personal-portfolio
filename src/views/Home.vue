@@ -22,16 +22,18 @@
           </b-row>
           <b-row style="margin-top: 8em">
             <b-col>
-              <section id="Projects">
-                <h2 class="mb-5" to="#Projects">
+              <a id="Projects" name="Projects">
+                <h2 class="mb-5" href="#Projects">
                   <b class="purple">My Projects</b>
                 </h2>
                 <b-row>
                   <b-col class="mx-3" align="left">
-                    <img src="@/assets/iPhone.png" height="500px" />
+                    <a href="/ePaid">
+                      <img src="@/assets/iPhone.png" height="500px" />
+                    </a>
                   </b-col>
                 </b-row>
-              </section>
+              </a>
             </b-col>
           </b-row>
         </b-col>

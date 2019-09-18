@@ -21,6 +21,21 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/About.vue")
+    },
+    {
+      path: "/epaid",
+      name: "ePaid",
+      component: () => import("./views/projects/ePaid.vue")
+    },
+    {
+      path: "/fiti",
+      name: "fiti",
+      component: () => import("./views/projects/Fiti.vue")
+    },
+    {
+      path: "/HealthLine",
+      name: "HealthLine",
+      component: () => import("./views/projects/HealthLine.vue")
     }
   ]
 });

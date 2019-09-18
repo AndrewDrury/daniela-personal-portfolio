@@ -9,7 +9,13 @@
           <!-- Right aligned nav items, collapsed on mobile -->
           <b-navbar-nav class="ml-auto">
             <b-nav-item class="tab" href="#projects" right>projects</b-nav-item>
-            <b-nav-item class="tab" href="./DanielaOrnelasResume.pdf" target="_blank" right>resume</b-nav-item>
+            <b-nav-item
+              class="tab"
+              href="./DanielaOrnelasResume.pdf"
+              target="_blank"
+              right
+              >resume</b-nav-item
+            >
             <b-nav-item class="tab" to="/about" right>about</b-nav-item>
             <b-nav-item class="tab" right>let's chat!</b-nav-item>
           </b-navbar-nav>
@@ -52,7 +58,9 @@
           </b-col>
         </b-row>
         <b-row>
-          <b-col class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <b-col
+            class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white"
+          >
             <p class="h6">&copy Daniela Ornelas</p>
           </b-col>
         </b-row>

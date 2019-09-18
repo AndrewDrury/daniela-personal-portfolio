@@ -11,19 +11,13 @@ npm run lint
 echo Building. this may take a minute...
 npm run build
 
-# navigate into the build output directory
-cd dist
-
 # if you are deploying to a custom domain
 # echo 'example.com' > CNAME
 
 echo Deploying..
-git init
-git add -A
-git commit -m 'deploy'
+git add dist
+git commit -m "deploying dist"
 
 # deploy
 git subtree push --prefix dist origin gh-pages
 #git push -f git@github.com:AndrewDrury/daniela-personal-portfolio.git gh-pages
-
-cd -

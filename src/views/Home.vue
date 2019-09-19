@@ -14,23 +14,32 @@
             <b-col class="col-8" align="left">
               <h4 class="purple" style="font-size:1.75em">
                 I’m an empathetic
-                <b class="purple">UX designer</b> who uses psychology and design to understand people and improve their interactions with technology. Living and learning in Toronto, Canada.
+                <b class="purple">UX designer</b> who uses psychology and design
+                to understand people and improve their interactions with
+                technology. Living and learning in Toronto, Canada.
               </h4>
             </b-col>
           </b-row>
           <b-row style="margin-top: 8em">
             <b-col>
-              <section id="Projects">
-                <h2 class="mb-5" to="#Projects"><b class="purple">My Projects</b></h2>
+              <a id="Projects" name="Projects">
+                <h2 class="mb-5" href="#Projects">
+                  <b class="purple">My Projects</b>
+                </h2>
                 <b-row>
                   <b-col sm="4" class="mx-3" align="left">
-                    <img class="screenshot" src="@/assets/iPhone.png">
+                    <a href="/ePaid">
+                      <img class="screenshot" src="@/assets/iPhone.png" />
+                    </a>
                   </b-col>
                   <b-col class="listing" sm="7" align="left">
                     <h3>e-Paid</h3>
                     <p>TD Lab</p>
                     <h5>Help freelancers get paid faster.</h5>
-                    <p>Uses Interac’s e-transfer API to help our user with easy invoicing.</p>
+                    <p>
+                      Uses Interac’s e-transfer API to help our user with easy
+                      invoicing.
+                    </p>
                     <a href="">Read More</a>
                     <p>Skills</p>
                     <b-row align="left">
@@ -40,9 +49,8 @@
                       <b-col class="skill">UI/UX Design</b-col>
                     </b-row>
                   </b-col>
-                  
                 </b-row>
-              </section>
+              </a>
             </b-col>
           </b-row>
         </b-col>
@@ -57,13 +65,13 @@
 .purple {
   color: $primary;
 }
-.screenshot{
-    width: 100%;
-  }
-.skill{
+.screenshot {
+  width: 100%;
+}
+.skill {
   width: 100%;
   align: left;
-  display:inline-block
+  display: inline-block;
 }
 
 @media (max-width: $screen-sm) {

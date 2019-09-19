@@ -23,11 +23,25 @@
               <section id="Projects">
                 <h2 class="mb-5" to="#Projects"><b class="purple">My Projects</b></h2>
                 <b-row>
-                  <b-col class="mx-3" align="left">
-                    <img src="@/assets/iPhone.png" height="500px">
+                  <b-col sm="4" class="mx-3" align="left">
+                    <img class="screenshot" src="@/assets/iPhone.png">
                   </b-col>
+                  <b-col class="listing" sm="7" align="left">
+                    <h3>e-Paid</h3>
+                    <p>TD Lab</p>
+                    <h5>Help freelancers get paid faster.</h5>
+                    <p>Uses Interac’s e-transfer API to help our user with easy invoicing.</p>
+                    <a href="">Read More</a>
+                    <p>Skills</p>
+                    <b-row align="left">
+                      <b-col class="skill">User Interviews</b-col>
+                      <b-col class="skill">Personas</b-col>
+                      <b-col class="skill">Project Management</b-col>
+                      <b-col class="skill">UI/UX Design</b-col>
+                    </b-row>
+                  </b-col>
+                  
                 </b-row>
-
               </section>
             </b-col>
           </b-row>
@@ -38,10 +52,21 @@
 </template>
 
 <style lang="scss">
-$primary: #814CF3;
+@import "../assets/variables.scss";
 
 .purple {
   color: $primary;
+}
+.screenshot{
+    width: 100%;
+  }
+.skill{
+  width: 100%;
+  align: left;
+  display:inline-block
+}
+
+@media (max-width: $screen-sm) {
 }
 </style>
 

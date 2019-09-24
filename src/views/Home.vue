@@ -56,7 +56,11 @@
                   <a href="/Fiti">
                     <img
                       class="screenshot"
-                      srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
+                      srcset="
+                        @/assets/homepage/dark.png,
+                        @/assets/homepage/dark@2x.png 2x,
+                        @/assets/homepage/dark@3x.png 3x
+                      "
                     />
                   </a>
                 </b-col>
@@ -85,7 +89,11 @@
                       <a href="/Fiti">
                         <img
                           class="screenshot"
-                          srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
+                          srcset="
+                            @/assets/homepage/dark.png,
+                            @/assets/homepage/dark@2x.png 2x,
+                            @/assets/homepage/dark@3x.png 3x
+                          "
                         />
                       </a>
                     </b-col>

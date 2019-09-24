@@ -122,7 +122,6 @@
 <style lang="scss">
 @import "../assets/variables.scss";
 
-
 .pic-right {
   float: right;
   margin-right: 40px;
@@ -134,7 +133,6 @@
   // vertical-align: middle;
   // line-height: normal;
 }
-
 
 .purple {
   color: $primary;

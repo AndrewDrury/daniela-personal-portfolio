@@ -23,14 +23,14 @@ export default new Router({
         import(/* webpackChunkName: "about" */ "./views/About.vue")
     },
     {
-      path: "/epaid",
+      path: "/ePaid",
       name: "ePaid",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/projects/ePaid.vue")
     },
     {
-      path: "/fiti",
-      name: "fiti",
+      path: "/Fiti",
+      name: "Fiti",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/projects/Fiti.vue")
     },
@@ -38,7 +38,9 @@ export default new Router({
       path: "/HealthLine",
       name: "HealthLine",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/projects/HealthLine.vue")
+        import(
+          /* webpackChunkName: "about" */ "./views/projects/HealthLine.vue"
+        )
     }
   ]
 });

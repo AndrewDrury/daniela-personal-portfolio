@@ -25,17 +25,20 @@ export default new Router({
     {
       path: "/epaid",
       name: "ePaid",
-      component: () => import("./views/projects/ePaid.vue")
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/projects/ePaid.vue")
     },
     {
       path: "/fiti",
       name: "fiti",
-      component: () => import("./views/projects/Fiti.vue")
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/projects/Fiti.vue")
     },
     {
       path: "/HealthLine",
       name: "HealthLine",
-      component: () => import("./views/projects/HealthLine.vue")
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/projects/HealthLine.vue")
     }
   ]
 });

@@ -28,7 +28,7 @@
                 </h2>
               </a>
               <b-row class="projectRow my-3">
-                <b-col sm="4" class="mx-3" align="left">
+                <b-col sm="4" class="mr-3" align="left">
                   <a href="/ePaid">
                     <img class="screenshot" src="@/assets/iPhone.png" />
                   </a>
@@ -52,7 +52,7 @@
                 </b-col>
               </b-row>
               <b-row class="projectRow my-3">
-                <b-col sm="4" class="pic-right img-fluid float-right mx-3" align="right">
+                <b-col sm="4" class="pic-right" align="right">
                   <a href="/Fiti">
                     <img
                       class="screenshot"
@@ -60,7 +60,7 @@
                     />
                   </a>
                 </b-col>
-                <b-col class="listing listing-left float-left pull-left" sm="7" align="left">
+                <b-col class="listing listing-left" sm="7" align="left">
                   <h3>Fiti</h3>
                   <h4>Passion Project</h4>
                   <h5>A fitness app for people with paraplegia.</h5>
@@ -78,6 +78,39 @@
                   </b-row>
                 </b-col>
               </b-row>
+              <b-row class="my-3">
+                <b-col class="vertically-center">
+                  <b-row sm="4" class="pic-right">
+                    <b-col align="right">
+                      <a href="/Fiti">
+                        <img
+                          class="screenshot"
+                          srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
+                        />
+                      </a>
+                    </b-col>
+                  </b-row>
+                  <b-row sm="7" align="left">
+                    <b-col>
+                      <h3>Fiti</h3>
+                      <h4>Passion Project</h4>
+                      <h5>A fitness app for people with paraplegia.</h5>
+                      <p>
+                        Fiti provides accessible, affordable, and interesting
+                        workouts that are easy to incorperate in all lifestyles.
+                      </p>
+                      <a href="/Fiti">Read More</a>
+                      <h6>Skills</h6>
+                      <b-row>
+                        <b-col>Research</b-col>
+                        <b-col>Personas</b-col>
+                        <b-col>UI/UX Design</b-col>
+                        <b-col>Product Design</b-col>
+                      </b-row>
+                    </b-col>
+                  </b-row>
+                </b-col>
+              </b-row>
             </b-col>
           </b-row>
         </b-col>
@@ -88,6 +121,20 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
+
+
+.pic-right {
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  display: inline;
+}
+.vertically-center {
+  // display: inline-block;
+  // vertical-align: middle;
+  // line-height: normal;
+}
+
 
 .purple {
   color: $primary;
@@ -124,17 +171,17 @@
       }
     }
 
-    .listing-left {
-      float: left !important;
-      //display: inline;
-      margin-left: 0px;
-    }
+    // .listing-left {
+    //   float: left !important;
+    //   //display: inline;
+    //   margin-left: 0px;
+    // }
 
-    .pic-right {
-      float: right !important;
-      //display: inline;
-      margin-right: 0px;
-    }
+    // .pic-right {
+    //   float: right !important;
+    //   //display: inline;
+    //   margin-right: 0px;
+    // }
   }
 }
 </style>

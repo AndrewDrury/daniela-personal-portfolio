@@ -29,7 +29,7 @@
               </a>
               <b-row class="projectRow my-3">
                 <b-col sm="4" class="mr-3" align="left">
-                  <a href="/ePaid">
+                  <a href="./ePaid">
                     <img class="screenshot" src="@/assets/iPhone.png" />
                   </a>
                 </b-col>
@@ -41,7 +41,7 @@
                     Uses Interac’s e-transfer API to help our user with easy
                     invoicing.
                   </p>
-                  <a href="/ePaid">Read More</a>
+                  <a href="./ePaid">Read More</a>
                   <h6>Skills</h6>
                   <b-row align="left">
                     <b-col class="skill">User Interviews</b-col>
@@ -53,14 +53,10 @@
               </b-row>
               <b-row class="projectRow my-3">
                 <b-col sm="4" class="pic-right" align="right">
-                  <a href="/Fiti">
+                  <a href="./Fiti">
                     <img
                       class="screenshot"
-                      srcset="
-                        @/assets/homepage/dark.png,
-                        @/assets/homepage/dark@2x.png 2x,
-                        @/assets/homepage/dark@3x.png 3x
-                      "
+                      srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
                     />
                   </a>
                 </b-col>
@@ -72,7 +68,7 @@
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
                   </p>
-                  <a href="/Fiti">Read More</a>
+                  <a href="./Fiti">Read More</a>
                   <h6>Skills</h6>
                   <b-row align="left">
                     <b-col>Research</b-col>
@@ -86,14 +82,10 @@
                 <b-col class="vertically-center">
                   <b-row sm="4" class="pic-right">
                     <b-col align="right">
-                      <a href="/Fiti">
+                      <a href="./Fiti">
                         <img
                           class="screenshot"
-                          srcset="
-                            @/assets/homepage/dark.png,
-                            @/assets/homepage/dark@2x.png 2x,
-                            @/assets/homepage/dark@3x.png 3x
-                          "
+                          srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
                         />
                       </a>
                     </b-col>
@@ -107,7 +99,7 @@
                         Fiti provides accessible, affordable, and interesting
                         workouts that are easy to incorperate in all lifestyles.
                       </p>
-                      <a href="/Fiti">Read More</a>
+                      <a href="./Fiti">Read More</a>
                       <h6>Skills</h6>
                       <b-row>
                         <b-col>Research</b-col>
@@ -116,6 +108,33 @@
                         <b-col>Product Design</b-col>
                       </b-row>
                     </b-col>
+                  </b-row>
+                </b-col>
+              </b-row>
+              <b-row class="projectRow my-3">
+                <b-col sm="4" class="mr-3" align="left">
+                  <a href="./HealthLine">
+                    <img
+                      class="screenshot"
+                      srcset="@/assets/HealthLine-info/Group4.png, @/assets/HealthLine-info/Group4@2x.png 2x, @/assets/HealthLine-info/Group4@3x.png 3x"
+                    />
+                  </a>
+                </b-col>
+                <b-col class="listing" sm="7" align="left">
+                  <h3>HealthLine</h3>
+                  <h4>RU Hacks</h4>
+                  <h5>Receive a diagnosis of your symptoms.</h5>
+                  <p>
+                    A diagnosis is made through computer vision
+                    and machine learning, and SMS.
+                  </p>
+                  <a href="./HealthLine">Read More</a>
+                  <h6>Skills</h6>
+                  <b-row align="left">
+                    <b-col class="skill">Project Management</b-col>
+                    <b-col class="skill">Ideation</b-col>
+                    <b-col class="skill">Research</b-col>
+                    <b-col class="skill">UI/UX Design</b-col>
                   </b-row>
                 </b-col>
               </b-row>
@@ -154,20 +173,19 @@
     justify-content: center;
     align-items: center;
 
+    .h3 {
+    }
+    .h4 {
+    }
+    .h5 {
+    }
+    .h6 {
+    }
+    .a {
+    }
+    .p {
+    }
     .listing {
-      .h3 {
-      }
-      .h4 {
-      }
-      .h5 {
-      }
-      .h6 {
-      }
-      .a {
-      }
-      .p {
-      }
-
       .b-row {
         .b-col {
           width: 100%;
@@ -176,18 +194,6 @@
         }
       }
     }
-
-    // .listing-left {
-    //   float: left !important;
-    //   //display: inline;
-    //   margin-left: 0px;
-    // }
-
-    // .pic-right {
-    //   float: right !important;
-    //   //display: inline;
-    //   margin-right: 0px;
-    // }
   }
 }
 </style>

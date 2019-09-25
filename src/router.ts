@@ -1,6 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import About from "./views/About.vue";
+import ePaid from "./views/projects/ePaid.vue";
+import Fiti from "./views/projects/Fiti.vue";
+import HealthLine from "./views/projects/HealthLine.vue";
 
 Vue.use(Router);
 
@@ -16,31 +20,22 @@ export default new Router({
     {
       path: "/about",
       name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
+      component: About
     },
     {
       path: "/ePaid",
       name: "ePaid",
-      component: () =>
-        import(/* webpackChunkName: "ePaid" */ "./views/projects/ePaid.vue")
+      component: ePaid
     },
     {
       path: "/Fiti",
       name: "Fiti",
-      component: () =>
-        import(/* webpackChunkName: "Fiti" */ "./views/projects/Fiti.vue")
+      component: Fiti
     },
     {
       path: "/HealthLine",
       name: "HealthLine",
-      component: () =>
-        import(
-          /* webpackChunkName: "HealthLine" */ "./views/projects/HealthLine.vue"
-        )
+      component: HealthLine
     }
   ]
 });

@@ -5,7 +5,7 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */@media (max-width:767px){[class^=col-sm-]{margin-bottom:20px}}.pic-right{float:right;margin-right:40px;margin-bottom:20px;display:inline}.top-space{margin-top:2em}@media (min-width:768px){.top-space{margin-top:11em}}.purple{color:#814cf3}.screenshot{width:100%}@media (min-width:768px){.screenshot{width:70%}}#Projects .projectRow{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}#Projects .projectRow .listing .b-row .b-col{width:100%;align:left;display:inline-block}
+ */.pic-right{float:right;margin-right:40px;margin-bottom:20px;display:inline}.top-space{margin-top:2em}@media (min-width:768px){.top-space{margin-top:11em}}.purple{color:#814cf3}.screenshot{width:100%}@media (min-width:768px){.screenshot{width:70%}}#Projects .projectRow{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}#Projects .projectRow .listing .b-row .b-col{width:100%;align:left;display:inline-block}@media (max-width:767px){[class^=col-sm-]{margin-bottom:20px}}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

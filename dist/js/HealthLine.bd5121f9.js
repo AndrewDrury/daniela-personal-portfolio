@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["HealthLine"],{bdc1:function(t,e,n){"use strict";n.r(e);var a=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"HealthLine"},[n("b-container",{staticClass:"verticalCenter",attrs:{fluid:""}},[n("b-row",[n("b-col")],1)],1)],1)},l=[],s=n("2877"),c={},i=Object(s["a"])(c,a,l,!1,null,null,null);e["default"]=i.exports}}]);
-//# sourceMappingURL=HealthLine.bd5121f9.js.map

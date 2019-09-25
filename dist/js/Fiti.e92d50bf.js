@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["Fiti"],{"5e29":function(t,e,i){"use strict";i.r(e);var n=function(){var t=this,e=t.$createElement,i=t._self._c||e;return i("div",{staticClass:"Fiti"},[i("b-container",{staticClass:"verticalCenter",attrs:{fluid:""}},[i("b-row",[i("b-col")],1)],1)],1)},s=[],a=i("2877"),l={},c=Object(a["a"])(l,n,s,!1,null,null,null);e["default"]=c.exports}}]);
+//# sourceMappingURL=Fiti.e92d50bf.js.map

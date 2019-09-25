@@ -4,7 +4,7 @@
       <b-row>
         <b-col>
           <b-row class="top-space">
-            <b-col class="text-center text-md-left">
+            <b-col class="text-left">
               <h1 style="font-size:2.5em; font-weight:500;">
                 <b>Hi! I’m Daniela Ornelas.</b>
               </h1>
@@ -44,7 +44,11 @@
                   <a href="./ePaid">
                     Read More
                     <img
-                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                      srcset="
+                        @/assets/homepage/next.png,
+                        @/assets/homepage/next@2x.png 2x,
+                        @/assets/homepage/next@3x.png 3x
+                      "
                     />
                   </a>
                   <h6>Skills</h6>
@@ -56,7 +60,7 @@
                   </b-row>
                 </b-col>
               </b-row>
-              <b-row class="projectRow my-3">
+              <!-- <b-row class="projectRow my-3">
                 <b-col md="5" class="pic-right" align="right">
                   <a href="./Fiti">
                     <img
@@ -87,15 +91,19 @@
                     <b-col>Product Design</b-col>
                   </b-row>
                 </b-col>
-              </b-row>
-              <b-row class="my-3">
-                <b-col class="vertically-center">
-                  <b-row md="4" class="pic-right">
+              </b-row>-->
+              <b-row class="projectRow my-3">
+                <b-col>
+                  <b-row md="5" class="pic-right">
                     <b-col align="right">
                       <a href="./Fiti">
                         <img
                           class="screenshot"
-                          srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
+                          srcset="
+                            @/assets/homepage/dark.png,
+                            @/assets/homepage/dark@2x.png 2x,
+                            @/assets/homepage/dark@3x.png 3x
+                          "
                         />
                       </a>
                     </b-col>
@@ -112,11 +120,15 @@
                       <a href="./Fiti">
                         Read More
                         <img
-                          srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                          srcset="
+                            @/assets/homepage/next.png,
+                            @/assets/homepage/next@2x.png 2x,
+                            @/assets/homepage/next@3x.png 3x
+                          "
                         />
                       </a>
                       <h6>Skills</h6>
-                      <b-row>
+                      <b-row align="left">
                         <b-col>Research</b-col>
                         <b-col>Personas</b-col>
                         <b-col>UI/UX Design</b-col>
@@ -131,7 +143,11 @@
                   <a href="./HealthLine">
                     <img
                       class="screenshot"
-                      srcset="@/assets/HealthLine-info/Group4.png, @/assets/HealthLine-info/Group4@2x.png 2x, @/assets/HealthLine-info/Group4@3x.png 3x"
+                      srcset="
+                        @/assets/HealthLine-info/Group10.png,
+                        @/assets/HealthLine-info/Group10@2x.png 2x,
+                        @/assets/HealthLine-info/Group10@3x.png 3x
+                      "
                     />
                   </a>
                 </b-col>
@@ -146,7 +162,11 @@
                   <a href="./HealthLine">
                     Read More
                     <img
-                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                      srcset="
+                        @/assets/homepage/next.png,
+                        @/assets/homepage/next@2x.png 2x,
+                        @/assets/homepage/next@3x.png 3x
+                      "
                     />
                   </a>
                   <h6>Skills</h6>
@@ -169,19 +189,22 @@
 <style lang="scss">
 @import "../assets/variables.scss";
 
+//Apply bottom margin to all columns in mobile
+@media all and (max-width: 767px) {
+  [class^="col-sm-"] {
+    margin-bottom: 20px;
+  }
+}
+
 .pic-right {
   float: right;
   margin-right: 40px;
   margin-bottom: 20px;
   display: inline;
 }
-.vertically-center {
-  // display: inline-block;
-  // vertical-align: middle;
-  // line-height: normal;
-}
 
 .top-space {
+  margin-top: 2em;
   @media (min-width: $screen-sm) {
     margin-top: 11em;
   }

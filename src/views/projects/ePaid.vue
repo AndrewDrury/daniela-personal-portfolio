@@ -305,7 +305,13 @@
           <b-row>
             <b-col>
               <a href="./Fiti">
-                <img src="@/assets/iPhone.png" height="75px" />
+                <img
+                  srcset="
+                    @/assets/homepage/next.png,
+                    @/assets/homepage/next@2x.png 2x,
+                    @/assets/homepage/next@3x.png 3x
+                  "
+                />
                 <h2>Fiti</h2>
               </a>
             </b-col>
@@ -316,4 +322,11 @@
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+//Apply bottom margin to all columns in mobile
+@media all and (max-width: 767px) {
+  [class^="col-sm-"] {
+    margin-bottom: 20px;
+  }
+}
+</style>

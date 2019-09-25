@@ -4,14 +4,14 @@
       <b-row>
         <b-col>
           <b-row class="top-space">
-            <b-col align="left">
+            <b-col class="text-center text-md-left">
               <h1 style="font-size:2.5em; font-weight:500;">
                 <b>Hi! I’m Daniela Ornelas.</b>
               </h1>
             </b-col>
           </b-row>
           <b-row class="my-5">
-            <b-col class="col-8" align="left">
+            <b-col md="8" class="text-left">
               <h4 class="purple" style="font-size:1.75em">
                 I’m an empathetic
                 <b class="purple">UX designer</b> who uses psychology and design
@@ -28,12 +28,12 @@
                 </h2>
               </a>
               <b-row class="projectRow my-3">
-                <b-col sm="4" class="mr-3" align="left">
+                <b-col md="5" align="left">
                   <a href="./ePaid">
                     <img class="screenshot" src="@/assets/iPhone.png" />
                   </a>
                 </b-col>
-                <b-col class="listing" sm="7" align="left">
+                <b-col class="listing" md="7" align="left">
                   <h3>e-Paid</h3>
                   <h4>TD Lab</h4>
                   <h5>Help freelancers get paid faster.</h5>
@@ -41,7 +41,12 @@
                     Uses Interac’s e-transfer API to help our user with easy
                     invoicing.
                   </p>
-                  <a href="./ePaid">Read More</a>
+                  <a href="./ePaid">
+                    Read More
+                    <img
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                    />
+                  </a>
                   <h6>Skills</h6>
                   <b-row align="left">
                     <b-col class="skill">User Interviews</b-col>
@@ -52,7 +57,7 @@
                 </b-col>
               </b-row>
               <b-row class="projectRow my-3">
-                <b-col sm="4" class="pic-right" align="right">
+                <b-col md="5" class="pic-right" align="right">
                   <a href="./Fiti">
                     <img
                       class="screenshot"
@@ -60,7 +65,7 @@
                     />
                   </a>
                 </b-col>
-                <b-col class="listing listing-left" sm="7" align="left">
+                <b-col class="listing" md="7" align="left">
                   <h3>Fiti</h3>
                   <h4>Passion Project</h4>
                   <h5>A fitness app for people with paraplegia.</h5>
@@ -68,7 +73,12 @@
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
                   </p>
-                  <a href="./Fiti">Read More</a>
+                  <a href="./Fiti">
+                    Read More
+                    <img
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                    />
+                  </a>
                   <h6>Skills</h6>
                   <b-row align="left">
                     <b-col>Research</b-col>
@@ -80,7 +90,7 @@
               </b-row>
               <b-row class="my-3">
                 <b-col class="vertically-center">
-                  <b-row sm="4" class="pic-right">
+                  <b-row md="4" class="pic-right">
                     <b-col align="right">
                       <a href="./Fiti">
                         <img
@@ -90,7 +100,7 @@
                       </a>
                     </b-col>
                   </b-row>
-                  <b-row sm="7" align="left">
+                  <b-row md="7" align="left">
                     <b-col>
                       <h3>Fiti</h3>
                       <h4>Passion Project</h4>
@@ -99,7 +109,12 @@
                         Fiti provides accessible, affordable, and interesting
                         workouts that are easy to incorperate in all lifestyles.
                       </p>
-                      <a href="./Fiti">Read More</a>
+                      <a href="./Fiti">
+                        Read More
+                        <img
+                          srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                        />
+                      </a>
                       <h6>Skills</h6>
                       <b-row>
                         <b-col>Research</b-col>
@@ -112,7 +127,7 @@
                 </b-col>
               </b-row>
               <b-row class="projectRow my-3">
-                <b-col sm="4" class="mr-3" align="left">
+                <b-col md="5" align="left">
                   <a href="./HealthLine">
                     <img
                       class="screenshot"
@@ -120,15 +135,20 @@
                     />
                   </a>
                 </b-col>
-                <b-col class="listing" sm="7" align="left">
+                <b-col class="listing" md="7" align="left">
                   <h3>HealthLine</h3>
                   <h4>RU Hacks</h4>
                   <h5>Receive a diagnosis of your symptoms.</h5>
                   <p>
-                    A diagnosis is made through computer vision
-                    and machine learning, and SMS.
+                    A diagnosis is made through computer vision and machine
+                    learning, and SMS.
                   </p>
-                  <a href="./HealthLine">Read More</a>
+                  <a href="./HealthLine">
+                    Read More
+                    <img
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                    />
+                  </a>
                   <h6>Skills</h6>
                   <b-row align="left">
                     <b-col class="skill">Project Management</b-col>
@@ -172,6 +192,9 @@
 }
 .screenshot {
   width: 100%;
+  @media (min-width: $screen-sm) {
+    width: 70%;
+  }
 }
 #Projects {
   .projectRow {

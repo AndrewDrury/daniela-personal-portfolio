@@ -4,14 +4,18 @@
       <!-- Header -->
       <b-navbar toggleable="md" class="d-fixed">
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-        <b-navbar-brand to="/">D</b-navbar-brand>
+        <b-navbar-brand to="/">
+          <img
+            srcset="@/assets/homepage/logo.png, @/assets/homepage/logo@2x.png 2x, @/assets/homepage/logo@3x.png 3x"
+          />
+        </b-navbar-brand>
         <b-collapse is-nav id="nav_collapse">
           <!-- Right aligned nav items, collapsed on mobile -->
           <b-navbar-nav class="ml-auto">
             <b-nav-item class="tab" href="/daniela-personal-portfolio/#Projects" right>projects</b-nav-item>
             <b-nav-item class="tab" href="./DanielaOrnelasResume.pdf" target="_blank" right>resume</b-nav-item>
             <b-nav-item class="tab" to="/about" right>about</b-nav-item>
-            <b-nav-item class="tab" href="mailto: dddaniela334@hotmail.com" right>let's chat!</b-nav-item>
+            <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right>let's chat!</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
@@ -37,7 +41,7 @@
       <div class="container">
         <b-row class="text-center">
           <b-col>
-            <a href="mailto:dddaniela334@hotmail.com" target="_blank">
+            <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
               <h3>Let's Talk Design!</h3>
             </a>
           </b-col>
@@ -55,7 +59,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:dddaniela334@hotmail.com" target="_blank">
+                <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
                   <!-- <i class="fa fa-envelope"></i> -->
                   <img
                     srcset="@/assets/homepage/envelope.png, @/assets/homepage/envelope@2x.png 2x, @/assets/homepage/envelope@3x.png 3x"
@@ -151,7 +155,7 @@ section {
   width: 25%;
   position: fixed;
   left: 20px;
-  z-index: 10;
+  z-index: 1;
 }
 
 // #nav nav {

@@ -3,7 +3,7 @@
     <b-container fluid class="verticalCenter">
       <b-row>
         <b-col>
-          <b-row style="margin-top: 11em">
+          <b-row class="top-space">
             <b-col align="left">
               <h1 style="font-size:2.5em; font-weight:500;">
                 <b>Hi! I’m Daniela Ornelas.</b>
@@ -159,6 +159,12 @@
   // display: inline-block;
   // vertical-align: middle;
   // line-height: normal;
+}
+
+.top-space {
+  @media (min-width: $screen-sm) {
+    margin-top: 11em;
+  }
 }
 
 .purple {

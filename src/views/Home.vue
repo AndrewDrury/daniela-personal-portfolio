@@ -5,18 +5,23 @@
         <b-col>
           <b-row class="top-space">
             <b-col class="text-left">
-              <h1 style="font-size:2.5em; font-weight:500;">Hi! I’m Daniela Ornelas.</h1>
+              <h1 class="name-greeting">Hi! I’m Daniela Ornelas.</h1>
             </b-col>
           </b-row>
           <b-row class="my-5">
             <b-col md="8" class="text-left">
-              <h4 class="purple" style="font-size:1.75em">
+              <h4 class="introduction">
                 I’m an empathetic
-                <b class="purple">UX designer</b> who uses psychology and design
-                to understand people and improve their interactions with
-                technology. Living and learning in Toronto, Canada.
+                <b class="bolded" style="font-size: 28px">UX designer</b> who
+                uses psychology and design to understand people and improve
+                their interactions with technology. Living and learning in
+                Toronto, Canada.
                 <img
-                  srcset="@/assets/homepage/maple-leaf/Shape.png, @/assets/homepage/maple-leaf/Shape@2x.png 2x, @/assets/homepage/maple-leaf/Shape@3x.png 3x"
+                  srcset="
+                    @/assets/homepage/maple-leaf/Shape.png,
+                    @/assets/homepage/maple-leaf/Shape@2x.png 2x,
+                    @/assets/homepage/maple-leaf/Shape@3x.png 3x
+                  "
                 />
               </h4>
             </b-col>
@@ -27,8 +32,12 @@
                 <h2 class="project-header mb-5" href="#Projects">
                   My Projects
                   <img
-                    transform="rotate(270deg)"
-                    srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                    class="arrow-down pb-2"
+                    srcset="
+                      @/assets/homepage/next.png,
+                      @/assets/homepage/next@2x.png 2x,
+                      @/assets/homepage/next@3x.png 3x
+                    "
                   />
                 </h2>
               </a>
@@ -49,7 +58,11 @@
                   <a class="read-more" href="./ePaid">
                     Read More
                     <img
-                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                      srcset="
+                        @/assets/homepage/next.png,
+                        @/assets/homepage/next@2x.png 2x,
+                        @/assets/homepage/next@3x.png 3x
+                      "
                     />
                   </a>
                   <h6 class="skill-title">Skills</h6>
@@ -100,16 +113,22 @@
                       <a href="./Fiti">
                         <img
                           class="screenshot"
-                          srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
+                          srcset="
+                            @/assets/homepage/dark.png,
+                            @/assets/homepage/dark@2x.png 2x,
+                            @/assets/homepage/dark@3x.png 3x
+                          "
                         />
                       </a>
                     </b-col>
                   </b-row>
                   <b-row md="7" align="left">
-                    <b-col>
+                    <b-col class="content-left">
                       <h3 class="project-title">Fiti</h3>
                       <h4 class="category">Passion Project</h4>
-                      <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
+                      <h5 class="tag-line">
+                        A fitness app for people with paraplegia.
+                      </h5>
                       <p class="description">
                         Fiti provides accessible, affordable, and interesting
                         workouts that are easy to incorperate in all lifestyles.
@@ -117,7 +136,11 @@
                       <a class="read-more" href="./Fiti">
                         Read More
                         <img
-                          srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                          srcset="
+                            @/assets/homepage/next.png,
+                            @/assets/homepage/next@2x.png 2x,
+                            @/assets/homepage/next@3x.png 3x
+                          "
                         />
                       </a>
                       <h6 class="skill-title">Skills</h6>
@@ -136,14 +159,20 @@
                   <a href="./HealthLine">
                     <img
                       class="screenshot"
-                      srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
+                      srcset="
+                        @/assets/HealthLine-info/Group10.png,
+                        @/assets/HealthLine-info/Group10@2x.png 2x,
+                        @/assets/HealthLine-info/Group10@3x.png 3x
+                      "
                     />
                   </a>
                 </b-col>
                 <b-col md="7" align="left">
                   <h3 class="project-title">HealthLine</h3>
                   <h4 class="category">RU Hacks</h4>
-                  <h5 class="tag-line">Receive a diagnosis of your symptoms.</h5>
+                  <h5 class="tag-line">
+                    Receive a diagnosis of your symptoms.
+                  </h5>
                   <p class="description">
                     A diagnosis is made through computer vision and machine
                     learning, and SMS.
@@ -151,7 +180,11 @@
                   <a class="read-more" href="./HealthLine">
                     Read More
                     <img
-                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                      srcset="
+                        @/assets/homepage/next.png,
+                        @/assets/homepage/next@2x.png 2x,
+                        @/assets/homepage/next@3x.png 3x
+                      "
                     />
                   </a>
                   <h6 class="skill-title">Skills</h6>
@@ -181,11 +214,23 @@
   }
 }
 
+.content-left {
+  // @media (min-width: $screen-md) {
+  //   width: 58.33%;
+  // }
+}
+
 .pic-right {
   float: right;
   margin-right: 40px;
   margin-bottom: 20px;
   display: inline;
+
+  .b-col {
+    // @media (min-width: $screen-md) {
+    //   width: 41.67%;
+    // }
+  }
 }
 
 .top-space {
@@ -195,9 +240,22 @@
   }
 }
 
-.purple {
-  color: $primary;
+.name-greeting {
+  font-size: 40px;
+  font-weight: 500;
 }
+
+.introduction {
+  font-size: 28;
+  color: $primary;
+  font-weight: 400;
+  .bolded {
+    font-size: 28 !important;
+    font-weight: 500;
+    color: $primary;
+  }
+}
+
 .screenshot {
   width: 100%;
   @media (min-width: $screen-sm) {
@@ -209,6 +267,9 @@
     font-weight: 500;
     color: $primary;
     font-size: 34px;
+  }
+  .arrow-down {
+    transform: rotate(90deg);
   }
   .projectRow {
     display: flex;
@@ -234,7 +295,7 @@
       color: $gray;
     }
     .read-more {
-      color: $purple;
+      color: $primary;
       font-size: 24px;
       font-weight: 500;
     }

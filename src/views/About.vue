@@ -11,7 +11,11 @@
           <b-row>
             <b-col>
               <img
-                srcset="@/assets/aboutme-info/Strength.png, @/assets/aboutme-info/Strength@2x.png 2x, @/assets/aboutme-info/Strength@3x.png 3x"
+                srcset="
+                  @/assets/aboutme-info/Strength.png,
+                  @/assets/aboutme-info/Strength@2x.png 2x,
+                  @/assets/aboutme-info/Strength@3x.png 3x
+                "
               />
             </b-col>
             <b-col align="left">
@@ -43,7 +47,11 @@
             </b-col>
             <b-col>
               <img
-                srcset="@/assets/aboutme-info/Strength.png, @/assets/aboutme-info/Strength@2x.png 2x, @/assets/aboutme-info/Strength@3x.png 3x"
+                srcset="
+                  @/assets/aboutme-info/Strength.png,
+                  @/assets/aboutme-info/Strength@2x.png 2x,
+                  @/assets/aboutme-info/Strength@3x.png 3x
+                "
               />
             </b-col>
           </b-row>

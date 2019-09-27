@@ -1,5 +1,5 @@
 @import "./variables.scss";
-@import url("https://fonts.googleapis.com/css?family=Red+Hat+Text");
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700");
 
 // .fade-enter-active,
 // .fade-leave-active {
@@ -15,6 +15,18 @@
 * {
   color: black;
   font-family: "Red Hat Text", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  //Font weight specifications > font-weight: 100;
+  // Thin            100
+  // Extra Light     200
+  // Light           300
+  // Regular         400
+  // Medium          500
+  // Semi-Bold       600
+  // Bold            700
+  // Black           900
 }
 
 ul {

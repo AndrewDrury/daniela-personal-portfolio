@@ -81,7 +81,7 @@
         </b-row>
         <b-row>
           <b-col class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-            <p class="h6">&copy; Daniela Ornelas</p>
+            <p class="copyright">&copy; Daniela Ornelas</p>
           </b-col>
         </b-row>
       </div>
@@ -98,6 +98,7 @@ $primary: #814cf3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  // background-color: rgb(100, 100, 100);
 
   #main {
     margin-left: 12%;
@@ -159,6 +160,12 @@ section {
 }
 #footer h3 {
   color: $primary;
+  font-size: 24px;
+  font-weight: 500;
+}
+#footer .copyright {
+  color: $primary;
+  font-size: 22px;
 }
 
 // SIDEBAR FOR PROJECTS

@@ -5,22 +5,24 @@
         <b-col>
           <b-row>
             <b-col>
-              <h2>"So, tell me about yourself?"</h2>
+              <h2 class="top-question">"So, tell me about yourself?"</h2>
             </b-col>
           </b-row>
           <b-row>
             <b-col>
-              <img src="@/assets/iPhone.png" height="250px" />
+              <img
+                srcset="@/assets/aboutme-info/Strength.png, @/assets/aboutme-info/Strength@2x.png 2x, @/assets/aboutme-info/Strength@3x.png 3x"
+              />
             </b-col>
-            <b-col>
-              <p>
+            <b-col align="left">
+              <p class="paragraph">
                 My name's Daniela Ornelas. I'm an aspiring UX designer and a
                 third-year Psychology student at York University, currently
                 residing in Toronto, Canada. UX design combines all my passions:
                 design, psychology, communication (I love talking to people!),
                 and learning.
               </p>
-              <p>
+              <p class="paragraph">
                 When I’m not designing, I’m either listening to music, doing
                 Muay Thai, reading Medium posts, looking for the best Italian
                 food I can find in Toronto, or spending my time with friends and
@@ -28,10 +30,10 @@
               </p>
             </b-col>
           </b-row>
-          <b-row>
-            <b-col>
-              <h3>Internship at TD Lab</h3>
-              <p>
+          <b-row class="work-section">
+            <b-col align="left">
+              <h3 class="work-title">Internship at TD Lab</h3>
+              <p class="work-description">
                 TD Lab, located in Kitchener-Waterloo, Ontario, has given me a
                 hands-on learning experience that has introduced me to design,
                 business, and technology. During my internship at TD, I designed
@@ -40,12 +42,14 @@
               </p>
             </b-col>
             <b-col>
-              <img src="@/assets/iPhone.png" height="250px" />
+              <img
+                srcset="@/assets/aboutme-info/Strength.png, @/assets/aboutme-info/Strength@2x.png 2x, @/assets/aboutme-info/Strength@3x.png 3x"
+              />
             </b-col>
           </b-row>
           <b-row>
-            <b-col>
-              <h4>
+            <b-col align="left">
+              <h4 class="status">
                 I’m currently seeking UX/UI design, product design, and project
                 management internship opportunities for Summer 2020.
               </h4>
@@ -59,4 +63,28 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
+
+.top-question {
+  font-weight: 500;
+  font-size: 36px;
+  color: $primary;
+}
+.paragraph {
+  font-size: 26;
+}
+.work-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: $primary;
+}
+.work-description {
+  font-size: 25px;
+}
+.work-section {
+  background-color: rgba(129, 76, 243, 0.15);
+}
+.status {
+  font-size: 29px;
+  font-weight: 500;
+}
 </style>

@@ -13,6 +13,7 @@ npm run build
 
 # if you are deploying to a custom domain
 # echo 'example.com' > CNAME
+echo 'danielaornelas.com' > CNAME
 
 echo Deploying..
 git add dist

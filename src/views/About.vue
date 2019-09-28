@@ -48,9 +48,9 @@
             <b-col>
               <img
                 srcset="
-                  @/assets/aboutme-info/Strength.png,
-                  @/assets/aboutme-info/Strength@2x.png 2x,
-                  @/assets/aboutme-info/Strength@3x.png 3x
+                  @/assets/aboutme-info/TDLab.png,
+                  @/assets/aboutme-info/TDLab@2x.png 2x,
+                  @/assets/aboutme-info/TDLab@3x.png 3x
                 "
               />
             </b-col>

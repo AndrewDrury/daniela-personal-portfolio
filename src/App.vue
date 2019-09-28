@@ -1,24 +1,40 @@
 <template>
   <div id="app">
+    <!-- Navbar -->
+    <b-navbar toggleable="md" class="fixed-top" id="navbar">
+      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+      <b-navbar-brand to="/">
+        <img
+          srcset="
+            @/assets/homepage/logo.png,
+            @/assets/homepage/logo@2x.png 2x,
+            @/assets/homepage/logo@3x.png 3x
+          "
+        />
+      </b-navbar-brand>
+      <b-collapse is-nav id="nav_collapse">
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item
+            class="tab"
+            href="/daniela-personal-portfolio/#Projects"
+            right
+            >projects</b-nav-item
+          >
+          <b-nav-item
+            class="tab"
+            href="./DanielaOrnelasResume.pdf"
+            target="_blank"
+            right
+            >resume</b-nav-item
+          >
+          <b-nav-item class="tab" to="/about" right>about</b-nav-item>
+          <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right
+            >let's chat!</b-nav-item
+          >
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
     <div id="main">
-      <!-- Navbar -->
-      <b-navbar toggleable="md" class="fixed-top" id="navbar">
-        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-        <b-navbar-brand to="/">
-          <img
-            srcset="@/assets/homepage/logo.png, @/assets/homepage/logo@2x.png 2x, @/assets/homepage/logo@3x.png 3x"
-          />
-        </b-navbar-brand>
-        <b-collapse is-nav id="nav_collapse">
-          <b-navbar-nav class="ml-auto">
-            <b-nav-item class="tab" href="/daniela-personal-portfolio/#Projects" right>projects</b-nav-item>
-            <b-nav-item class="tab" href="./DanielaOrnelasResume.pdf" target="_blank" right>resume</b-nav-item>
-            <b-nav-item class="tab" to="/about" right>about</b-nav-item>
-            <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right>let's chat!</b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
-
       <!-- Dynamic Content -->
       <transition name="fade">
         <router-view></router-view>
@@ -49,10 +65,17 @@
           <b-col class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
             <ul class="list-unstyled list-inline social text-center">
               <li class="list-inline-item">
-                <a href="https://medium.com/@danielaornelas_40338" target="_blank">
+                <a
+                  href="https://medium.com/@danielaornelas_40338"
+                  target="_blank"
+                >
                   <!-- <i class="fa fa-medium"></i> -->
                   <img
-                    srcset="@/assets/homepage/medium/Shape.png, @/assets/homepage/medium/Shape@2x.png 2x, @/assets/homepage/medium/Shape@3x.png 3x"
+                    srcset="
+                      @/assets/homepage/medium/Shape.png,
+                      @/assets/homepage/medium/Shape@2x.png 2x,
+                      @/assets/homepage/medium/Shape@3x.png 3x
+                    "
                     style="width:1.25em"
                   />
                 </a>
@@ -61,16 +84,27 @@
                 <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
                   <!-- <i class="fa fa-envelope"></i> -->
                   <img
-                    srcset="@/assets/homepage/envelope.png, @/assets/homepage/envelope@2x.png 2x, @/assets/homepage/envelope@3x.png 3x"
+                    srcset="
+                      @/assets/homepage/envelope.png,
+                      @/assets/homepage/envelope@2x.png 2x,
+                      @/assets/homepage/envelope@3x.png 3x
+                    "
                     style="width:1.25em"
                   />
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://ca.linkedin.com/in/danielaornelas334" target="_blank">
+                <a
+                  href="https://ca.linkedin.com/in/danielaornelas334"
+                  target="_blank"
+                >
                   <!-- <i class="fa fa-linkedin"></i> -->
                   <img
-                    srcset="@/assets/homepage/linkedin-logo.png, @/assets/homepage/linkedin-logo@2x.png 2x, @/assets/homepage/linkedin-logo@3x.png 3x"
+                    srcset="
+                      @/assets/homepage/linkedin-logo.png,
+                      @/assets/homepage/linkedin-logo@2x.png 2x,
+                      @/assets/homepage/linkedin-logo@3x.png 3x
+                    "
                     style="width:1em"
                   />
                 </a>
@@ -79,7 +113,9 @@
           </b-col>
         </b-row>
         <b-row>
-          <b-col class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <b-col
+            class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white"
+          >
             <p class="copyright">&copy; Daniela Ornelas</p>
           </b-col>
         </b-row>

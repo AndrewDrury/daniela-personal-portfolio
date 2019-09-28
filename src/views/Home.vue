@@ -9,7 +9,7 @@
             </b-col>
           </b-row>
           <b-row class="my-5">
-            <b-col md="8" class="text-left">
+            <b-col md="9" class="text-left">
               <h4 class="introduction">
                 I’m an empathetic
                 <b class="bolded" style="font-size: 28px">UX designer</b> who

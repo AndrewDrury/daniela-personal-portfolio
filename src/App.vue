@@ -14,12 +14,7 @@
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto">
-          <b-nav-item
-            class="tab"
-            href="./#Projects"
-            right
-            >projects</b-nav-item
-          >
+          <b-nav-item class="tab" href="./#Projects" right>projects</b-nav-item>
           <b-nav-item
             class="tab"
             href="./DanielaOrnelasResume.pdf"

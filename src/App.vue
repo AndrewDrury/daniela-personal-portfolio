@@ -16,7 +16,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-item
             class="tab"
-            href="/daniela-personal-portfolio/#Projects"
+            href="./#Projects"
             right
             >projects</b-nav-item
           >

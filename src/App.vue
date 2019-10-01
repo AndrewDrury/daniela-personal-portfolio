@@ -111,7 +111,9 @@
           <b-col
             class="col-xs-12 col-sm-12 col-md-12 mt-2 text-center text-white"
           >
-            <p class="copyright" style="font-size: 20px">&copy; 2019 Daniela Ornelas</p>
+            <p class="copyright" style="font-size: 20px">
+              &copy; 2019 Daniela Ornelas
+            </p>
           </b-col>
         </b-row>
       </div>

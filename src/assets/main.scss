@@ -1,6 +1,13 @@
 @import "./variables.scss";
 @import url("https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700");
 
+@font-face {
+  font-family: AvenirBold;
+  src: url(/assets/fonts/AvenirLTStd-Heavy.woff) format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+
 // .fade-enter-active,
 // .fade-leave-active {
 //   transition: opacity 1s;

@@ -12,16 +12,12 @@
             <b-col md="9" class="text-left">
               <h4 class="introduction">
                 I’m an empathetic
-                <b class="bolded" style="font-size: 28px">UX designer</b> who
+                <b class="bolded" style="font-size: 30px">UX designer</b> who
                 uses psychology and design to understand people and improve
                 their interactions with technology. Living and learning in
                 Toronto, Canada.
                 <img
-                  srcset="
-                    @/assets/homepage/maple-leaf/Shape.png,
-                    @/assets/homepage/maple-leaf/Shape@2x.png 2x,
-                    @/assets/homepage/maple-leaf/Shape@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/maple-leaf/Shape.png, @/assets/homepage/maple-leaf/Shape@2x.png 2x, @/assets/homepage/maple-leaf/Shape@3x.png 3x"
                 />
               </h4>
             </b-col>
@@ -33,11 +29,7 @@
                   My Projects
                   <img
                     class="arrow-down pb-2"
-                    srcset="
-                      @/assets/homepage/next.png,
-                      @/assets/homepage/next@2x.png 2x,
-                      @/assets/homepage/next@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                   />
                 </h2>
               </a>
@@ -76,34 +68,16 @@
                   </b-row>
                 </b-col>
               </b-row>
-              <b-row class="projectRow my-3">
-                <b-col>
-                  <b-row md="5" class="pic-right">
-                    <b-col align="right">
-                      <!-- <a href="./Fiti"> -->
-                      <img
-                        class="screenshot"
-                        srcset="
-                          @/assets/homepage/dark.png,
-                          @/assets/homepage/dark@2x.png 2x,
-                          @/assets/homepage/dark@3x.png 3x
-                        "
-                      />
-                      <!-- </a> -->
-                    </b-col>
-                  </b-row>
-                  <b-row md="7" align="left">
-                    <b-col class="content-left">
-                      <h3 class="project-title">Fiti</h3>
-                      <h4 class="category">Passion Project</h4>
-                      <h5 class="tag-line">
-                        A fitness app for people with paraplegia.
-                      </h5>
-                      <p class="description">
-                        Fiti provides accessible, affordable, and interesting
-                        workouts that are easy to incorperate in all lifestyles.
-                      </p>
-                      <!-- <a class="read-more" href="./Fiti">
+              <b-row class="projectRow">
+                <b-col class="desktop" md="7" align="left">
+                  <h3 class="project-title">Fiti</h3>
+                  <h4 class="category">Passion Project</h4>
+                  <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
+                  <p class="description">
+                    Fiti provides accessible, affordable, and interesting
+                    workouts that are easy to incorperate in all lifestyles.
+                  </p>
+                  <!-- <a class="read-more" href="./Fiti">
                         Read More
                         <img
                           srcset="
@@ -112,39 +86,68 @@
                             @/assets/homepage/next@3x.png 3x
                           "
                         />
-                      </a>-->
-                      <h6 class="skill-title">Skills</h6>
-                      <b-row align="left">
-                        <b-col>
-                          <div class="skill">Research</div>
-                          <div class="skill">Personas</div>
-                          <div class="skill">UI/UX Design</div>
-                          <div class="skill">Product Design</div>
-                        </b-col>
-                      </b-row>
+                  </a>-->
+                  <h6 class="skill-title">Skills</h6>
+                  <b-row align="left">
+                    <b-col>
+                      <div class="skill">Research</div>
+                      <div class="skill">Personas</div>
+                      <div class="skill">UI/UX Design</div>
+                      <div class="skill">Product Design</div>
+                    </b-col>
+                  </b-row>
+                </b-col>
+                <b-col md="5" align="right">
+                  <!-- <a href="./Fiti"> -->
+                  <img
+                    class="screenshot"
+                    srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
+                  />
+                  <!-- </a> -->
+                </b-col>
+                <b-col class="mobile" align="left">
+                  <h3 class="project-title">Fiti</h3>
+                  <h4 class="category">Passion Project</h4>
+                  <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
+                  <p class="description">
+                    Fiti provides accessible, affordable, and interesting
+                    workouts that are easy to incorperate in all lifestyles.
+                  </p>
+                  <!-- <a class="read-more" href="./Fiti">
+                        Read More
+                        <img
+                          srcset="
+                            @/assets/homepage/next.png,
+                            @/assets/homepage/next@2x.png 2x,
+                            @/assets/homepage/next@3x.png 3x
+                          "
+                        />
+                  </a>-->
+                  <h6 class="skill-title">Skills</h6>
+                  <b-row align="left">
+                    <b-col>
+                      <div class="skill">Research</div>
+                      <div class="skill">Personas</div>
+                      <div class="skill">UI/UX Design</div>
+                      <div class="skill">Product Design</div>
                     </b-col>
                   </b-row>
                 </b-col>
               </b-row>
+
               <b-row class="projectRow my-3">
                 <b-col md="5" align="left">
                   <!-- <a href="./HealthLine"> -->
                   <img
                     class="screenshot"
-                    srcset="
-                      @/assets/HealthLine-info/Group10.png,
-                      @/assets/HealthLine-info/Group10@2x.png 2x,
-                      @/assets/HealthLine-info/Group10@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
                   />
                   <!-- </a> -->
                 </b-col>
                 <b-col md="7" align="left">
                   <h3 class="project-title">HealthLine</h3>
                   <h4 class="category">RU Hacks</h4>
-                  <h5 class="tag-line">
-                    Receive a diagnosis of your symptoms.
-                  </h5>
+                  <h5 class="tag-line">Receive a diagnosis of your symptoms.</h5>
                   <p class="description">
                     A diagnosis is made through computer vision and machine
                     learning, and SMS.
@@ -227,7 +230,7 @@
   color: $primary;
   font-weight: 400;
   .bolded {
-    font-weight: 500;
+    font-family: AvenirBold, sans-serif;
     color: $primary;
   }
 }
@@ -297,14 +300,19 @@
   }
 }
 
-.mobile {display: none};
-.desktop {display: inline;}
-
-@media (max-width: $screen-sm) {
-  .mobile {display: inline;}
-  .desktop {display: none;}
+.desktop {
+  display: inline;
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
 }
 
+.mobile {
+  display: none;
+  @media (max-width: $screen-sm) {
+    display: inline;
+  }
+}
 </style>
 
 <script lang="ts">

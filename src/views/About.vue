@@ -76,6 +76,11 @@
   font-weight: 500;
   font-size: 36px;
   color: $primary;
+  margin-top: 150px;
+
+  @media (max-width: $screen-sm) {
+    margin-top: 100px;
+  }
 }
 .paragraph {
   font-size: 26;

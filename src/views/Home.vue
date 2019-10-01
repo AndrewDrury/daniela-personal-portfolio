@@ -17,11 +17,7 @@
                 their interactions with technology. Living and learning in
                 Toronto, Canada.
                 <img
-                  srcset="
-                    @/assets/homepage/maple-leaf/Shape.png,
-                    @/assets/homepage/maple-leaf/Shape@2x.png 2x,
-                    @/assets/homepage/maple-leaf/Shape@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/maple-leaf/Shape.png, @/assets/homepage/maple-leaf/Shape@2x.png 2x, @/assets/homepage/maple-leaf/Shape@3x.png 3x"
                 />
               </h4>
             </b-col>
@@ -33,19 +29,15 @@
                   My Projects
                   <img
                     class="arrow-down pb-2"
-                    srcset="
-                      @/assets/homepage/next.png,
-                      @/assets/homepage/next@2x.png 2x,
-                      @/assets/homepage/next@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                   />
                 </h2>
               </a>
-              <b-row class="projectRow my-3">
+              <b-row class="projectRow">
                 <b-col md="5" align="left">
-                  <a href="./ePaid">
-                    <img class="screenshot" src="@/assets/iPhone.png" />
-                  </a>
+                  <!-- <a href="./ePaid"> -->
+                  <img class="screenshot" src="@/assets/homepage/ePaid.png" />
+                  <!-- </a> -->
                 </b-col>
                 <b-col md="7" align="left">
                   <h3 class="project-title">e-Paid</h3>
@@ -55,7 +47,7 @@
                     Uses Interac’s e-transfer API to help our user with easy
                     invoicing.
                   </p>
-                  <a class="read-more" href="./ePaid">
+                  <!-- <a class="read-more" href="./ePaid">
                     Read More
                     <img
                       srcset="
@@ -64,76 +56,40 @@
                         @/assets/homepage/next@3x.png 3x
                       "
                     />
-                  </a>
+                  </a>-->
                   <h6 class="skill-title">Skills</h6>
                   <b-row align="left">
-                    <b-col class="skill">User Interviews</b-col>
-                    <b-col class="skill">Personas</b-col>
-                    <b-col class="skill">Project Management</b-col>
-                    <b-col class="skill">UI/UX Design</b-col>
+                    <b-col>
+                      <div class="skill">User Interviews</div>
+                      <div class="skill">Personas</div>
+                      <div class="skill">Project Management</div>
+                      <div class="skill">UI/UX Design</div>
+                    </b-col>
                   </b-row>
                 </b-col>
               </b-row>
-              <!-- <b-row class="projectRow my-3">
-                <b-col md="5" class="pic-right" align="right">
-                  <a href="./Fiti">
-                    <img
-                      class="screenshot"
-                      srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
-                    />
-                  </a>
-                </b-col>
-                <b-col md="7" align="left">
-                  <h3>Fiti</h3>
-                  <h4>Passion Project</h4>
-                  <h5>A fitness app for people with paraplegia.</h5>
-                  <p>
-                    Fiti provides accessible, affordable, and interesting
-                    workouts that are easy to incorperate in all lifestyles.
-                  </p>
-                  <a href="./Fiti">
-                    Read More
-                    <img
-                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
-                    />
-                  </a>
-                  <h6>Skills</h6>
-                  <b-row align="left">
-                    <b-col>Research</b-col>
-                    <b-col>Personas</b-col>
-                    <b-col>UI/UX Design</b-col>
-                    <b-col>Product Design</b-col>
-                  </b-row>
-                </b-col>
-              </b-row>-->
               <b-row class="projectRow my-3">
                 <b-col>
                   <b-row md="5" class="pic-right">
                     <b-col align="right">
-                      <a href="./Fiti">
-                        <img
-                          class="screenshot"
-                          srcset="
-                            @/assets/homepage/dark.png,
-                            @/assets/homepage/dark@2x.png 2x,
-                            @/assets/homepage/dark@3x.png 3x
-                          "
-                        />
-                      </a>
+                      <!-- <a href="./Fiti"> -->
+                      <img
+                        class="screenshot"
+                        srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
+                      />
+                      <!-- </a> -->
                     </b-col>
                   </b-row>
                   <b-row md="7" align="left">
                     <b-col class="content-left">
                       <h3 class="project-title">Fiti</h3>
                       <h4 class="category">Passion Project</h4>
-                      <h5 class="tag-line">
-                        A fitness app for people with paraplegia.
-                      </h5>
+                      <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
                       <p class="description">
                         Fiti provides accessible, affordable, and interesting
                         workouts that are easy to incorperate in all lifestyles.
                       </p>
-                      <a class="read-more" href="./Fiti">
+                      <!-- <a class="read-more" href="./Fiti">
                         Read More
                         <img
                           srcset="
@@ -142,13 +98,15 @@
                             @/assets/homepage/next@3x.png 3x
                           "
                         />
-                      </a>
+                      </a>-->
                       <h6 class="skill-title">Skills</h6>
                       <b-row align="left">
-                        <b-col class="skill">Research</b-col>
-                        <b-col class="skill">Personas</b-col>
-                        <b-col class="skill">UI/UX Design</b-col>
-                        <b-col class="skill">Product Design</b-col>
+                        <b-col>
+                          <div class="skill">Research</div>
+                          <div class="skill">Personas</div>
+                          <div class="skill">UI/UX Design</div>
+                          <div class="skill">Product Design</div>
+                        </b-col>
                       </b-row>
                     </b-col>
                   </b-row>
@@ -156,28 +114,22 @@
               </b-row>
               <b-row class="projectRow my-3">
                 <b-col md="5" align="left">
-                  <a href="./HealthLine">
-                    <img
-                      class="screenshot"
-                      srcset="
-                        @/assets/HealthLine-info/Group10.png,
-                        @/assets/HealthLine-info/Group10@2x.png 2x,
-                        @/assets/HealthLine-info/Group10@3x.png 3x
-                      "
-                    />
-                  </a>
+                  <!-- <a href="./HealthLine"> -->
+                  <img
+                    class="screenshot"
+                    srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
+                  />
+                  <!-- </a> -->
                 </b-col>
                 <b-col md="7" align="left">
                   <h3 class="project-title">HealthLine</h3>
                   <h4 class="category">RU Hacks</h4>
-                  <h5 class="tag-line">
-                    Receive a diagnosis of your symptoms.
-                  </h5>
+                  <h5 class="tag-line">Receive a diagnosis of your symptoms.</h5>
                   <p class="description">
                     A diagnosis is made through computer vision and machine
                     learning, and SMS.
                   </p>
-                  <a class="read-more" href="./HealthLine">
+                  <!-- <a class="read-more" href="./HealthLine">
                     Read More
                     <img
                       srcset="
@@ -186,13 +138,15 @@
                         @/assets/homepage/next@3x.png 3x
                       "
                     />
-                  </a>
+                  </a>-->
                   <h6 class="skill-title">Skills</h6>
                   <b-row align="left">
-                    <b-col class="skill">Project Management</b-col>
-                    <b-col class="skill">Ideation</b-col>
-                    <b-col class="skill">Research</b-col>
-                    <b-col class="skill">UI/UX Design</b-col>
+                    <b-col>
+                      <div class="skill">Project Management</div>
+                      <div class="skill">Ideation</div>
+                      <div class="skill">Research</div>
+                      <div class="skill">UI/UX Design</div>
+                    </b-col>
                   </b-row>
                 </b-col>
               </b-row>
@@ -215,16 +169,19 @@
 }
 
 .content-left {
-  // @media (min-width: $screen-md) {
-  //   width: 58.33%;
-  // }
+  @media (max-width: $screen-sm) {
+    width: 100%;
+  }
 }
 
 .pic-right {
   float: right;
-  margin-right: 40px;
-  margin-bottom: 20px;
   display: inline;
+
+  width: 45%;
+  @media (max-width: $screen-sm) {
+    width: 100%;
+  }
 
   .b-col {
     // @media (min-width: $screen-md) {
@@ -234,8 +191,8 @@
 }
 
 .top-space {
-  margin-top: 2em;
-  @media (min-width: $screen-sm) {
+  margin-top: 11em;
+  @media (max-width: $screen-sm) {
     margin-top: 11em;
   }
 }
@@ -261,6 +218,9 @@
   @media (min-width: $screen-sm) {
     width: 70%;
   }
+  @media (max-width: $screen-lg) {
+    padding-bottom: 60px;
+  }
 }
 #Projects {
   .project-header {
@@ -276,6 +236,8 @@
     justify-content: center;
     align-items: center;
 
+    padding-bottom: 50px;
+
     .project-title {
       font-size: 30px;
       font-weight: 500;
@@ -284,10 +246,12 @@
       color: $blackOpac65;
       font-size: 19px;
       font-weight: 500;
+      padding-bottom: 15px;
     }
     .tag-line {
       font-size: 25px;
       font-weight: 500;
+      padding-bottom: 5px;
     }
     .skill-title {
       font-weight: 500;
@@ -303,7 +267,8 @@
       font-size: 25px;
     }
     .skill {
-      width: 100%;
+      //width: 100%;
+      padding-right: 40px;
       align: left;
       display: inline-block;
       font-size: 17px;

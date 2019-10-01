@@ -296,6 +296,15 @@
     }
   }
 }
+
+.mobile {display: none};
+.desktop {display: inline;}
+
+@media (max-width: $screen-sm) {
+  .mobile {display: inline;}
+  .desktop {display: none;}
+}
+
 </style>
 
 <script lang="ts">

@@ -11,7 +11,11 @@
           <b-row class="bio">
             <b-col>
               <img
-                srcset="@/assets/aboutme-info/Strength.png, @/assets/aboutme-info/Strength@2x.png 2x, @/assets/aboutme-info/Strength@3x.png 3x"
+                src="
+                  @/assets/aboutme-info/Strength.png,
+                  @/assets/aboutme-info/Strength@2x.png 2x,
+                  @/assets/aboutme-info/Strength@3x.png
+                "
               />
             </b-col>
             <b-col align="left">
@@ -32,7 +36,9 @@
           </b-row>
           <b-row class="work-section vert-center" style="padding:55px">
             <b-col align="left" md="8">
-              <h3 class="work-title" style="padding-bottom: 30px">Internship at TD Lab</h3>
+              <h3 class="work-title" style="padding-bottom: 30px">
+                Internship at TD Lab
+              </h3>
               <p class="work-description">
                 TD Lab, located in Kitchener-Waterloo, Ontario, has given me a
                 hands-on learning experience that has introduced me to design,
@@ -42,9 +48,7 @@
               </p>
             </b-col>
             <b-col md="4" align="center">
-              <img
-                src="@/assets/aboutme-info/TDLab.png"
-              />
+              <img src="@/assets/aboutme-info/TDLab.png" />
             </b-col>
           </b-row>
           <b-row>
@@ -91,6 +95,7 @@
 
 .paragraph {
   font-size: 26;
+  line-height: 34px;
 }
 .work-title {
   font-size: 25px;

@@ -8,14 +8,10 @@
               <h2 class="top-question">"So, tell me about yourself?"</h2>
             </b-col>
           </b-row>
-          <b-row>
+          <b-row class="bio">
             <b-col>
               <img
-                srcset="
-                  @/assets/aboutme-info/Strength.png,
-                  @/assets/aboutme-info/Strength@2x.png 2x,
-                  @/assets/aboutme-info/Strength@3x.png 3x
-                "
+                srcset="@/assets/aboutme-info/Strength.png, @/assets/aboutme-info/Strength@2x.png 2x, @/assets/aboutme-info/Strength@3x.png 3x"
               />
             </b-col>
             <b-col align="left">
@@ -34,9 +30,9 @@
               </p>
             </b-col>
           </b-row>
-          <b-row class="work-section">
-            <b-col align="left">
-              <h3 class="work-title">Internship at TD Lab</h3>
+          <b-row class="work-section vert-center" style="padding:55px">
+            <b-col align="left" md="8">
+              <h3 class="work-title" style="padding-bottom: 30px">Internship at TD Lab</h3>
               <p class="work-description">
                 TD Lab, located in Kitchener-Waterloo, Ontario, has given me a
                 hands-on learning experience that has introduced me to design,
@@ -45,13 +41,9 @@
                 future student loans, payments and mortgages.
               </p>
             </b-col>
-            <b-col>
+            <b-col md="4" align="center">
               <img
-                srcset="
-                  @/assets/aboutme-info/TDLab.png,
-                  @/assets/aboutme-info/TDLab@2x.png 2x,
-                  @/assets/aboutme-info/TDLab@3x.png 3x
-                "
+                src="@/assets/aboutme-info/TDLab.png"
               />
             </b-col>
           </b-row>
@@ -77,11 +69,26 @@
   font-size: 36px;
   color: $primary;
   margin-top: 150px;
+  margin-bottom: 80px;
 
   @media (max-width: $screen-sm) {
     margin-top: 100px;
   }
 }
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 147px;
+}
+
+.vert-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .paragraph {
   font-size: 26;
 }
@@ -92,6 +99,7 @@
 }
 .work-description {
   font-size: 25px;
+  line-height: 32px;
 }
 .work-section {
   background-color: rgba(129, 76, 243, 0.15);
@@ -99,5 +107,7 @@
 .status {
   font-size: 29px;
   font-weight: 500;
+  padding-top: 97px;
+  padding-bottom: 93px;
 }
 </style>

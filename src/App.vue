@@ -5,11 +5,8 @@
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-navbar-brand to="/">
         <img
-          srcset="
-            @/assets/homepage/logo.png,
-            @/assets/homepage/logo@2x.png 2x,
-            @/assets/homepage/logo@3x.png 3x
-          "
+          src="@/assets/homepage/logo@3x.png"
+          style="width: 50px"
         />
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
@@ -17,7 +14,7 @@
           <b-nav-item class="tab" href="./#Projects" right>projects</b-nav-item>
           <b-nav-item
             class="tab"
-            href="https://www.dropbox.com/s/89hjuk12kqjvvek/Resume.pdf?dl=0"
+            href="https://www.dropbox.com/sh/vcb40o2liwopshn/AABSz1u5-BVe4v6mtpg0E1JEa?dl=0&preview=Resume.pdf"
             target="_blank"
             right
             >resume</b-nav-item
@@ -49,15 +46,15 @@
     <!-- Footer -->
     <section id="footer">
       <div class="container">
-        <b-row class="text-center mb-3">
+        <b-row class="text-center" style="margin-bottom:37px">
           <b-col>
             <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
               <h3>Let's Talk Design!</h3>
             </a>
           </b-col>
         </b-row>
-        <b-row>
-          <b-col class="col-xs-12 col-sm-12 col-md-12 mt-3 mb-2">
+        <b-row style="margin-bottom: 24px">
+          <b-col class="col-xs-12 col-sm-12 col-md-12">
             <ul class="list-unstyled list-inline social text-center">
               <li class="list-inline-item">
                 <a
@@ -109,7 +106,7 @@
         </b-row>
         <b-row>
           <b-col
-            class="col-xs-12 col-sm-12 col-md-12 mt-2 text-center text-white"
+            class="col-xs-12 col-sm-12 col-md-12 text-center text-white"
           >
             <p class="copyright" style="font-size: 20px">
               &copy; 2019 Daniela Ornelas

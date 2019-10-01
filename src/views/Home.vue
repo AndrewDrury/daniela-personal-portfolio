@@ -227,7 +227,6 @@
   color: $primary;
   font-weight: 400;
   .bolded {
-    font-size: 28 !important;
     font-weight: 500;
     color: $primary;
   }
@@ -288,7 +287,7 @@
     }
     .skill {
       //width: 100%;
-      padding-right: 40px;
+      padding-right: 32px;
       align: left;
       display: inline-block;
       font-size: 17px;

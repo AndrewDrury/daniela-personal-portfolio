@@ -8,7 +8,7 @@
               <h1 class="name-greeting">Hi! I’m Daniela Ornelas.</h1>
             </b-col>
           </b-row>
-          <b-row class="mt-5">
+          <b-row class="desc">
             <b-col md="11" class="text-left">
               <h4 class="introduction" style="margin-bottom: 5px">
                 I’m a curious
@@ -31,7 +31,7 @@
               </h4>
             </b-col>
           </b-row>
-          <b-row id="Projects" name="Projects" style="padding-top: 8em">
+          <b-row id="Projects" name="Projects">
             <b-col>
               <a>
                 <h2 class="project-header mb-5" href="#Projects">
@@ -221,6 +221,13 @@
   }
 }
 
+.desc {
+  margin-top: 54px;
+  @media (max-width: $screen-sm) {
+    margin-top: 24px;
+  }
+}
+
 .content-left {
   @media (max-width: $screen-sm) {
     width: 100%;
@@ -230,7 +237,7 @@
 .top-space {
   margin-top: 11em;
   @media (max-width: $screen-sm) {
-    margin-top: 11em;
+    margin-top: 100px;
   }
 }
 
@@ -250,6 +257,12 @@
 }
 
 #Projects {
+  padding-top: 8em;
+  @media (max-width: $screen-sm) {
+    padding-top: 4em;
+  }
+
+
   .project-header {
     font-weight: 500;
     color: $primary;

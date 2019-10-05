@@ -40,12 +40,12 @@
                 </h2>
               </a>
               <b-row class="projectRow">
-                <b-col md="5" align="left">
-                  <a href="./ePaid">
-                    <img class="screenshot" src="@/assets/homepage/ePaid.png" />
-                  </a>
+                <b-col lg="5" align="left">
+                  <!-- <a href="./ePaid"> -->
+                  <img class="screenshot-epaid" src="@/assets/homepage/ePaid.png" />
+                  <!-- </a> -->
                 </b-col>
-                <b-col md="7" align="left">
+                <b-col lg="7" align="left">
                   <h3 class="project-title">e-Paid</h3>
                   <h4 class="category">TD Lab</h4>
                   <h5 class="tag-line">Help freelancers get paid faster.</h5>
@@ -75,7 +75,7 @@
                 </b-col>
               </b-row>
               <b-row class="projectRow">
-                <b-col class="desktop" md="7" align="left">
+                <b-col class="desktop" lg="7" align="left">
                   <h3 class="project-title">Fiti</h3>
                   <h4 class="category">Passion Project</h4>
                   <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
@@ -103,7 +103,7 @@
                     </b-col>
                   </b-row>
                 </b-col>
-                <b-col md="5" align="right">
+                <b-col lg="5" align="right">
                   <!-- <a href="./Fiti"> -->
                   <img
                     class="screenshot"
@@ -142,15 +142,15 @@
               </b-row>
 
               <b-row class="projectRow my-3">
-                <b-col md="5" align="left">
-                  <a href="/HealthLine">
-                    <img
-                      class="screenshot"
-                      srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
-                    />
-                  </a>
+                <b-col lg="5" align="left">
+                  <!-- <a href="/HealthLine"> -->
+                  <img
+                    class="screenshot"
+                    srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
+                  />
+                  <!-- </a> -->
                 </b-col>
-                <b-col md="7" align="left">
+                <b-col lg="7" align="left">
                   <h3 class="project-title">HealthLine</h3>
                   <h4 class="category">RU Hacks</h4>
                   <h5 class="tag-line">Receive a diagnosis of your symptoms.</h5>
@@ -203,22 +203,6 @@
   }
 }
 
-.pic-right {
-  float: right;
-  display: inline;
-
-  width: 45%;
-  @media (max-width: $screen-sm) {
-    width: 100%;
-  }
-
-  .b-col {
-    // @media (min-width: $screen-md) {
-    //   width: 41.67%;
-    // }
-  }
-}
-
 .top-space {
   margin-top: 11em;
   @media (max-width: $screen-sm) {
@@ -241,15 +225,6 @@
   }
 }
 
-.screenshot {
-  width: 100%;
-  @media (min-width: $screen-sm) {
-    width: 70%;
-  }
-  @media (max-width: $screen-lg) {
-    padding-bottom: 60px;
-  }
-}
 #Projects {
   .project-header {
     font-weight: 500;
@@ -295,13 +270,15 @@
       font-size: 25px;
     }
     .skill {
-      //width: 100%;
       padding-right: 32px;
       align: left;
       display: inline-block;
       font-size: 17px;
       font-weight: 500;
       color: $gray;
+      @media(max-width: $screen-sm) {
+        width: 100%;
+      }
     }
   }
 }

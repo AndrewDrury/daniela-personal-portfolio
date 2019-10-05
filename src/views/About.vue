@@ -11,7 +11,11 @@
           <b-row class="bio">
             <b-col class="vert-center bio-pic" lg="5" align="left">
               <img
-                srcset="@/assets/aboutme-info/Strength.png, @/assets/aboutme-info/Strength@2x.png 2x, @/assets/aboutme-info/Strength@3x.png 3x"
+                srcset="
+                  @/assets/aboutme-info/Strength.png,
+                  @/assets/aboutme-info/Strength@2x.png 2x,
+                  @/assets/aboutme-info/Strength@3x.png 3x
+                "
               />
             </b-col>
             <b-col class="vert-center" lg="7" align="left">
@@ -19,15 +23,15 @@
                 <p class="paragraph">
                   My name's Daniela Ornelas. I'm an aspiring UX designer and a
                   third-year Psychology student at York University, currently
-                  residing in Toronto, Canada. UX design combines all my passions:
-                  design, psychology, communication (I love talking to people!),
-                  and learning.
+                  residing in Toronto, Canada. UX design combines all my
+                  passions: design, psychology, communication (I love talking to
+                  people!), and learning.
                 </p>
                 <p class="paragraph">
                   When I’m not designing, I’m either listening to music, doing
                   Muay Thai, reading Medium posts, looking for the best Italian
-                  food I can find in Toronto, or spending my time with friends and
-                  family.
+                  food I can find in Toronto, or spending my time with friends
+                  and family.
                 </p>
               </div>
             </b-col>
@@ -73,6 +77,7 @@
 
   @media (max-width: $screen-sm) {
     margin-top: 100px;
+    margin-bottom: 20px;
   }
 }
 
@@ -83,8 +88,8 @@
   margin-bottom: 147px;
 
   @media (max-width: $screen-md) {
-      margin-bottom: 40px;
-    }
+    margin-bottom: 40px;
+  }
 
   img {
     max-width: 100%;
@@ -124,6 +129,11 @@
 .work-section {
   background-color: rgba(129, 76, 243, 0.15);
   padding: 55px;
+  @media (max-width: $screen-md) {
+    padding: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 .status {
   font-size: 29px;
@@ -131,8 +141,8 @@
   padding-top: 97px;
   padding-bottom: 93px;
   @media (max-width: $screen-md) {
-    padding-top: 37px;
-    padding-bottom: 33px;
+    padding-top: 55px;
+    padding-bottom: 55px;
   }
 }
 </style>

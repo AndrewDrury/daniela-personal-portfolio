@@ -40,3 +40,27 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
+
+.screenshot {
+  width: 70%;
+  @media (max-width: $screen-md) {
+    width: 260px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding-bottom: 60px;
+  }
+}
+
+.screenshot-epaid {
+  width: 62%;
+  @media (max-width: $screen-md) {
+    width: 232px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding-bottom: 60px;
+  }
+}

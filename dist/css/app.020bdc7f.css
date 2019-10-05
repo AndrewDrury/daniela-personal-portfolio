@@ -18,7 +18,7 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */.top-question{font-weight:500;font-size:36px;color:#814cf3;margin-top:150px;margin-bottom:80px}@media (max-width:768px){.top-question{margin-top:100px}}.bio{margin-bottom:147px}.bio,.vert-center{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.paragraph{font-size:26;line-height:34px}.work-title{font-size:25px;font-weight:500;color:#814cf3}.work-description{font-size:25px;line-height:32px}.work-section{background-color:rgba(129,76,243,.15)}.status{font-size:29px;font-weight:500;padding-top:97px;padding-bottom:93px}
+ */.top-question{font-weight:500;font-size:36px;color:#814cf3;margin-top:150px;margin-bottom:80px}@media (max-width:768px){.top-question{margin-top:100px}}.bio{-webkit-box-align:left;-ms-flex-align:left;align-items:left;margin-bottom:147px}.bio,.vert-center{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.vert-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.paragraph{font-size:26px;line-height:34px}.work-title{font-size:25px;font-weight:500;color:#814cf3}.work-description{font-size:25px;line-height:32px}.work-section{background-color:rgba(129,76,243,.15)}.status{font-size:29px;font-weight:500;padding-top:97px;padding-bottom:93px}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

@@ -127,9 +127,9 @@
     margin-right: 9.86%;
 
     @media (max-width: $screen-md) {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
 }
 

@@ -11,10 +11,10 @@
           <b-row class="bio">
             <b-col>
               <img
-                src="
+                srcset="
                   @/assets/aboutme-info/Strength.png,
                   @/assets/aboutme-info/Strength@2x.png 2x,
-                  @/assets/aboutme-info/Strength@3x.png
+                  @/assets/aboutme-info/Strength@3x.png 3x
                 "
               />
             </b-col>

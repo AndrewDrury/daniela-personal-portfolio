@@ -10,22 +10,25 @@
           </b-row>
           <b-row class="my-5">
             <b-col md="10" class="text-left">
-                <h4 class="introduction" style="margin-bottom: 5px">
-                  I’m a curious <b class="bolded" style="font-size: 30px">UX designer</b> who uses psychology and design to provide solutions to users in their daily interactions with technology.
-                </h4>
-                <h4 class="introduction" style="margin-bottom: 26px">
-                  I ask all the questions, so that the user doesn’t have to.
-                </h4>
-                <h4 class="introduction">
-                  Living and learning in Toronto, Canada.
-                  <img
-                    srcset="
-                      @/assets/homepage/maple-leaf/Shape.png,
-                      @/assets/homepage/maple-leaf/Shape@2x.png 2x,
-                      @/assets/homepage/maple-leaf/Shape@3x.png 3x
-                    "
-                  />
-                </h4>
+              <h4 class="introduction" style="margin-bottom: 5px">
+                I’m a curious
+                <b class="bolded" style="font-size: 30px">UX designer</b> who
+                uses psychology and design to provide solutions to users in
+                their daily interactions with technology.
+              </h4>
+              <h4 class="introduction" style="margin-bottom: 26px">
+                I ask all the questions, so that the user doesn’t have to.
+              </h4>
+              <h4 class="introduction">
+                Living and learning in Toronto, Canada.
+                <img
+                  srcset="
+                    @/assets/homepage/maple-leaf/Shape.png,
+                    @/assets/homepage/maple-leaf/Shape@2x.png 2x,
+                    @/assets/homepage/maple-leaf/Shape@3x.png 3x
+                  "
+                />
+              </h4>
             </b-col>
           </b-row>
           <b-row id="Projects" name="Projects" style="margin-top: 8em">

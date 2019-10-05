@@ -1,38 +1,24 @@
 <template>
   <div class="ePaid">
     <b-container fluid class="verticalCenter">
-      <b-row>
+      <b-row class="top-space">
         <b-col align="left">
           <b-row>
             <b-col class="py-3" align="center">
               <img
-                srcset="
-                  @/assets/epaid-info/Group2.png,
-                  @/assets/epaid-info/Group2@2x.png 2x,
-                  @/assets/epaid-info/Group2@3x.png 3x
-                "
+                srcset="@/assets/epaid-info/Group2.png, @/assets/epaid-info/Group2@2x.png 2x, @/assets/epaid-info/Group2@3x.png 3x"
               />
             </b-col>
           </b-row>
           <b-row col="12">
-            <b-col class="top-pics">
-              <img
-                src="@/assets/iPhone.png"
-                style="width:28%; vertical-align: bottom;"
-              />
-              <img
-                src="@/assets/iPhone.png"
-                class="px-3"
-                style="width:44%; vertical-align: bottom;"
-              />
-              <img
-                src="@/assets/iPhone.png"
-                style="width:28%; vertical-align: bottom;"
-              />
+            <b-col class="top-pics" align="center">
+              <img class="left-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img class="middle-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img class="right-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
             </b-col>
           </b-row>
           <!-- SUMMARY -->
-          <b-row>
+          <b-row class="summary">
             <b-col>
               <h4>Skills</h4>
               <ul>
@@ -99,9 +85,7 @@
                 for me to do. Finally, something like Fiti makes getting
                 physical activity so much easier and fun.”
               </p>
-              <p>
-                How did you determine your value as a freelance web designer?
-              </p>
+              <p>How did you determine your value as a freelance web designer?</p>
               <p>
                 “I felt that picking a workout was super easy. I really liked
                 how there was categories to help. I really appreciated the 15
@@ -318,11 +302,7 @@
             <b-col>
               <a href="./Fiti">
                 <img
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h2>Fiti</h2>
               </a>
@@ -337,11 +317,27 @@
 <style lang="scss">
 @import "@/assets/variables.scss";
 
+.top-space {
+  margin-top: 110px;
+  @media (max-width: $screen-sm) {
+    margin-top: 80px;
+  }
+}
+
 .top-pics {
-  width: 60%;
   .img {
     vertical-align: bottom;
   }
+  .left-pic,
+  .right-pic {
+    width: 172px;
+  }
+  .middle-pic {
+    width: 203px;
+    margin-right: 21px;
+    margin-left: 21px;
+  }
+  margin-bottom: 81px;
 }
 
 .contained {

@@ -8,7 +8,7 @@
               <h1 class="name-greeting">Hi! I’m Daniela Ornelas.</h1>
             </b-col>
           </b-row>
-          <b-row class="my-5">
+          <b-row class="mt-5">
             <b-col md="11" class="text-left">
               <h4 class="introduction" style="margin-bottom: 5px">
                 I’m a curious
@@ -16,41 +16,34 @@
                 uses psychology and design to provide solutions to users in
                 their daily interactions with technology.
               </h4>
-              <h4 class="introduction" style="margin-bottom: 26px">
-                I ask all the questions, so that the user doesn’t have to.
-              </h4>
+              <h4
+                class="introduction"
+                style="margin-bottom: 26px"
+              >I ask all the questions, so that the user doesn’t have to.</h4>
               <h4 class="introduction">
                 Living and learning in Toronto, Canada.
                 <img
-                  srcset="
-                    @/assets/homepage/maple-leaf/Shape.png,
-                    @/assets/homepage/maple-leaf/Shape@2x.png 2x,
-                    @/assets/homepage/maple-leaf/Shape@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/maple-leaf/Shape.png, @/assets/homepage/maple-leaf/Shape@2x.png 2x, @/assets/homepage/maple-leaf/Shape@3x.png 3x"
                 />
               </h4>
             </b-col>
           </b-row>
-          <b-row id="Projects" name="Projects" style="margin-top: 8em">
+          <b-row id="Projects" name="Projects" style="padding-top: 8em">
             <b-col>
               <a>
                 <h2 class="project-header mb-5" href="#Projects">
                   My Projects
                   <img
                     class="arrow-down pb-2"
-                    srcset="
-                      @/assets/homepage/next.png,
-                      @/assets/homepage/next@2x.png 2x,
-                      @/assets/homepage/next@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                   />
                 </h2>
               </a>
               <b-row class="projectRow">
                 <b-col md="5" align="left">
-                  <!-- <a href="./ePaid"> -->
-                  <img class="screenshot" src="@/assets/homepage/ePaid.png" />
-                  <!-- </a> -->
+                  <a href="./ePaid">
+                    <img class="screenshot" src="@/assets/homepage/ePaid.png" />
+                  </a>
                 </b-col>
                 <b-col md="7" align="left">
                   <h3 class="project-title">e-Paid</h3>
@@ -85,9 +78,7 @@
                 <b-col class="desktop" md="7" align="left">
                   <h3 class="project-title">Fiti</h3>
                   <h4 class="category">Passion Project</h4>
-                  <h5 class="tag-line">
-                    A fitness app for people with paraplegia.
-                  </h5>
+                  <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
                   <p class="description">
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
@@ -116,20 +107,14 @@
                   <!-- <a href="./Fiti"> -->
                   <img
                     class="screenshot"
-                    srcset="
-                      @/assets/homepage/dark.png,
-                      @/assets/homepage/dark@2x.png 2x,
-                      @/assets/homepage/dark@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
                   />
                   <!-- </a> -->
                 </b-col>
                 <b-col class="mobile" align="left">
                   <h3 class="project-title">Fiti</h3>
                   <h4 class="category">Passion Project</h4>
-                  <h5 class="tag-line">
-                    A fitness app for people with paraplegia.
-                  </h5>
+                  <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
                   <p class="description">
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
@@ -158,23 +143,17 @@
 
               <b-row class="projectRow my-3">
                 <b-col md="5" align="left">
-                  <!-- <a href="./HealthLine"> -->
-                  <img
-                    class="screenshot"
-                    srcset="
-                      @/assets/HealthLine-info/Group10.png,
-                      @/assets/HealthLine-info/Group10@2x.png 2x,
-                      @/assets/HealthLine-info/Group10@3x.png 3x
-                    "
-                  />
-                  <!-- </a> -->
+                  <a href="/HealthLine">
+                    <img
+                      class="screenshot"
+                      srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
+                    />
+                  </a>
                 </b-col>
                 <b-col md="7" align="left">
                   <h3 class="project-title">HealthLine</h3>
                   <h4 class="category">RU Hacks</h4>
-                  <h5 class="tag-line">
-                    Receive a diagnosis of your symptoms.
-                  </h5>
+                  <h5 class="tag-line">Receive a diagnosis of your symptoms.</h5>
                   <p class="description">
                     A diagnosis is made through computer vision and machine
                     learning, and SMS.

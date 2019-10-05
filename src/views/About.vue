@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <b-container fluid class="verticalCenter">
+    <b-container fluid>
       <b-row>
         <b-col>
           <b-row>
@@ -9,36 +9,32 @@
             </b-col>
           </b-row>
           <b-row class="bio">
-            <b-col align="left">
+            <b-col class="vert-center bio-pic" lg="5" align="left">
               <img
-                srcset="
-                  @/assets/aboutme-info/Strength.png,
-                  @/assets/aboutme-info/Strength@2x.png 2x,
-                  @/assets/aboutme-info/Strength@3x.png 3x
-                "
+                srcset="@/assets/aboutme-info/Strength.png, @/assets/aboutme-info/Strength@2x.png 2x, @/assets/aboutme-info/Strength@3x.png 3x"
               />
             </b-col>
-            <b-col align="left">
-              <p class="paragraph">
-                My name's Daniela Ornelas. I'm an aspiring UX designer and a
-                third-year Psychology student at York University, currently
-                residing in Toronto, Canada. UX design combines all my passions:
-                design, psychology, communication (I love talking to people!),
-                and learning.
-              </p>
-              <p class="paragraph">
-                When I’m not designing, I’m either listening to music, doing
-                Muay Thai, reading Medium posts, looking for the best Italian
-                food I can find in Toronto, or spending my time with friends and
-                family.
-              </p>
+            <b-col class="vert-center" lg="7" align="left">
+              <div>
+                <p class="paragraph">
+                  My name's Daniela Ornelas. I'm an aspiring UX designer and a
+                  third-year Psychology student at York University, currently
+                  residing in Toronto, Canada. UX design combines all my passions:
+                  design, psychology, communication (I love talking to people!),
+                  and learning.
+                </p>
+                <p class="paragraph">
+                  When I’m not designing, I’m either listening to music, doing
+                  Muay Thai, reading Medium posts, looking for the best Italian
+                  food I can find in Toronto, or spending my time with friends and
+                  family.
+                </p>
+              </div>
             </b-col>
           </b-row>
-          <b-row class="work-section vert-center" style="padding:55px">
+          <b-row class="work-section vert-center">
             <b-col align="left" md="8">
-              <h3 class="work-title" style="padding-bottom: 30px">
-                Internship at TD Lab
-              </h3>
+              <h3 class="work-title">Internship at TD Lab</h3>
               <p class="work-description">
                 TD Lab, located in Kitchener-Waterloo, Ontario, has given me a
                 hands-on learning experience that has introduced me to design,
@@ -85,6 +81,22 @@
   justify-content: center;
   align-items: left;
   margin-bottom: 147px;
+
+  @media (max-width: $screen-md) {
+      margin-bottom: 40px;
+    }
+
+  img {
+    max-width: 100%;
+  }
+
+  .bio-pic {
+    margin-bottom: 40px;
+    @media (min-width: $screen-md) {
+      padding-right: 82px;
+      margin-bottom: 0px;
+    }
+  }
 }
 
 .vert-center {
@@ -92,15 +104,18 @@
   justify-content: center;
   align-items: center;
 }
-
 .paragraph {
-  font-size: 26px;
+  font-size: 25px;
   line-height: 34px;
 }
 .work-title {
   font-size: 25px;
   font-weight: 500;
   color: $primary;
+  padding-bottom: 30px;
+  @media (max-width: $screen-md) {
+    padding-bottom: 10px;
+  }
 }
 .work-description {
   font-size: 25px;
@@ -108,11 +123,16 @@
 }
 .work-section {
   background-color: rgba(129, 76, 243, 0.15);
+  padding: 55px;
 }
 .status {
   font-size: 29px;
   font-weight: 500;
   padding-top: 97px;
   padding-bottom: 93px;
+  @media (max-width: $screen-md) {
+    padding-top: 37px;
+    padding-bottom: 33px;
+  }
 }
 </style>

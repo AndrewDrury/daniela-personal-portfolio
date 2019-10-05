@@ -14,12 +14,9 @@
             href="https://www.dropbox.com/sh/vcb40o2liwopshn/AABSz1u5-BVe4v6mtpg0E1JEa?dl=0&preview=Resume.pdf"
             target="_blank"
             right
-            >resume</b-nav-item
-          >
+          >resume</b-nav-item>
           <b-nav-item class="tab" to="/about" right>about</b-nav-item>
-          <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right
-            >let's chat!</b-nav-item
-          >
+          <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right>let's chat!</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -43,28 +40,19 @@
     <!-- Footer -->
     <section id="footer">
       <div class="container">
-        <b-row class="text-center" style="margin-bottom:37px">
+        <b-row class="text-center" style="margin-bottom:24px">
           <b-col>
-            <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
-              <h3>Let's Talk Design!</h3>
-            </a>
+            <h3>Let's Talk Design!</h3>
           </b-col>
         </b-row>
-        <b-row style="margin-bottom: 24px">
+        <b-row style="margin-bottom: 10px">
           <b-col class="col-xs-12 col-sm-12 col-md-12">
             <ul class="list-unstyled list-inline social text-center">
               <li class="list-inline-item">
-                <a
-                  href="https://medium.com/@danielaornelas_40338"
-                  target="_blank"
-                >
+                <a href="https://medium.com/@danielaornelas_40338" target="_blank">
                   <!-- <i class="fa fa-medium"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/medium/Shape.png,
-                      @/assets/homepage/medium/Shape@2x.png 2x,
-                      @/assets/homepage/medium/Shape@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/medium/Shape.png, @/assets/homepage/medium/Shape@2x.png 2x, @/assets/homepage/medium/Shape@3x.png 3x"
                     style="width:1.25em"
                   />
                 </a>
@@ -73,27 +61,16 @@
                 <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
                   <!-- <i class="fa fa-envelope"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/envelope.png,
-                      @/assets/homepage/envelope@2x.png 2x,
-                      @/assets/homepage/envelope@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/envelope.png, @/assets/homepage/envelope@2x.png 2x, @/assets/homepage/envelope@3x.png 3x"
                     style="width:1.25em"
                   />
                 </a>
               </li>
               <li class="list-inline-item">
-                <a
-                  href="https://ca.linkedin.com/in/danielaornelas334"
-                  target="_blank"
-                >
+                <a href="https://ca.linkedin.com/in/danielaornelas334" target="_blank">
                   <!-- <i class="fa fa-linkedin"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/linkedin-logo.png,
-                      @/assets/homepage/linkedin-logo@2x.png 2x,
-                      @/assets/homepage/linkedin-logo@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/linkedin-logo.png, @/assets/homepage/linkedin-logo@2x.png 2x, @/assets/homepage/linkedin-logo@3x.png 3x"
                     style="width:1em"
                   />
                 </a>
@@ -101,13 +78,13 @@
             </ul>
           </b-col>
         </b-row>
-        <b-row>
+        <!-- <b-row>
           <b-col class="col-xs-12 col-sm-12 col-md-12 text-center text-white">
             <p class="copyright" style="font-size: 20px">
               &copy; 2019 Daniela Ornelas
             </p>
           </b-col>
-        </b-row>
+        </b-row>-->
       </div>
     </section>
   </div>
@@ -125,8 +102,8 @@
   // background-color: rgb(100, 100, 100);
 
   #main {
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 9.86%;
+    margin-right: 9.86%;
   }
 }
 
@@ -138,6 +115,9 @@
 // Navbar
 #navbar {
   background-color: white;
+  @media(min-width: $screen-md) {
+    height: 130px;
+  }
 
   /* change the link color */
   .navbar-nav .nav-link {
@@ -193,10 +173,10 @@ section {
   font-size: 24px;
   font-weight: 500;
 }
-#footer .copyright {
-  color: $primary;
-  font-size: 22px;
-}
+// #footer .copyright {
+//   color: $primary;
+//   font-size: 22px;
+// }
 
 // SIDEBAR FOR PROJECTS
 #nav {
@@ -228,8 +208,13 @@ section {
 }
 
 .fixed-top {
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 9.86%;
+  margin-right: 9.86%;
+
+  @media (max-width: $screen-md) {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }
 </style>
 

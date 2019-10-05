@@ -8,14 +8,19 @@
               <h1 class="name-greeting">Hi! I’m Daniela Ornelas.</h1>
             </b-col>
           </b-row>
-          <b-row class="my-5">
-            <b-col md="9" class="text-left">
-              <h4 class="introduction">
-                I’m an empathetic
+          <b-row class="desc">
+            <b-col md="11" class="text-left">
+              <h4 class="introduction" style="margin-bottom: 5px">
+                I’m a curious
                 <b class="bolded" style="font-size: 30px">UX designer</b> who
-                uses psychology and design to understand people and improve
-                their interactions with technology. Living and learning in
-                Toronto, Canada.
+                uses psychology and design to provide solutions to users in
+                their daily interactions with technology.
+              </h4>
+              <h4 class="introduction" style="margin-bottom: 26px">
+                I ask all the questions, so that the user doesn’t have to.
+              </h4>
+              <h4 class="introduction">
+                Living and learning in Toronto, Canada.
                 <img
                   srcset="
                     @/assets/homepage/maple-leaf/Shape.png,
@@ -26,7 +31,7 @@
               </h4>
             </b-col>
           </b-row>
-          <b-row id="Projects" name="Projects" style="margin-top: 8em">
+          <b-row id="Projects" name="Projects">
             <b-col>
               <a>
                 <h2 class="project-header mb-5" href="#Projects">
@@ -42,12 +47,15 @@
                 </h2>
               </a>
               <b-row class="projectRow">
-                <b-col md="5" align="left">
+                <b-col lg="5" align="left">
                   <!-- <a href="./ePaid"> -->
-                  <img class="screenshot" src="@/assets/homepage/ePaid.png" />
+                  <img
+                    class="screenshot-epaid"
+                    src="@/assets/homepage/ePaid.png"
+                  />
                   <!-- </a> -->
                 </b-col>
-                <b-col md="7" align="left">
+                <b-col lg="7" align="left">
                   <h3 class="project-title">e-Paid</h3>
                   <h4 class="category">TD Lab</h4>
                   <h5 class="tag-line">Help freelancers get paid faster.</h5>
@@ -77,7 +85,7 @@
                 </b-col>
               </b-row>
               <b-row class="projectRow">
-                <b-col class="desktop" md="7" align="left">
+                <b-col class="desktop" lg="7" align="left">
                   <h3 class="project-title">Fiti</h3>
                   <h4 class="category">Passion Project</h4>
                   <h5 class="tag-line">
@@ -107,7 +115,7 @@
                     </b-col>
                   </b-row>
                 </b-col>
-                <b-col md="5" align="right">
+                <b-col lg="5" align="right">
                   <!-- <a href="./Fiti"> -->
                   <img
                     class="screenshot"
@@ -152,8 +160,8 @@
               </b-row>
 
               <b-row class="projectRow my-3">
-                <b-col md="5" align="left">
-                  <!-- <a href="./HealthLine"> -->
+                <b-col lg="5" align="left">
+                  <!-- <a href="/HealthLine"> -->
                   <img
                     class="screenshot"
                     srcset="
@@ -164,7 +172,7 @@
                   />
                   <!-- </a> -->
                 </b-col>
-                <b-col md="7" align="left">
+                <b-col lg="7" align="left">
                   <h3 class="project-title">HealthLine</h3>
                   <h4 class="category">RU Hacks</h4>
                   <h5 class="tag-line">
@@ -213,32 +221,23 @@
   }
 }
 
+.desc {
+  margin-top: 54px;
+  @media (max-width: $screen-sm) {
+    margin-top: 24px;
+  }
+}
+
 .content-left {
   @media (max-width: $screen-sm) {
     width: 100%;
   }
 }
 
-.pic-right {
-  float: right;
-  display: inline;
-
-  width: 45%;
-  @media (max-width: $screen-sm) {
-    width: 100%;
-  }
-
-  .b-col {
-    // @media (min-width: $screen-md) {
-    //   width: 41.67%;
-    // }
-  }
-}
-
 .top-space {
   margin-top: 11em;
   @media (max-width: $screen-sm) {
-    margin-top: 11em;
+    margin-top: 100px;
   }
 }
 
@@ -257,16 +256,12 @@
   }
 }
 
-.screenshot {
-  width: 100%;
-  @media (min-width: $screen-sm) {
-    width: 70%;
-  }
-  @media (max-width: $screen-lg) {
-    padding-bottom: 60px;
-  }
-}
 #Projects {
+  padding-top: 8em;
+  @media (max-width: $screen-sm) {
+    padding-top: 4em;
+  }
+
   .project-header {
     font-weight: 500;
     color: $primary;
@@ -311,13 +306,15 @@
       font-size: 25px;
     }
     .skill {
-      //width: 100%;
       padding-right: 32px;
       align: left;
       display: inline-block;
       font-size: 17px;
       font-weight: 500;
       color: $gray;
+      @media (max-width: $screen-sm) {
+        width: 100%;
+      }
     }
   }
 }

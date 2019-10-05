@@ -43,14 +43,12 @@
     <!-- Footer -->
     <section id="footer">
       <div class="container">
-        <b-row class="text-center" style="margin-bottom:37px">
+        <b-row class="text-center" style="margin-bottom:24px">
           <b-col>
-            <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
-              <h3>Let's Talk Design!</h3>
-            </a>
+            <h3>Let's Talk Design!</h3>
           </b-col>
         </b-row>
-        <b-row style="margin-bottom: 24px">
+        <b-row style="margin-bottom: 10px">
           <b-col class="col-xs-12 col-sm-12 col-md-12">
             <ul class="list-unstyled list-inline social text-center">
               <li class="list-inline-item">
@@ -101,13 +99,13 @@
             </ul>
           </b-col>
         </b-row>
-        <b-row>
+        <!-- <b-row>
           <b-col class="col-xs-12 col-sm-12 col-md-12 text-center text-white">
             <p class="copyright" style="font-size: 20px">
               &copy; 2019 Daniela Ornelas
             </p>
           </b-col>
-        </b-row>
+        </b-row>-->
       </div>
     </section>
   </div>
@@ -125,8 +123,13 @@
   // background-color: rgb(100, 100, 100);
 
   #main {
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 9.86%;
+    margin-right: 9.86%;
+
+    @media (max-width: $screen-md) {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
 }
 
@@ -138,6 +141,9 @@
 // Navbar
 #navbar {
   background-color: white;
+  @media (min-width: $screen-md) {
+    height: 130px;
+  }
 
   /* change the link color */
   .navbar-nav .nav-link {
@@ -193,10 +199,10 @@ section {
   font-size: 24px;
   font-weight: 500;
 }
-#footer .copyright {
-  color: $primary;
-  font-size: 22px;
-}
+// #footer .copyright {
+//   color: $primary;
+//   font-size: 22px;
+// }
 
 // SIDEBAR FOR PROJECTS
 #nav {
@@ -228,8 +234,13 @@ section {
 }
 
 .fixed-top {
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 9.86%;
+  margin-right: 9.86%;
+
+  @media (max-width: $screen-md) {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }
 </style>
 

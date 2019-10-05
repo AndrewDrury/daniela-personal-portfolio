@@ -262,7 +262,6 @@
     padding-top: 4em;
   }
 
-
   .project-header {
     font-weight: 500;
     color: $primary;

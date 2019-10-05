@@ -9,7 +9,7 @@
             </b-col>
           </b-row>
           <b-row class="bio">
-            <b-col>
+            <b-col align="left">
               <img
                 srcset="
                   @/assets/aboutme-info/Strength.png,
@@ -52,7 +52,7 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col align="left">
+            <b-col align="left" style="padding-left: 0px; padding-right: 0px">
               <h4 class="status">
                 I’m currently seeking UX/UI design, product design, and project
                 management internship opportunities for Summer 2020.
@@ -83,7 +83,7 @@
 .bio {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   margin-bottom: 147px;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .paragraph {
-  font-size: 26;
+  font-size: 26px;
   line-height: 34px;
 }
 .work-title {

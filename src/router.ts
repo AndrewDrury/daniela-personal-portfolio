@@ -2,7 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
-import ePaid from "./views/projects/ePaid.vue";
+import ePaid from "./views/ePaid.vue";
 import Fiti from "./views/projects/Fiti.vue";
 import HealthLine from "./views/projects/HealthLine.vue";
 

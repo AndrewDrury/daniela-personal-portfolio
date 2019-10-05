@@ -6,15 +6,31 @@
           <b-row>
             <b-col class="py-3" align="center">
               <img
-                srcset="@/assets/epaid-info/Group2.png, @/assets/epaid-info/Group2@2x.png 2x, @/assets/epaid-info/Group2@3x.png 3x"
+                srcset="
+                  @/assets/epaid-info/Group2.png,
+                  @/assets/epaid-info/Group2@2x.png 2x,
+                  @/assets/epaid-info/Group2@3x.png 3x
+                "
               />
             </b-col>
           </b-row>
           <b-row col="12">
             <b-col class="top-pics" align="center">
-              <img class="left-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
-              <img class="middle-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
-              <img class="right-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img
+                class="left-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
+              <img
+                class="middle-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
+              <img
+                class="right-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
             </b-col>
           </b-row>
           <!-- SUMMARY -->
@@ -85,7 +101,9 @@
                 for me to do. Finally, something like Fiti makes getting
                 physical activity so much easier and fun.”
               </p>
-              <p>How did you determine your value as a freelance web designer?</p>
+              <p>
+                How did you determine your value as a freelance web designer?
+              </p>
               <p>
                 “I felt that picking a workout was super easy. I really liked
                 how there was categories to help. I really appreciated the 15
@@ -302,7 +320,11 @@
             <b-col>
               <a href="./Fiti">
                 <img
-                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                  srcset="
+                    @/assets/homepage/next.png,
+                    @/assets/homepage/next@2x.png 2x,
+                    @/assets/homepage/next@3x.png 3x
+                  "
                 />
                 <h2>Fiti</h2>
               </a>

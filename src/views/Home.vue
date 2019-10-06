@@ -83,16 +83,17 @@
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
                   </p>
-                  <!-- <a class="read-more" href="./Fiti">
-                        Read More
-                        <img
-                          srcset="
-                            @/assets/homepage/next.png,
-                            @/assets/homepage/next@2x.png 2x,
-                            @/assets/homepage/next@3x.png 3x
-                          "
-                        />
-                  </a>-->
+                  <!-- <a class="read-more" href="./Fiti"> -->
+                  <a
+                    class="read-more"
+                    href="../Fiti-info.pdf"
+                    target="_blank"
+                  >
+                    Read More
+                    <img
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                    />
+                  </a>
                   <h6 class="skill-title">Skills</h6>
                   <b-row align="left">
                     <b-col>
@@ -106,7 +107,7 @@
                 <b-col lg="5" align="right">
                   <!-- <a href="./Fiti"> -->
                   <a
-                    href="https://projects.invisionapp.com/share/WNTM12OFPMS#/screens/377530226_Fiti-Info"
+                    href="../Fiti-info.pdf"
                     target="_blank"
                   >
                     <img
@@ -126,7 +127,7 @@
                   <!-- <a class="read-more" href="./Fiti"> -->
                   <a
                     class="read-more"
-                    href="https://projects.invisionapp.com/share/WNTM12OFPMS#/screens/377530226_Fiti-Info"
+                    href="../Fiti-info.pdf"
                     target="_blank"
                   >
                     Read More
@@ -150,7 +151,7 @@
                 <b-col lg="5" align="left">
                   <!-- <a href="/HealthLine"> -->
                   <a
-                    href="https://projects.invisionapp.com/share/WNTM12OFPMS#/screens/378671888"
+                    href="../HealthLine-info.pdf"
                     target="_blank"
                   >
                     <img
@@ -170,7 +171,7 @@
                   <!-- <a class="read-more" href="./HealthLine">-->
                   <a
                     class="read-more"
-                    href="https://projects.invisionapp.com/share/WNTM12OFPMS#/screens/378671888"
+                    href="../HealthLine-info.pdf"
                     target="_blank"
                   >
                     Read More
@@ -268,6 +269,10 @@
 
     padding-bottom: 50px;
 
+    @media (max-width: $screen-md) {
+      padding-bottom: 80px;
+    }
+
     .project-title {
       font-size: 30px;
       font-weight: 500;
@@ -287,6 +292,10 @@
       font-weight: 500;
       font-size: 19px;
       color: $gray;
+      margin-top: 64px;
+      @media (max-width: $screen-md) {
+        margin-top: 34px;
+      }
     }
     .read-more {
       color: $primary;

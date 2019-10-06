@@ -16,17 +16,14 @@
                 uses psychology and design to provide solutions to users in
                 their daily interactions with technology.
               </h4>
-              <h4 class="introduction" style="margin-bottom: 26px">
-                I ask all the questions, so that the user doesn’t have to.
-              </h4>
+              <h4
+                class="introduction"
+                style="margin-bottom: 26px"
+              >I ask all the questions, so that the user doesn’t have to.</h4>
               <h4 class="introduction">
                 Living and learning in Toronto, Canada.
                 <img
-                  srcset="
-                    @/assets/homepage/maple-leaf/Shape.png,
-                    @/assets/homepage/maple-leaf/Shape@2x.png 2x,
-                    @/assets/homepage/maple-leaf/Shape@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/maple-leaf/Shape.png, @/assets/homepage/maple-leaf/Shape@2x.png 2x, @/assets/homepage/maple-leaf/Shape@3x.png 3x"
                 />
               </h4>
             </b-col>
@@ -38,21 +35,14 @@
                   My Projects
                   <img
                     class="arrow-down pb-2"
-                    srcset="
-                      @/assets/homepage/next.png,
-                      @/assets/homepage/next@2x.png 2x,
-                      @/assets/homepage/next@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                   />
                 </h2>
               </a>
               <b-row class="projectRow">
                 <b-col lg="5" align="left">
                   <!-- <a href="./ePaid"> -->
-                  <img
-                    class="screenshot-epaid"
-                    src="@/assets/homepage/ePaid.png"
-                  />
+                  <img class="screenshot-epaid" src="@/assets/homepage/ePaid.png" />
                   <!-- </a> -->
                 </b-col>
                 <b-col lg="7" align="left">
@@ -88,9 +78,7 @@
                 <b-col class="desktop" lg="7" align="left">
                   <h3 class="project-title">Fiti</h3>
                   <h4 class="category">Passion Project</h4>
-                  <h5 class="tag-line">
-                    A fitness app for people with paraplegia.
-                  </h5>
+                  <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
                   <p class="description">
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
@@ -117,36 +105,35 @@
                 </b-col>
                 <b-col lg="5" align="right">
                   <!-- <a href="./Fiti"> -->
-                  <img
-                    class="screenshot"
-                    srcset="
-                      @/assets/homepage/dark.png,
-                      @/assets/homepage/dark@2x.png 2x,
-                      @/assets/homepage/dark@3x.png 3x
-                    "
-                  />
-                  <!-- </a> -->
+                  <a
+                    href="https://projects.invisionapp.com/share/WNTM12OFPMS#/screens/377530226_Fiti-Info"
+                    target="_blank"
+                  >
+                    <img
+                      class="screenshot"
+                      srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
+                    />
+                  </a>
                 </b-col>
                 <b-col class="mobile" align="left">
                   <h3 class="project-title">Fiti</h3>
                   <h4 class="category">Passion Project</h4>
-                  <h5 class="tag-line">
-                    A fitness app for people with paraplegia.
-                  </h5>
+                  <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
                   <p class="description">
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
                   </p>
-                  <!-- <a class="read-more" href="./Fiti">
-                        Read More
-                        <img
-                          srcset="
-                            @/assets/homepage/next.png,
-                            @/assets/homepage/next@2x.png 2x,
-                            @/assets/homepage/next@3x.png 3x
-                          "
-                        />
-                  </a>-->
+                  <!-- <a class="read-more" href="./Fiti"> -->
+                  <a
+                    class="read-more"
+                    href="https://projects.invisionapp.com/share/WNTM12OFPMS#/screens/377530226_Fiti-Info"
+                    target="_blank"
+                  >
+                    Read More
+                    <img
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                    />
+                  </a>
                   <h6 class="skill-title">Skills</h6>
                   <b-row align="left">
                     <b-col>
@@ -162,36 +149,35 @@
               <b-row class="projectRow my-3">
                 <b-col lg="5" align="left">
                   <!-- <a href="/HealthLine"> -->
-                  <img
-                    class="screenshot"
-                    srcset="
-                      @/assets/HealthLine-info/Group10.png,
-                      @/assets/HealthLine-info/Group10@2x.png 2x,
-                      @/assets/HealthLine-info/Group10@3x.png 3x
-                    "
-                  />
-                  <!-- </a> -->
+                  <a
+                    href="https://projects.invisionapp.com/share/WNTM12OFPMS#/screens/378671888"
+                    target="_blank"
+                  >
+                    <img
+                      class="screenshot"
+                      srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
+                    />
+                  </a>
                 </b-col>
                 <b-col lg="7" align="left">
                   <h3 class="project-title">HealthLine</h3>
                   <h4 class="category">RU Hacks</h4>
-                  <h5 class="tag-line">
-                    Receive a diagnosis of your symptoms.
-                  </h5>
+                  <h5 class="tag-line">Receive a diagnosis of your symptoms.</h5>
                   <p class="description">
                     A diagnosis is made through computer vision and machine
                     learning, and SMS.
                   </p>
-                  <!-- <a class="read-more" href="./HealthLine">
+                  <!-- <a class="read-more" href="./HealthLine">-->
+                  <a
+                    class="read-more"
+                    href="https://projects.invisionapp.com/share/WNTM12OFPMS#/screens/378671888"
+                    target="_blank"
+                  >
                     Read More
                     <img
-                      srcset="
-                        @/assets/homepage/next.png,
-                        @/assets/homepage/next@2x.png 2x,
-                        @/assets/homepage/next@3x.png 3x
-                      "
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                     />
-                  </a>-->
+                  </a>
                   <h6 class="skill-title">Skills</h6>
                   <b-row align="left">
                     <b-col>

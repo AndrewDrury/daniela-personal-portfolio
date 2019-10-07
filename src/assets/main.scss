@@ -48,7 +48,6 @@ ul {
     display:block;
     margin-left:auto;
     margin-right:auto;
-
     padding-bottom: 10px;
   }
 }
@@ -60,7 +59,17 @@ ul {
     display:block;
     margin-left:auto;
     margin-right:auto;
-
     padding-bottom: 20px;
+  }
+}
+
+.project-pic {
+  width: 239px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  @media (max-width: $screen-md) {
+    width: 260px;
+    padding-bottom: 10px;
   }
 }

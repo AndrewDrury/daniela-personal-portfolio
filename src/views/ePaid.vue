@@ -4,38 +4,22 @@
       <b-row class="top-space">
         <b-col align="left">
           <b-row>
-            <b-col class="py-3" align="center">
+            <b-col class="logo" align="center">
               <img
-                srcset="
-                  @/assets/epaid-info/Group2.png,
-                  @/assets/epaid-info/Group2@2x.png 2x,
-                  @/assets/epaid-info/Group2@3x.png 3x
-                "
+                srcset="@/assets/epaid-info/Group2.png, @/assets/epaid-info/Group2@2x.png 2x, @/assets/epaid-info/Group2@3x.png 3x"
               />
             </b-col>
           </b-row>
           <b-row col="12">
             <b-col class="top-pics" align="center">
-              <img
-                class="left-pic"
-                src="@/assets/iPhone.png"
-                style="vertical-align: bottom;"
-              />
-              <img
-                class="middle-pic"
-                src="@/assets/iPhone.png"
-                style="vertical-align: bottom;"
-              />
-              <img
-                class="right-pic"
-                src="@/assets/iPhone.png"
-                style="vertical-align: bottom;"
-              />
+              <img class="left-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img class="middle-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img class="right-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
             </b-col>
           </b-row>
           <!-- SUMMARY -->
           <b-row class="summary">
-            <b-col>
+            <b-col class="sidebar" md="3">
               <h4>Skills</h4>
               <ul>
                 <li>User Interviews</li>
@@ -45,10 +29,17 @@
               </ul>
               <h4>Type/Company</h4>
               <ul>
-                <li>Winner, Mid-Term Hack at TD Lab</li>
+                <li>
+                  Winner, Mid-Term
+                  <br />Hack at TD Lab
+                </li>
+              </ul>
+              <h4>When</h4>
+              <ul>
+                <li>March 19-24, 2019</li>
               </ul>
             </b-col>
-            <b-col>
+            <b-col class="desc">
               <h3>Help freelancers get paid faster.</h3>
               <p>
                 In January 2019, I started a role as a UI/UX design Intern at TD
@@ -101,9 +92,7 @@
                 for me to do. Finally, something like Fiti makes getting
                 physical activity so much easier and fun.”
               </p>
-              <p>
-                How did you determine your value as a freelance web designer?
-              </p>
+              <p>How did you determine your value as a freelance web designer?</p>
               <p>
                 “I felt that picking a workout was super easy. I really liked
                 how there was categories to help. I really appreciated the 15
@@ -130,7 +119,9 @@
               </p>
               <b-row>
                 <b-col>
-                  <img src="@/assets/iPhone.png" />
+                  <img
+                    srcset="@/assets/epaid-info/Strength.png, @/assets/epaid-info/Strength@2x.png 2x, @/assets/epaid-info/Strength@3x.png 3x"
+                  />
                 </b-col>
                 <b-col>
                   <b-row>
@@ -207,13 +198,13 @@
               </p>
               <b-row>
                 <b-col>
-                  <img src="@/assets/iPhone.png" height="325px" />
+                  <img class="project-pic" src="@/assets/iPhone.png" />
                 </b-col>
                 <b-col>
-                  <img src="@/assets/iPhone.png" height="325px" />
+                  <img class="project-pic" src="@/assets/iPhone.png" />
                 </b-col>
                 <b-col>
-                  <img src="@/assets/iPhone.png" height="325px" />
+                  <img class="project-pic" src="@/assets/iPhone.png" />
                 </b-col>
               </b-row>
               <p>Home Page</p>
@@ -229,7 +220,7 @@
               </p>
               <b-row>
                 <b-col>
-                  <img src="@/assets/iPhone.png" height="325px" />
+                  <img class="project-pic" src="@/assets/iPhone.png" />
                 </b-col>
               </b-row>
               <p>Creating a Task</p>
@@ -241,10 +232,10 @@
               </p>
               <b-row>
                 <b-col>
-                  <img src="@/assets/iPhone.png" height="325px" />
+                  <img class="project-pic" src="@/assets/iPhone.png" />
                 </b-col>
                 <b-col>
-                  <img src="@/assets/iPhone.png" height="325px" />
+                  <img class="project-pic" src="@/assets/iPhone.png" />
                 </b-col>
               </b-row>
               <p>
@@ -277,7 +268,7 @@
               </p>
               <b-row>
                 <b-col>
-                  <img src="@/assets/iPhone.png" height="325px" />
+                  <img class="project-pic" src="@/assets/iPhone.png" />
                 </b-col>
               </b-row>
               <!-- INSERT TEXT ON LEFT, PIC ON RIGHT -->
@@ -320,11 +311,7 @@
             <b-col>
               <a href="./Fiti">
                 <img
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h2>Fiti</h2>
               </a>
@@ -337,7 +324,7 @@
 </template>
 
 <style lang="scss">
-@import "@/assets/variables.scss";
+@import "../assets/variables.scss";
 
 .top-space {
   margin-top: 110px;
@@ -353,11 +340,19 @@
   .left-pic,
   .right-pic {
     width: 172px;
+    @media (max-width: $screen-md) {
+      width: 30%;
+    }
   }
   .middle-pic {
     width: 203px;
     margin-right: 21px;
     margin-left: 21px;
+    @media (max-width: $screen-md) {
+      width: 35%;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
   }
   margin-bottom: 81px;
 }
@@ -366,6 +361,44 @@
   .b-row {
     color: red;
     background-color: red;
+  }
+}
+
+.logo {
+  margin-top: 45px;
+  margin-bottom: 52px;
+  @media (max-width: $screen-md) {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+.summary {
+  padding-right: 140px;
+  padding-left: 140px;
+  @media (max-width: $screen-md) {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .sidebar {
+    h4 {
+      font-size: 16px;
+      line-height: 21px;
+      color: $primary;
+      margin-bottom: 3px;
+    }
+    ul {
+      li {
+        font-size: 16px;
+        line-height: 21px;
+        color: rgba(129, 76, 243, 0.75);
+        font-weight: 500;
+      }
+    }
+  }
+  .desc {
+    margin-top: 0px;
   }
 }
 

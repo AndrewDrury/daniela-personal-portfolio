@@ -6,15 +6,31 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="@/assets/epaid-info/Group2.png, @/assets/epaid-info/Group2@2x.png 2x, @/assets/epaid-info/Group2@3x.png 3x"
+                srcset="
+                  @/assets/epaid-info/Group2.png,
+                  @/assets/epaid-info/Group2@2x.png 2x,
+                  @/assets/epaid-info/Group2@3x.png 3x
+                "
               />
             </b-col>
           </b-row>
           <b-row col="12">
             <b-col class="top-pics" align="center">
-              <img class="left-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
-              <img class="middle-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
-              <img class="right-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img
+                class="left-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
+              <img
+                class="middle-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
+              <img
+                class="right-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
             </b-col>
           </b-row>
           <!-- SUMMARY -->
@@ -44,14 +60,14 @@
               <p>
                 In January 2019,
                 <b>
-                  I started a role as a UI/UX design Intern at TD
-                  Lab in Kitchener, Ontario.
-                </b> TD Lab aims to develop solutions that
-                create exceptional user experience for employees and customers.
-                During TD Lab’s Mid-Term Hack, the problem is to help
-                freelancers and people with side hustles get paid faster. As
-                part of the problem, we were required to incorperate Interac’s
-                API.
+                  I started a role as a UI/UX design Intern at TD Lab in
+                  Kitchener, Ontario.
+                </b>
+                TD Lab aims to develop solutions that create exceptional user
+                experience for employees and customers. During TD Lab’s Mid-Term
+                Hack, the problem is to help freelancers and people with side
+                hustles get paid faster. As part of the problem, we were
+                required to incorperate Interac’s API.
               </p>
             </b-col>
           </b-row>
@@ -65,20 +81,19 @@
               <h2>My Role</h2>
               <p>
                 The e-Paid team consisted of one
-                <b>UX/UI designer (me!)</b> and one
-                software developer co-op student. The co-op roles (UI/UX
-                designers, and software developers) were immersed in user
-                experience problems and were required to come up with solutions
-                to problems that Generation Z is currently facing.
+                <b>UX/UI designer (me!)</b> and one software developer co-op
+                student. The co-op roles (UI/UX designers, and software
+                developers) were immersed in user experience problems and were
+                required to come up with solutions to problems that Generation Z
+                is currently facing.
                 <b>
-                  We were
-                  required to solve this problem in 5 days (Monday-Friday)
-                </b>. Day 1
-                and 2 consisted of gathering as much information as possible. In
-                order to do this, we conducted interviews, built personas, and
-                conducted user research. Day 3 and 4 focused on crafting the
-                UI/UX of the app, as well as developing it. Day 5 was our
-                presentation day.
+                  We were required to solve this problem in 5 days
+                  (Monday-Friday) </b
+                >. Day 1 and 2 consisted of gathering as much information as
+                possible. In order to do this, we conducted interviews, built
+                personas, and conducted user research. Day 3 and 4 focused on
+                crafting the UI/UX of the app, as well as developing it. Day 5
+                was our presentation day.
               </p>
             </b-col>
           </b-row>
@@ -89,8 +104,8 @@
               <p>
                 During day 1 of the Mid-Term Hack, I researched as much
                 possible. To understand the user, I decided to conduct an
-                interview on one of the full-time employees at TD Lab. Meet
-                Leo. He is a web design freelancer. We asked him:
+                interview on one of the full-time employees at TD Lab. Meet Leo.
+                He is a web design freelancer. We asked him:
               </p>
               <h3>As a freelancer, what is your main struggle?</h3>
               <p>
@@ -99,7 +114,9 @@
                 for me to do. Finally, something like Fiti makes getting
                 physical activity so much easier and fun.”
               </p>
-              <h3>How did you determine your value as a freelance web designer?</h3>
+              <h3>
+                How did you determine your value as a freelance web designer?
+              </h3>
               <p>
                 “I felt that picking a workout was super easy. I really liked
                 how there was categories to help. I really appreciated the 15
@@ -127,7 +144,11 @@
               <b-row class="user vert-center">
                 <b-col class="user-pic">
                   <img
-                    srcset="@/assets/epaid-info/Strength.png, @/assets/epaid-info/Strength@2x.png 2x, @/assets/epaid-info/Strength@3x.png 3x"
+                    srcset="
+                      @/assets/epaid-info/Strength.png,
+                      @/assets/epaid-info/Strength@2x.png 2x,
+                      @/assets/epaid-info/Strength@3x.png 3x
+                    "
                   />
                 </b-col>
                 <b-col>
@@ -208,13 +229,25 @@
               </p>
               <b-row class="triple">
                 <b-col>
-                  <img class="project-pic" align="right" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic"
+                    align="right"
+                    src="@/assets/iPhone.png"
+                  />
                 </b-col>
                 <b-col>
-                  <img class="project-pic" align="center" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic"
+                    align="center"
+                    src="@/assets/iPhone.png"
+                  />
                 </b-col>
                 <b-col>
-                  <img class="project-pic" align="left" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic"
+                    align="left"
+                    src="@/assets/iPhone.png"
+                  />
                 </b-col>
               </b-row>
               <h3>Home Page</h3>
@@ -224,11 +257,10 @@
                 The draft sections includes tasks that have not been completed
                 yet. This section resembles an ‘upcoming’ section.
                 <b>
-                  It’s called
-                  drafts because I understand that being a freelancer is very
-                  unstable and schedule changes can happen frequently. Having a
-                  drafts section gives Jenny flexibility and control over her
-                  tasks.
+                  It’s called drafts because I understand that being a
+                  freelancer is very unstable and schedule changes can happen
+                  frequently. Having a drafts section gives Jenny flexibility
+                  and control over her tasks.
                 </b>
               </p>
               <b-row class="extra-bottom-space2">
@@ -245,37 +277,48 @@
               </p>
               <b-row class="double">
                 <b-col class="mr-3">
-                  <img class="project-pic" align="right" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic"
+                    align="right"
+                    src="@/assets/iPhone.png"
+                  />
                 </b-col>
                 <b-col class="ml-3">
-                  <img class="project-pic" align="left" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic"
+                    align="left"
+                    src="@/assets/iPhone.png"
+                  />
                 </b-col>
               </b-row>
               <p>
                 Next, Jenny will decide a date, a start time, and end time of
                 the task.
                 <b>
-                  Since Jenny is new to the freelance world, and may not
-                  know how much to charge her client, we have provided her with
-                  the average rate that other freelancers in her area are
-                  charging.
-                </b> Jenny may choose to use our suggestion as a guideline
-                or charge what she pleases to her client. An invoice will be
-                automatically sent to the clients provided e-mail as soon as the
-                end time of the task has occurred. This prevents Jenny from
-                facing confrontation or directly asking for payment as she
-                builds her confidence as a freelancer.
+                  Since Jenny is new to the freelance world, and may not know
+                  how much to charge her client, we have provided her with the
+                  average rate that other freelancers in her area are charging.
+                </b>
+                Jenny may choose to use our suggestion as a guideline or charge
+                what she pleases to her client. An invoice will be automatically
+                sent to the clients provided e-mail as soon as the end time of
+                the task has occurred. This prevents Jenny from facing
+                confrontation or directly asking for payment as she builds her
+                confidence as a freelancer.
                 <b>
-                  For stubborn clients
-                  Jenny can select to send them a reminder of their unpaid invoice
-                  every 3 days until it gets paid.
+                  For stubborn clients Jenny can select to send them a reminder
+                  of their unpaid invoice every 3 days until it gets paid.
                 </b>
               </p>
 
               <b-row class="pic-right extra-bottom-space">
                 <b-col class="content" lg="4" align="left">
                   <h5>Completing Task</h5>
-                  <p>Once the task’s end time has occured, the task moves from drafts to unpaid. When the task gets paid by the client via Interac e-transfer, it automatically moves to paid.</p>
+                  <p>
+                    Once the task’s end time has occured, the task moves from
+                    drafts to unpaid. When the task gets paid by the client via
+                    Interac e-transfer, it automatically moves to paid.
+                  </p>
                 </b-col>
                 <b-col>
                   <img class="project-pic-right" src="@/assets/iPhone.png" />
@@ -287,15 +330,16 @@
                 The task can be edited or duplicated to avoid having to manually
                 rewrite the task.
                 <b>
-                  We’re also able to remind Jenny when her
-                  invoice will be sent. If the client requires that the invoice
-                  must be sent out before the end time of the task has occured,
-                  she can send it when she pleases.
-                </b> In the event that Jenny
-                receives cash as payment, she can check off that she has been
-                paid already. If the client prefers to e-transfer her
-                face-to-face, I have provided Jenny with a custom QR code that
-                the client can scan to prompt the e-transfer payment flow.
+                  We’re also able to remind Jenny when her invoice will be sent.
+                  If the client requires that the invoice must be sent out
+                  before the end time of the task has occured, she can send it
+                  when she pleases.
+                </b>
+                In the event that Jenny receives cash as payment, she can check
+                off that she has been paid already. If the client prefers to
+                e-transfer her face-to-face, I have provided Jenny with a custom
+                QR code that the client can scan to prompt the e-transfer
+                payment flow.
               </p>
               <b-row>
                 <b-col>
@@ -305,7 +349,10 @@
               <b-row class="pic-right">
                 <b-col class="content" lg="6" align="left">
                   <h5>Payment Received</h5>
-                  <p>Once Jenny receives payment via Interac e-transfer, or cash, the task moves automatically to the paid section.</p>
+                  <p>
+                    Once Jenny receives payment via Interac e-transfer, or cash,
+                    the task moves automatically to the paid section.
+                  </p>
                 </b-col>
                 <b-col>
                   <img class="project-pic-right" src="@/assets/iPhone.png" />
@@ -323,14 +370,14 @@
                 encounter. For example, I wanted our platform to cover patents,
                 tax issues, accounting, invoicing, and payment collections.
                 <b>
-                  I
-                  realized that tackling all these problems would dilute our
-                  original problem statement, and leave us with an app that wasn’t
-                  clear and concise to the user.
-                </b> To solve this problem, we
-                stripped down our unrealistic approach and focused on the true
-                problem presented, which is to allow a platform for freelancers
-                to get paid faster by incorperating the Interac API.
+                  I realized that tackling all these problems would dilute our
+                  original problem statement, and leave us with an app that
+                  wasn’t clear and concise to the user.
+                </b>
+                To solve this problem, we stripped down our unrealistic approach
+                and focused on the true problem presented, which is to allow a
+                platform for freelancers to get paid faster by incorperating the
+                Interac API.
               </p>
             </b-col>
           </b-row>
@@ -344,8 +391,7 @@
                 manager, 3 UX/UI designers, 3 software developers, 3 business
                 analysts and the other co-ops students.
                 <b>
-                  We came in first place
-                  for TD Lab’s Mid-Term Hack!
+                  We came in first place for TD Lab’s Mid-Term Hack!
                 </b>
               </p>
             </b-col>
@@ -356,7 +402,11 @@
               <a href="./Fiti">
                 <img
                   class="arrow"
-                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                  srcset="
+                    @/assets/homepage/next.png,
+                    @/assets/homepage/next@2x.png 2x,
+                    @/assets/homepage/next@3x.png 3x
+                  "
                 />
                 <h6>Fiti</h6>
               </a>

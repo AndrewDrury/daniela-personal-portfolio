@@ -17,7 +17,7 @@
             >resume</b-nav-item
           >
           <b-nav-item class="tab" to="/about" right>about</b-nav-item>
-          <b-nav-item class="tab" to="/ePaid" right>ePaid</b-nav-item>
+          <!-- <b-nav-item class="tab" to="/ePaid" right>ePaid</b-nav-item> -->
           <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right
             >let's chat!</b-nav-item
           >

@@ -84,7 +84,7 @@
                   </b-row>
                 </b-col>
               </b-row>
-              
+
               <b-row class="projectRow">
                 <b-col class="desktop" lg="7" align="left">
                   <h3 class="project-title">Fiti</h3>
@@ -257,8 +257,8 @@
 }
 
 .name-greeting {
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 40px !important;
+  font-weight: 500 !important;
 }
 
 .introduction {

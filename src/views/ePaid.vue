@@ -420,215 +420,217 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
+.ePaid {
 
-.top-space {
-  margin-top: 110px;
-  @media (max-width: $screen-sm) {
-    margin-top: 80px;
-  }
-}
-
-.top-pics {
-  .img {
-    vertical-align: bottom;
-  }
-  .left-pic,
-  .right-pic {
-    width: 172px;
-    @media (max-width: $screen-md) {
-      width: 30%;
+  .top-space {
+    margin-top: 110px;
+    @media (max-width: $screen-sm) {
+      margin-top: 80px;
     }
   }
-  .middle-pic {
-    width: 203px;
-    margin-right: 21px;
-    margin-left: 21px;
-    @media (max-width: $screen-md) {
-      width: 35%;
-      margin-right: 10px;
-      margin-left: 10px;
+  
+  .top-pics {
+    .img {
+      vertical-align: bottom;
     }
-  }
-  margin-bottom: 81px;
-}
-
-h1 {
-  color: $primary;
-  font-size: 29px !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.23px !important;
-  line-height: 39px !important;
-  margin-top: 81px !important;
-  text-align: center;
-}
-
-h2 {
-  color: $primary;
-  font-size: 24px !important;
-  font-weight: 500 !important;
-  line-height: 31px !important;
-  letter-spacing: 0.18px !important;
-  margin-top: 81px !important;
-  margin-bottom: 30px !important;
-}
-
-h3 {
-  font-size: 20px !important;
-  line-height: 26px !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.15px !important;
-}
-
-.next {
-  .arrow {
-    width: 20px;
-    height: 34px;
-    margin-bottom: 5px;
-  }
-  h6 {
-    color: $primary;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 0.18px;
-    line-height: 31px;
-  }
-  margin-top: 70px;
-  margin-bottom: 125px;
-}
-
-b {
-  color: $primary;
-  font-weight: 500 !important;
-}
-
-p {
-  font-weight: 400 !important;
-}
-
-.logo {
-  margin-top: 45px;
-  margin-bottom: 52px;
-  @media (max-width: $screen-md) {
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-}
-
-.summary {
-  padding-right: 140px;
-  padding-left: 140px;
-  @media (max-width: $screen-md) {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  .sidebar {
-    h4 {
-      font-size: 16px;
-      line-height: 21px;
-      color: $primary;
-      margin-bottom: 3px;
-    }
-    ul {
-      li {
-        font-size: 16px;
-        line-height: 21px;
-        color: rgba(129, 76, 243, 0.75);
-        font-weight: 500;
+    .left-pic,
+    .right-pic {
+      width: 172px;
+      @media (max-width: $screen-md) {
+        width: 30%;
       }
     }
+    .middle-pic {
+      width: 203px;
+      margin-right: 21px;
+      margin-left: 21px;
+      @media (max-width: $screen-md) {
+        width: 35%;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    }
+    margin-bottom: 81px;
   }
-  .desc {
-    margin-top: 0px;
+  
+  h1 {
+    color: $primary;
+    font-size: 29px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.23px !important;
+    line-height: 39px !important;
+    margin-top: 81px !important;
+    text-align: center;
   }
-}
-
-.user {
-  background-color: rgba(129, 76, 243, 0.15);
-  padding: 32px;
-  padding-top: 54px;
-  margin-top: 70px;
-  @media (max-width: $screen-md) {
-    padding: 5%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  
+  h2 {
+    color: $primary;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    line-height: 31px !important;
+    letter-spacing: 0.18px !important;
+    margin-top: 81px !important;
+    margin-bottom: 30px !important;
   }
-
-  .user-pic {
-    width: 242px;
-  }
-
-  h5 {
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.09px;
-    line-height: 21px;
-  }
-  p,
-  li {
-    font-size: 16px;
-    letter-spacing: 0.09px;
-    line-height: 21px;
-  }
-}
-
-.triple {
-  padding-right: 7%;
-  padding-left: 7%;
-  margin-bottom: 69px;
-}
-
-.pic-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  padding-bottom: 50px;
-
-  @media (max-width: $screen-md) {
-    padding-bottom: 80px;
-  }
-
-  h5 {
+  
+  h3 {
     font-size: 20px !important;
     line-height: 26px !important;
     font-weight: 500 !important;
     letter-spacing: 0.15px !important;
   }
-
-  .content {
-    @media (min-width: $screen-md) {
-      margin-right: 179px;
+  
+  .next {
+    .arrow {
+      width: 20px;
+      height: 34px;
+      margin-bottom: 5px;
     }
+    h6 {
+      color: $primary;
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 0.18px;
+      line-height: 31px;
+    }
+    margin-top: 70px;
+    margin-bottom: 125px;
   }
-
-  .project-pic-right {
-    width: 239px;
-    display: block;
-    align: "center";
-    margin-top: 67px;
-
+  
+  b {
+    color: $primary;
+    font-weight: 500 !important;
+  }
+  
+  p {
+    font-weight: 400 !important;
+  }
+  
+  .logo {
+    margin-top: 45px;
+    margin-bottom: 52px;
     @media (max-width: $screen-md) {
-      margin-left: auto;
-      margin-right: auto;
-      width: 260px;
-      padding-bottom: 10px;
+      margin-top: 10px;
+      margin-bottom: 30px;
     }
   }
-}
-
-.extra-bottom-space {
-  margin-bottom: 99px;
-}
-
-.extra-bottom-space2 {
-  margin-bottom: 78px;
-}
-
-//Apply bottom margin to all columns in mobile
-@media all and (max-width: 767px) {
-  [class^="col-sm-"] {
-    margin-bottom: 20px;
+  
+  .summary {
+    padding-right: 140px;
+    padding-left: 140px;
+    @media (max-width: $screen-md) {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  
+    .sidebar {
+      h4 {
+        font-size: 16px;
+        line-height: 21px;
+        color: $primary;
+        margin-bottom: 3px;
+      }
+      ul {
+        li {
+          font-size: 16px;
+          line-height: 21px;
+          color: rgba(129, 76, 243, 0.75);
+          font-weight: 500;
+        }
+      }
+    }
+    .desc {
+      margin-top: 0px;
+    }
+  }
+  
+  .user {
+    background-color: rgba(129, 76, 243, 0.15);
+    padding: 32px;
+    padding-top: 54px;
+    margin-top: 70px;
+    @media (max-width: $screen-md) {
+      padding: 5%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .user-pic {
+      width: 242px;
+    }
+  
+    h5 {
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.09px;
+      line-height: 21px;
+    }
+    p,
+    li {
+      font-size: 16px;
+      letter-spacing: 0.09px;
+      line-height: 21px;
+    }
+  }
+  
+  .triple {
+    padding-right: 7%;
+    padding-left: 7%;
+    margin-bottom: 69px;
+  }
+  
+  .pic-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding-bottom: 50px;
+  
+    @media (max-width: $screen-md) {
+      padding-bottom: 80px;
+    }
+  
+    h5 {
+      font-size: 20px !important;
+      line-height: 26px !important;
+      font-weight: 500 !important;
+      letter-spacing: 0.15px !important;
+    }
+  
+    .content {
+      @media (min-width: $screen-md) {
+        margin-right: 179px;
+      }
+    }
+  
+    .project-pic-right {
+      width: 239px;
+      display: block;
+      align: "center";
+      margin-top: 67px;
+  
+      @media (max-width: $screen-md) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 260px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  
+  .extra-bottom-space {
+    margin-bottom: 99px;
+  }
+  
+  .extra-bottom-space2 {
+    margin-bottom: 78px;
+  }
+  
+  //Apply bottom margin to all columns in mobile
+  @media all and (max-width: 767px) {
+    [class^="col-sm-"] {
+      margin-bottom: 20px;
+    }
   }
 }
 </style>

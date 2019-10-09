@@ -49,10 +49,10 @@
               <b-row class="projectRow">
                 <b-col lg="5" align="left">
                   <!-- <a href="./ePaid"> -->
-                    <img
-                      class="screenshot-epaid"
-                      src="@/assets/homepage/ePaidMain.png"
-                    />
+                  <img
+                    class="screenshot-epaid"
+                    src="@/assets/homepage/ePaidMain.png"
+                  />
                   <!-- </a> -->
                 </b-col>
                 <b-col lg="7" align="left">

@@ -104,17 +104,12 @@
   }
 }
 
-.vert-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .paragraph {
   font-size: 25px;
   line-height: 34px;
 }
 .work-title {
-  font-size: 25px;
+  font-size: 25px !important;
   font-weight: 500;
   color: $primary;
   padding-bottom: 30px;

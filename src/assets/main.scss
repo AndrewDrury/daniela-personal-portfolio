@@ -68,8 +68,17 @@ ul {
   display:block;
   margin-left:auto;
   margin-right:auto;
+  margin-top: 67px;
+  margin-bottom: 72px;
+
   @media (max-width: $screen-md) {
     width: 260px;
     padding-bottom: 10px;
   }
+}
+
+.vert-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

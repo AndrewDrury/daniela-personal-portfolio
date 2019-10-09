@@ -84,6 +84,7 @@
                   </b-row>
                 </b-col>
               </b-row>
+              
               <b-row class="projectRow">
                 <b-col class="desktop" lg="7" align="left">
                   <h3 class="project-title">Fiti</h3>

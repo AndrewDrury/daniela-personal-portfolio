@@ -421,14 +421,13 @@
 <style lang="scss">
 @import "../assets/variables.scss";
 .ePaid {
-
   .top-space {
     margin-top: 110px;
     @media (max-width: $screen-sm) {
       margin-top: 80px;
     }
   }
-  
+
   .top-pics {
     .img {
       vertical-align: bottom;
@@ -452,7 +451,7 @@
     }
     margin-bottom: 81px;
   }
-  
+
   h1 {
     color: $primary;
     font-size: 29px !important;
@@ -462,7 +461,7 @@
     margin-top: 81px !important;
     text-align: center;
   }
-  
+
   h2 {
     color: $primary;
     font-size: 24px !important;
@@ -472,14 +471,14 @@
     margin-top: 81px !important;
     margin-bottom: 30px !important;
   }
-  
+
   h3 {
     font-size: 20px !important;
     line-height: 26px !important;
     font-weight: 500 !important;
     letter-spacing: 0.15px !important;
   }
-  
+
   .next {
     .arrow {
       width: 20px;
@@ -496,16 +495,16 @@
     margin-top: 70px;
     margin-bottom: 125px;
   }
-  
+
   b {
     color: $primary;
     font-weight: 500 !important;
   }
-  
+
   p {
     font-weight: 400 !important;
   }
-  
+
   .logo {
     margin-top: 45px;
     margin-bottom: 52px;
@@ -514,7 +513,7 @@
       margin-bottom: 30px;
     }
   }
-  
+
   .summary {
     padding-right: 140px;
     padding-left: 140px;
@@ -522,7 +521,7 @@
       padding-right: 0px;
       padding-left: 0px;
     }
-  
+
     .sidebar {
       h4 {
         font-size: 16px;
@@ -543,7 +542,7 @@
       margin-top: 0px;
     }
   }
-  
+
   .user {
     background-color: rgba(129, 76, 243, 0.15);
     padding: 32px;
@@ -554,11 +553,11 @@
       padding-top: 40px;
       padding-bottom: 40px;
     }
-  
+
     .user-pic {
       width: 242px;
     }
-  
+
     h5 {
       font-size: 16px;
       font-weight: 500;
@@ -572,43 +571,43 @@
       line-height: 21px;
     }
   }
-  
+
   .triple {
     padding-right: 7%;
     padding-left: 7%;
     margin-bottom: 69px;
   }
-  
+
   .pic-right {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     padding-bottom: 50px;
-  
+
     @media (max-width: $screen-md) {
       padding-bottom: 80px;
     }
-  
+
     h5 {
       font-size: 20px !important;
       line-height: 26px !important;
       font-weight: 500 !important;
       letter-spacing: 0.15px !important;
     }
-  
+
     .content {
       @media (min-width: $screen-md) {
         margin-right: 179px;
       }
     }
-  
+
     .project-pic-right {
       width: 239px;
       display: block;
       align: "center";
       margin-top: 67px;
-  
+
       @media (max-width: $screen-md) {
         margin-left: auto;
         margin-right: auto;
@@ -617,15 +616,15 @@
       }
     }
   }
-  
+
   .extra-bottom-space {
     margin-bottom: 99px;
   }
-  
+
   .extra-bottom-space2 {
     margin-bottom: 78px;
   }
-  
+
   //Apply bottom margin to all columns in mobile
   @media all and (max-width: 767px) {
     [class^="col-sm-"] {

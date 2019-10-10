@@ -6,15 +6,31 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="@/assets/epaid-info/Group2.png, @/assets/epaid-info/Group2@2x.png 2x, @/assets/epaid-info/Group2@3x.png 3x"
+                srcset="
+                  @/assets/epaid-info/Group2.png,
+                  @/assets/epaid-info/Group2@2x.png 2x,
+                  @/assets/epaid-info/Group2@3x.png 3x
+                "
               />
             </b-col>
           </b-row>
           <b-row col="12">
             <b-col class="top-pics" align="center">
-              <img class="left-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
-              <img class="middle-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
-              <img class="right-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img
+                class="left-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
+              <img
+                class="middle-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
+              <img
+                class="right-pic"
+                src="@/assets/iPhone.png"
+                style="vertical-align: bottom;"
+              />
             </b-col>
           </b-row>
           <!-- SUMMARY -->
@@ -58,7 +74,10 @@
           <!-- MY ROLE -->
           <b-row>
             <b-col>
-              <h1>“How might I help freelancers manage their work and organize who's paid them?”</h1>
+              <h1>
+                “How might I help freelancers manage their work and organize
+                who's paid them?”
+              </h1>
               <h2>My Role</h2>
               <p>
                 The e-Paid team consisted of one
@@ -69,8 +88,8 @@
                 is currently facing.
                 <b>
                   We were required to solve this problem in 5 days
-                  (Monday-Friday)
-                </b>. Day 1 and 2 consisted of gathering as much information as
+                  (Monday-Friday) </b
+                >. Day 1 and 2 consisted of gathering as much information as
                 possible. In order to do this, we conducted interviews, built
                 personas, and conducted user research. Day 3 and 4 focused on
                 crafting the UI/UX of the app, as well as developing it. Day 5
@@ -89,11 +108,27 @@
                 He is a web design freelancer. We asked him:
               </p>
               <h3>As a freelancer, what is your main struggle?</h3>
-              <p>“My main struggle as a freelancer is keeping track of all my clients! I’m constantly switching between apps to check my contact book, calender, and texts messages. It becomes overwhelming and can cause me to seem unprofessional.”</p>
-              <h3>How did you determine your value as a freelance web designer?</h3>
-              <p>“Determining my value was one of the most difficult problems that I encountered. Initally, I would charge for the entire project, not per hour. This caused me to make $5 per hour if I wasn’t able to realize the complexity of the project.”</p>
+              <p>
+                “My main struggle as a freelancer is keeping track of all my
+                clients! I’m constantly switching between apps to check my
+                contact book, calender, and texts messages. It becomes
+                overwhelming and can cause me to seem unprofessional.”
+              </p>
+              <h3>
+                How did you determine your value as a freelance web designer?
+              </h3>
+              <p>
+                “Determining my value was one of the most difficult problems
+                that I encountered. Initally, I would charge for the entire
+                project, not per hour. This caused me to make $5 per hour if I
+                wasn’t able to realize the complexity of the project.”
+              </p>
               <h3>How do you organize your scheduling?</h3>
-              <p>“I use the calender app on my phone. It’s not my favourite tool since I can’t be notified when I’ve been paid without manually entering it, but it works for now.”</p>
+              <p>
+                “I use the calender app on my phone. It’s not my favourite tool
+                since I can’t be notified when I’ve been paid without manually
+                entering it, but it works for now.”
+              </p>
             </b-col>
           </b-row>
           <!-- WHO IS THIS FOR? -->
@@ -109,7 +144,11 @@
               <b-row class="user vert-center">
                 <b-col align="center" class="user-pic">
                   <img
-                    srcset="@/assets/epaid-info/Strength.png, @/assets/epaid-info/Strength@2x.png 2x, @/assets/epaid-info/Strength@3x.png 3x"
+                    srcset="
+                      @/assets/epaid-info/Strength.png,
+                      @/assets/epaid-info/Strength@2x.png 2x,
+                      @/assets/epaid-info/Strength@3x.png 3x
+                    "
                   />
                 </b-col>
                 <b-col class="user-bio">
@@ -183,7 +222,11 @@
                 the clients, prompting them to e-transfer the user. The only
                 infomation we require from Jenny is her email, name, and
                 password.
-                <b>I require her e-mail to allow automatic invoicing and receiving e-transfers, therefore removing the burdern of asking her clients to pay her.</b>
+                <b
+                  >I require her e-mail to allow automatic invoicing and
+                  receiving e-transfers, therefore removing the burdern of
+                  asking her clients to pay her.</b
+                >
               </p>
               <b-row class="triple">
                 <b-col class="project-pic-triple">
@@ -223,7 +266,11 @@
               </p>
               <b-row class="double">
                 <b-col class="mr-3">
-                  <img class="project-pic" align="right" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic"
+                    align="right"
+                    src="@/assets/iPhone.png"
+                  />
                 </b-col>
                 <b-col class="ml-3">
                   <img
@@ -263,7 +310,10 @@
                   </p>
                 </b-col>
                 <b-col>
-                  <img class="project-pic-right mobile-bottom-space" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic-right mobile-bottom-space"
+                    src="@/assets/iPhone.png"
+                  />
                 </b-col>
               </b-row>
 
@@ -285,7 +335,10 @@
               </p>
               <b-row>
                 <b-col>
-                  <img class="project-pic mobile-bottom-space" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic mobile-bottom-space"
+                    src="@/assets/iPhone.png"
+                  />
                 </b-col>
               </b-row>
               <b-row class="pic-right">
@@ -342,7 +395,11 @@
               <a href="./Fiti">
                 <img
                   class="arrow"
-                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                  srcset="
+                    @/assets/homepage/next.png,
+                    @/assets/homepage/next@2x.png 2x,
+                    @/assets/homepage/next@3x.png 3x
+                  "
                 />
                 <h6>Fiti</h6>
               </a>
@@ -609,7 +666,7 @@
         margin-right: auto;
         margin-top: 67px;
         margin-bottom: 72px;
-  
+
         @media (max-width: $screen-md) {
           width: 100%;
           padding-bottom: 10px;

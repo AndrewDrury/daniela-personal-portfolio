@@ -46,7 +46,7 @@
             </b-col>
           </b-row>
           <!-- SUMMARY -->
-          <b-row class="summary">
+          <b-row id="summary" name="Summary" class="summary">
             <b-col class="sidebar" md="3">
               <h4>Skills</h4>
               <ul>
@@ -77,7 +77,7 @@
             </b-col>
           </b-row>
           <!-- MY ROLE -->
-          <b-row>
+          <b-row id="myRole" name="My Role">
             <b-col>
               <h1>
                 “How might I help diagnose those with limited access to
@@ -95,7 +95,7 @@
             </b-col>
           </b-row>
           <!-- WHO IS THIS FOR? -->
-          <b-row>
+          <b-row id="who" name="Who?">
             <b-col>
               <h2>Who is HeathLine For? Meet Manuela</h2>
               <p>
@@ -180,7 +180,7 @@
             </b-col>
           </b-row>
           <!-- WHY IS THIS IMPORTANT -->
-          <b-row>
+          <b-row id="why" name="Why?">
             <b-col>
               <h2>Why is this important?</h2>
               <p>
@@ -194,19 +194,19 @@
             </b-col>
           </b-row>
           <!-- SOLUTION -->
-          <b-row>
+          <b-row id="solution" name="Solution">
             <b-col>
               <h2>Solution</h2>
               <h3>Onboarding</h3>
               <p>
                 We only require Manuela’s full name, phone number, and a
                 password.
-                <b
-                  >HealthLine requires her phone number since she will be
+                <b>
+                  HealthLine requires her phone number since she will be
                   diagnosed through SMS. Also, since she has limited internet
                   access, using an email address would be inefficient since she
-                  could not access her email easily.</b
-                >
+                  could not access her email easily.
+                </b>
               </p>
               <b-row class="triple">
                 <b-col class="project-pic-triple">
@@ -307,17 +307,17 @@
                 <b-col class="content" lg="4" align="left">
                   <h5>Topical Diagnosis Using Computer Vision</h5>
                   <p>
-                    <b
-                      >In cases of rashes or external changes on the body,
+                    <b>
+                      In cases of rashes or external changes on the body,
                       Manuela is able to put her camera over the body part and
                       immedietely receive a diagnosis, treatment, and next steps
-                      via SMS.</b
-                    >
+                      via SMS.
+                    </b>
                     This is an especially important feature for parents.
-                    <b
-                      >Children are prone to skin rashes and can recieve quick
-                      treatment.</b
-                    >
+                    <b>
+                      Children are prone to skin rashes and can recieve quick
+                      treatment.
+                    </b>
                   </p>
                 </b-col>
                 <b-col>
@@ -334,7 +334,7 @@
             </b-col>
           </b-row>
           <!-- NEXT STEPS -->
-          <b-row>
+          <b-row id="nextSteps" name="Next Steps">
             <b-col>
               <h2>Next Steps</h2>
               <p>
@@ -342,13 +342,13 @@
                 heavily. I realized that not every user would be able to afford
                 western medicine, therefore causing the treatment feature to be
                 useless.
-                <b
-                  >In order to combat this problem, I am exploring many types of
+                <b>
+                  In order to combat this problem, I am exploring many types of
                   medicine options in hopes that at least one treatment plan
                   will be accessible for the user. Treatment options include
                   Chinese medicine, natural treatments, and other holistic
-                  approaches.</b
-                >
+                  approaches.
+                </b>
                 In addition, as part of the onboarding, I believe it’s essential
                 to know any allergies the user has in order to provide them more
                 personalized treatment options.

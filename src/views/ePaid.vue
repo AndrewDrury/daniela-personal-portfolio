@@ -46,7 +46,7 @@
             </b-col>
           </b-row>
           <!-- SUMMARY -->
-          <b-row class="summary">
+          <b-row id="summary" name="Summary" class="summary">
             <b-col class="sidebar" md="3">
               <h4>Skills</h4>
               <ul>
@@ -84,7 +84,7 @@
             </b-col>
           </b-row>
           <!-- MY ROLE -->
-          <b-row>
+          <b-row id="myRole" name="My Role">
             <b-col>
               <h1>
                 “How might I help freelancers manage their work and organize
@@ -110,7 +110,7 @@
             </b-col>
           </b-row>
           <!-- USER INTERVIEW -->
-          <b-row>
+          <b-row id="userInterview" name="User Interview">
             <b-col>
               <h2>User Interview</h2>
               <p>
@@ -144,7 +144,7 @@
             </b-col>
           </b-row>
           <!-- WHO IS THIS FOR? -->
-          <b-row>
+          <b-row id="whoIsThisFor" name="Who is this for?">
             <b-col>
               <h2>Who is e-Paid for? Meet Jenny</h2>
               <p>
@@ -224,7 +224,7 @@
             </b-col>
           </b-row>
           <!-- SOLUTION -->
-          <b-row>
+          <b-row id="solution" name="Solution">
             <b-col>
               <h2>Solution</h2>
               <h3>Create an Account</h3>
@@ -407,7 +407,7 @@
             </b-col>
           </b-row>
           <!-- CHALLENGES -->
-          <b-row>
+          <b-row id="challenges" name="Challenges">
             <b-col>
               <h2>Challenges</h2>
               <p>
@@ -428,7 +428,7 @@
             </b-col>
           </b-row>
           <!-- OUTCOME -->
-          <b-row>
+          <b-row id="outcome" name="Outcome">
             <b-col>
               <h2>Outcome</h2>
               <p>

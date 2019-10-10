@@ -46,7 +46,7 @@
             </b-col>
           </b-row>
           <!-- SUMMARY -->
-          <b-row class="summary">
+          <b-row id="summary" name="Summary" class="summary">
             <b-col class="sidebar" md="3">
               <h4>Skills</h4>
               <ul>
@@ -77,7 +77,7 @@
             </b-col>
           </b-row>
           <!-- MY ROLE -->
-          <b-row>
+          <b-row id="myRole" name="My Role">
             <b-col>
               <h1>
                 “How might I provide in-home accessible workouts for people
@@ -95,7 +95,7 @@
             </b-col>
           </b-row>
           <!-- WHO IS THIS FOR? -->
-          <b-row>
+          <b-row id="who" name="Who?">
             <b-col>
               <h2>Who is Fiti for? Meet Alex</h2>
               <p>
@@ -171,17 +171,17 @@
             </b-col>
           </b-row>
           <!-- SOLUTION -->
-          <b-row>
+          <b-row id="solution" name="Solution">
             <b-col>
               <h2>Solution</h2>
               <h3>Choosing Workouts</h3>
               <p>
                 Alex can pick categories that interest him.
-                <b
-                  >For people with paraplegia, it’s most important to do
-                  strength training, areobic, and flexibility exercises.
-                  Therefore, those categories remain at the top.</b
-                >
+                <b>
+                  For people with paraplegia, it’s most important to do strength
+                  training, areobic, and flexibility exercises. Therefore, those
+                  categories remain at the top.
+                </b>
               </p>
               <b-row class="double">
                 <b-col class="left-3">
@@ -211,10 +211,10 @@
                 Once he selects them, he is able to choose workout videos that
                 target the most important muscle groups. Alex can also view all
                 videos to find workouts that target more specific muscles.
-                <b
-                  >Videos are organized by major to least major muscle groups to
-                  help Alex know which muscle groups to focus on.</b
-                >
+                <b>
+                  Videos are organized by major to least major muscle groups to
+                  help Alex know which muscle groups to focus on.
+                </b>
               </p>
               <b-row class="double">
                 <b-col class="left-3">
@@ -245,11 +245,11 @@
                 exactly which muscles are being targeted, what equipment he’ll
                 need, the duration of the workout, and the intensity of the
                 workout.
-                <b
-                  >One of the most important feautues of the app is being able
-                  to download workout videos. This allows Alex to have complete
-                  control over when and where he does his workouts.</b
-                >
+                <b>
+                  One of the most important feautues of the app is being able to
+                  download workout videos. This allows Alex to have complete
+                  control over when and where he does his workouts.
+                </b>
               </p>
 
               <h3>Community and Profile</h3>
@@ -288,17 +288,17 @@
                 On the profile page, Alex can share his daily, weekly, or
                 monthly activities to his Instagram, Twitter, or Facebook page.
                 In addition, he can update his goals and track his progress.
-                <b
-                  >The profile page is also where Alex can view all the workout
+                <b>
+                  The profile page is also where Alex can view all the workout
                   videos he has downloaded for fast and easy viewing anytime.
                   Finally, Alex is able to keep track of the workouts he’s
-                  completed for quick access.</b
-                >
+                  completed for quick access.
+                </b>
               </p>
             </b-col>
           </b-row>
           <!-- USER TESTING -->
-          <b-row>
+          <b-row id="userTesting" name="User Testing">
             <b-col>
               <h2>User Testing</h2>
               <p>
@@ -328,7 +328,7 @@
             </b-col>
           </b-row>
           <!-- NEXT STEPS -->
-          <b-row>
+          <b-row id="nextSteps" name="Next Steps">
             <b-col>
               <h2>Next Steps</h2>
               <p>

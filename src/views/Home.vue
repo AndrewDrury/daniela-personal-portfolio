@@ -16,11 +16,7 @@
                 all the questions, so that the user doesn’t have to. Living and
                 learning in Toronto, Canada.
                 <img
-                  srcset="
-                    @/assets/homepage/maple-leaf/Shape.png,
-                    @/assets/homepage/maple-leaf/Shape@2x.png 2x,
-                    @/assets/homepage/maple-leaf/Shape@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/maple-leaf/Shape.png, @/assets/homepage/maple-leaf/Shape@2x.png 2x, @/assets/homepage/maple-leaf/Shape@3x.png 3x"
                 />
               </h4>
             </b-col>
@@ -32,22 +28,15 @@
                   My Projects
                   <img
                     class="arrow-down pb-2"
-                    srcset="
-                      @/assets/homepage/next.png,
-                      @/assets/homepage/next@2x.png 2x,
-                      @/assets/homepage/next@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                   />
                 </h2>
               </a>
               <b-row class="projectRow">
                 <b-col lg="5" align="left">
-                  <!-- <a href="./ePaid"> -->
-                  <img
-                    class="screenshot-epaid"
-                    src="@/assets/homepage/ePaidMain.png"
-                  />
-                  <!-- </a> -->
+                  <a href="./ePaid">
+                    <img class="screenshot-epaid" src="@/assets/homepage/ePaidMain.png" />
+                  </a>
                 </b-col>
                 <b-col lg="7" align="left">
                   <h3 class="project-title">e-Paid</h3>
@@ -83,9 +72,7 @@
                 <b-col class="desktop" lg="7" align="left">
                   <h3 class="project-title">Fiti</h3>
                   <h4 class="category">Passion Project</h4>
-                  <h5 class="tag-line">
-                    A fitness app for people with paraplegia.
-                  </h5>
+                  <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
                   <p class="description">
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
@@ -94,11 +81,7 @@
                   <a class="read-more" href="../Fiti-info.pdf" target="_blank">
                     Read More
                     <img
-                      srcset="
-                        @/assets/homepage/next.png,
-                        @/assets/homepage/next@2x.png 2x,
-                        @/assets/homepage/next@3x.png 3x
-                      "
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                     />
                   </a>
                   <h6 class="skill-title">Skills</h6>
@@ -116,20 +99,14 @@
                   <a href="../Fiti-info.pdf" target="_blank">
                     <img
                       class="screenshot"
-                      srcset="
-                        @/assets/homepage/dark.png,
-                        @/assets/homepage/dark@2x.png 2x,
-                        @/assets/homepage/dark@3x.png 3x
-                      "
+                      srcset="@/assets/homepage/dark.png, @/assets/homepage/dark@2x.png 2x, @/assets/homepage/dark@3x.png 3x"
                     />
                   </a>
                 </b-col>
                 <b-col class="mobile" align="left">
                   <h3 class="project-title">Fiti</h3>
                   <h4 class="category">Passion Project</h4>
-                  <h5 class="tag-line">
-                    A fitness app for people with paraplegia.
-                  </h5>
+                  <h5 class="tag-line">A fitness app for people with paraplegia.</h5>
                   <p class="description">
                     Fiti provides accessible, affordable, and interesting
                     workouts that are easy to incorperate in all lifestyles.
@@ -138,11 +115,7 @@
                   <a class="read-more" href="../Fiti-info.pdf" target="_blank">
                     Read More
                     <img
-                      srcset="
-                        @/assets/homepage/next.png,
-                        @/assets/homepage/next@2x.png 2x,
-                        @/assets/homepage/next@3x.png 3x
-                      "
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                     />
                   </a>
                   <h6 class="skill-title">Skills</h6>
@@ -163,37 +136,23 @@
                   <a href="../HealthLine-info.pdf" target="_blank">
                     <img
                       class="screenshot"
-                      srcset="
-                        @/assets/HealthLine-info/Group10.png,
-                        @/assets/HealthLine-info/Group10@2x.png 2x,
-                        @/assets/HealthLine-info/Group10@3x.png 3x
-                      "
+                      srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
                     />
                   </a>
                 </b-col>
                 <b-col lg="7" align="left">
                   <h3 class="project-title">HealthLine</h3>
                   <h4 class="category">RU Hacks</h4>
-                  <h5 class="tag-line">
-                    Receive a diagnosis of your symptoms.
-                  </h5>
+                  <h5 class="tag-line">Receive a diagnosis of your symptoms.</h5>
                   <p class="description">
                     A diagnosis is made through computer vision and machine
                     learning, and SMS.
                   </p>
                   <!-- <a class="read-more" href="./HealthLine">-->
-                  <a
-                    class="read-more"
-                    href="../HealthLine-info.pdf"
-                    target="_blank"
-                  >
+                  <a class="read-more" href="../HealthLine-info.pdf" target="_blank">
                     Read More
                     <img
-                      srcset="
-                        @/assets/homepage/next.png,
-                        @/assets/homepage/next@2x.png 2x,
-                        @/assets/homepage/next@3x.png 3x
-                      "
+                      srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                     />
                   </a>
                   <h6 class="skill-title">Skills</h6>

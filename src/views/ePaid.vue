@@ -222,11 +222,11 @@
                 the clients, prompting them to e-transfer the user. The only
                 infomation we require from Jenny is her email, name, and
                 password.
-                <b
-                  >I require her e-mail to allow automatic invoicing and
+                <b>
+                  I require her e-mail to allow automatic invoicing and
                   receiving e-transfers, therefore removing the burdern of
-                  asking her clients to pay her.</b
-                >
+                  asking her clients to pay her.
+                </b>
               </p>
               <b-row class="triple">
                 <b-col class="project-pic-triple">
@@ -265,14 +265,14 @@
                 she can type her own.
               </p>
               <b-row class="double">
-                <b-col class="mr-3">
+                <b-col class="left-3">
                   <img
                     class="project-pic"
                     align="right"
                     src="@/assets/iPhone.png"
                   />
                 </b-col>
-                <b-col class="ml-3">
+                <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
@@ -490,7 +490,7 @@
   }
 
   b {
-    color: $primary;
+    //color: $primary;
     font-weight: 500 !important;
   }
 
@@ -526,7 +526,7 @@
         li {
           font-size: 16px;
           line-height: 21px;
-          color: rgba(129, 76, 243, 0.75);
+          color: rgba(129, 76, 243, 0.6);
           font-weight: 500;
           margin-bottom: -1px;
         }
@@ -554,6 +554,7 @@
       padding: 5%;
       padding-top: 40px;
       padding-bottom: 40px;
+      width: 100%;
     }
 
     img {
@@ -678,6 +679,16 @@
     .triple-center {
       padding-right: 0px;
       padding-left: 0px;
+    }
+  }
+
+  .double {
+    img {
+      @media (max-width: $screen-md) {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
     }
   }
 

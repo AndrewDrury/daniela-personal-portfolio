@@ -6,11 +6,7 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="
-                  @/assets/epaid-info/Group2.png,
-                  @/assets/epaid-info/Group2@2x.png 2x,
-                  @/assets/epaid-info/Group2@3x.png 3x
-                "
+                srcset="@/assets/epaid-info/Group2.png, @/assets/epaid-info/Group2@2x.png 2x, @/assets/epaid-info/Group2@3x.png 3x"
               />
             </b-col>
           </b-row>
@@ -18,17 +14,17 @@
             <b-col class="top-pics" align="center">
               <img
                 class="left-pic"
-                src="@/assets/iPhone.png"
+                srcset="@/assets/epaid-info/paid-screen.png, @/assets/epaid-info/paid-screen@1x.png 1x, @/assets/epaid-info/paid-screen@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="middle-pic"
-                src="@/assets/iPhone.png"
+                srcset="@/assets/epaid-info/create-task.png, @/assets/epaid-info/create-task@1x.png 1x, @/assets/epaid-info/create-task@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="right-pic"
-                src="@/assets/iPhone.png"
+                srcset="@/assets/epaid-info/create-task-unfinshed.png, @/assets/epaid-info/create-task-unfinshed@1x.png 1x, @/assets/epaid-info/create-task-unfinshed@3x.png 3x"
                 style="vertical-align: bottom;"
               />
             </b-col>
@@ -88,8 +84,8 @@
                 is currently facing.
                 <b>
                   We were required to solve this problem in 5 days
-                  (Monday-Friday) </b
-                >. Day 1 and 2 consisted of gathering as much information as
+                  (Monday-Friday)
+                </b>. Day 1 and 2 consisted of gathering as much information as
                 possible. In order to do this, we conducted interviews, built
                 personas, and conducted user research. Day 3 and 4 focused on
                 crafting the UI/UX of the app, as well as developing it. Day 5
@@ -114,9 +110,7 @@
                 contact book, calender, and texts messages. It becomes
                 overwhelming and can cause me to seem unprofessional.”
               </p>
-              <h3>
-                How did you determine your value as a freelance web designer?
-              </h3>
+              <h3>How did you determine your value as a freelance web designer?</h3>
               <p>
                 “Determining my value was one of the most difficult problems
                 that I encountered. Initally, I would charge for the entire
@@ -144,11 +138,7 @@
               <b-row class="user vert-center">
                 <b-col align="center" class="user-pic">
                   <img
-                    srcset="
-                      @/assets/epaid-info/Strength.png,
-                      @/assets/epaid-info/Strength@2x.png 2x,
-                      @/assets/epaid-info/Strength@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/Strength.png, @/assets/epaid-info/Strength@2x.png 2x, @/assets/epaid-info/Strength@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="user-bio">
@@ -230,13 +220,22 @@
               </p>
               <b-row class="triple">
                 <b-col class="project-pic-triple">
-                  <img align="right" src="@/assets/iPhone.png" />
+                  <img
+                    align="right"
+                    srcset="@/assets/epaid-info/e-paid-onboard1.png, @/assets/epaid-info/e-paid-onboard1@1x.png 1x, @/assets/epaid-info/e-paid-onboard1@3x.png 3x"
+                  />
                 </b-col>
                 <b-col class="project-pic-triple triple-center">
-                  <img align="center" src="@/assets/iPhone.png" />
+                  <img
+                    align="center"
+                    srcset="@/assets/epaid-info/e-paid-onboard2.png, @/assets/epaid-info/e-paid-onboard2@1x.png 1x, @/assets/epaid-info/e-paid-onboard2@3x.png 3x"
+                  />
                 </b-col>
                 <b-col class="project-pic-triple">
-                  <img align="left" src="@/assets/iPhone.png" />
+                  <img
+                    align="left"
+                    srcset="@/assets/epaid-info/e-paid-onboard3.png, @/assets/epaid-info/e-paid-onboard3@1x.png 1x, @/assets/epaid-info/e-paid-onboard3@3x.png 3x"
+                  />
                 </b-col>
               </b-row>
               <h3>Home Page</h3>
@@ -254,7 +253,10 @@
               </p>
               <b-row class="extra-bottom-space2">
                 <b-col>
-                  <img class="project-pic" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic"
+                    srcset="@/assets/epaid-info/e-paid-draft.png, @/assets/epaid-info/e-paid-draft@1x.png 1x, @/assets/epaid-info/e-paid-draft@3x.png 3x"
+                  />
                 </b-col>
               </b-row>
               <h3>Creating a Task</h3>
@@ -269,14 +271,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    src="@/assets/iPhone.png"
+                    srcset="@/assets/epaid-info/e-paid-create-task.png, @/assets/epaid-info/e-paid-create-task@1x.png 1x, @/assets/epaid-info/e-paid-create-task@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    src="@/assets/iPhone.png"
+                    srcset="@/assets/epaid-info/Epaid-create-task.png, @/assets/epaid-info/Epaid-create-task@1x.png 1x, @/assets/epaid-info/Epaid-create-task@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -312,7 +314,7 @@
                 <b-col>
                   <img
                     class="project-pic-right mobile-bottom-space"
-                    src="@/assets/iPhone.png"
+                    src="@/assets/epaid-info/e-paid-unpaid.png"
                   />
                 </b-col>
               </b-row>
@@ -337,7 +339,7 @@
                 <b-col>
                   <img
                     class="project-pic mobile-bottom-space"
-                    src="@/assets/iPhone.png"
+                    src="@/assets/epaid-info/iPhone8.png"
                   />
                 </b-col>
               </b-row>
@@ -350,7 +352,10 @@
                   </p>
                 </b-col>
                 <b-col>
-                  <img class="project-pic-right" src="@/assets/iPhone.png" />
+                  <img
+                    class="project-pic-right"
+                    src="@/assets/epaid-info/e-paid-done.png"
+                  />
                 </b-col>
               </b-row>
             </b-col>
@@ -395,11 +400,7 @@
               <a href="./Fiti">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h6>Fiti</h6>
               </a>

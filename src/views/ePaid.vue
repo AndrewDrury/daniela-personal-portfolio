@@ -6,31 +6,15 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="
-                  @/assets/epaid-info/Group2.png,
-                  @/assets/epaid-info/Group2@2x.png 2x,
-                  @/assets/epaid-info/Group2@3x.png 3x
-                "
+                srcset="@/assets/epaid-info/Group2.png, @/assets/epaid-info/Group2@2x.png 2x, @/assets/epaid-info/Group2@3x.png 3x"
               />
             </b-col>
           </b-row>
           <b-row col="12">
             <b-col class="top-pics" align="center">
-              <img
-                class="left-pic"
-                src="@/assets/iPhone.png"
-                style="vertical-align: bottom;"
-              />
-              <img
-                class="middle-pic"
-                src="@/assets/iPhone.png"
-                style="vertical-align: bottom;"
-              />
-              <img
-                class="right-pic"
-                src="@/assets/iPhone.png"
-                style="vertical-align: bottom;"
-              />
+              <img class="left-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img class="middle-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
+              <img class="right-pic" src="@/assets/iPhone.png" style="vertical-align: bottom;" />
             </b-col>
           </b-row>
           <!-- SUMMARY -->
@@ -74,10 +58,7 @@
           <!-- MY ROLE -->
           <b-row>
             <b-col>
-              <h1>
-                “How might I help young people manage their freelance work and
-                organize who’s paid them?”
-              </h1>
+              <h1>“How might I help freelancers manage their work and organize who's paid them?”</h1>
               <h2>My Role</h2>
               <p>
                 The e-Paid team consisted of one
@@ -88,8 +69,8 @@
                 is currently facing.
                 <b>
                   We were required to solve this problem in 5 days
-                  (Monday-Friday) </b
-                >. Day 1 and 2 consisted of gathering as much information as
+                  (Monday-Friday)
+                </b>. Day 1 and 2 consisted of gathering as much information as
                 possible. In order to do this, we conducted interviews, built
                 personas, and conducted user research. Day 3 and 4 focused on
                 crafting the UI/UX of the app, as well as developing it. Day 5
@@ -108,27 +89,11 @@
                 He is a web design freelancer. We asked him:
               </p>
               <h3>As a freelancer, what is your main struggle?</h3>
-              <p>
-                “An app like Fiti would make my life a lot easier. I’m
-                constantly on YouTube, looking for workout videos that are safe
-                for me to do. Finally, something like Fiti makes getting
-                physical activity so much easier and fun.”
-              </p>
-              <h3>
-                How did you determine your value as a freelance web designer?
-              </h3>
-              <p>
-                “I felt that picking a workout was super easy. I really liked
-                how there was categories to help. I really appreciated the 15
-                minute category. This makes it easy to do short workouts through
-                out my day.”
-              </p>
+              <p>“My main struggle as a freelancer is keeping track of all my clients! I’m constantly switching between apps to check my contact book, calender, and texts messages. It becomes overwhelming and can cause me to seem unprofessional.”</p>
+              <h3>How did you determine your value as a freelance web designer?</h3>
+              <p>“Determining my value was one of the most difficult problems that I encountered. Initally, I would charge for the entire project, not per hour. This caused me to make $5 per hour if I wasn’t able to realize the complexity of the project.”</p>
               <h3>How do you organize your scheduling?</h3>
-              <p>
-                “On the profile page, ‘My Activity”. This was suprising because
-                it felt super comforting knowing that you’re able to track my
-                progress to reaching my goal.”
-              </p>
+              <p>“I use the calender app on my phone. It’s not my favourite tool since I can’t be notified when I’ve been paid without manually entering it, but it works for now.”</p>
             </b-col>
           </b-row>
           <!-- WHO IS THIS FOR? -->
@@ -142,24 +107,20 @@
                 myself into her shoes.
               </p>
               <b-row class="user vert-center">
-                <b-col class="user-pic">
+                <b-col align="center" class="user-pic">
                   <img
-                    srcset="
-                      @/assets/epaid-info/Strength.png,
-                      @/assets/epaid-info/Strength@2x.png 2x,
-                      @/assets/epaid-info/Strength@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/Strength.png, @/assets/epaid-info/Strength@2x.png 2x, @/assets/epaid-info/Strength@3x.png 3x"
                   />
                 </b-col>
-                <b-col>
+                <b-col class="user-bio">
                   <b-row>
-                    <b-col md="3">
+                    <b-col class="age" align="left">
                       <h5>Age: 18</h5>
                     </b-col>
-                    <b-col col="5">
+                    <b-col class="location">
                       <h5>Location: Vancouver</h5>
                     </b-col>
-                    <b-col col="4">
+                    <b-col class="career">
                       <h5>Career: Student</h5>
                     </b-col>
                   </b-row>
@@ -180,7 +141,7 @@
                     </b-col>
                   </b-row>
                 </b-col>
-                <b-col>
+                <b-col class="user-list">
                   <b-row>
                     <b-col>
                       <h5>Goals</h5>
@@ -222,32 +183,17 @@
                 the clients, prompting them to e-transfer the user. The only
                 infomation we require from Jenny is her email, name, and
                 password.
-                <b>
-                  I require her e-mail to allow automatic invoicing and
-                  receiving e-transfers.
-                </b>
+                <b>I require her e-mail to allow automatic invoicing and receiving e-transfers, therefore removing the burdern of asking her clients to pay her.</b>
               </p>
               <b-row class="triple">
-                <b-col>
-                  <img
-                    class="project-pic"
-                    align="right"
-                    src="@/assets/iPhone.png"
-                  />
+                <b-col class="project-pic-triple">
+                  <img align="right" src="@/assets/iPhone.png" />
                 </b-col>
-                <b-col>
-                  <img
-                    class="project-pic"
-                    align="center"
-                    src="@/assets/iPhone.png"
-                  />
+                <b-col class="project-pic-triple triple-center">
+                  <img align="center" src="@/assets/iPhone.png" />
                 </b-col>
-                <b-col>
-                  <img
-                    class="project-pic"
-                    align="left"
-                    src="@/assets/iPhone.png"
-                  />
+                <b-col class="project-pic-triple">
+                  <img align="left" src="@/assets/iPhone.png" />
                 </b-col>
               </b-row>
               <h3>Home Page</h3>
@@ -277,15 +223,11 @@
               </p>
               <b-row class="double">
                 <b-col class="mr-3">
-                  <img
-                    class="project-pic"
-                    align="right"
-                    src="@/assets/iPhone.png"
-                  />
+                  <img class="project-pic" align="right" src="@/assets/iPhone.png" />
                 </b-col>
                 <b-col class="ml-3">
                   <img
-                    class="project-pic"
+                    class="project-pic mobile-bottom-space"
                     align="left"
                     src="@/assets/iPhone.png"
                   />
@@ -321,7 +263,7 @@
                   </p>
                 </b-col>
                 <b-col>
-                  <img class="project-pic-right" src="@/assets/iPhone.png" />
+                  <img class="project-pic-right mobile-bottom-space" src="@/assets/iPhone.png" />
                 </b-col>
               </b-row>
 
@@ -343,7 +285,7 @@
               </p>
               <b-row>
                 <b-col>
-                  <img class="project-pic" src="@/assets/iPhone.png" />
+                  <img class="project-pic mobile-bottom-space" src="@/assets/iPhone.png" />
                 </b-col>
               </b-row>
               <b-row class="pic-right">
@@ -390,9 +332,7 @@
                 app. We presented to TD employees consisting of a project
                 manager, 3 UX/UI designers, 3 software developers, 3 business
                 analysts and the other co-ops students.
-                <b>
-                  We came in first place for TD Lab’s Mid-Term Hack!
-                </b>
+                <b>We came in first place for TD Lab’s Mid-Term Hack!</b>
               </p>
             </b-col>
           </b-row>
@@ -402,11 +342,7 @@
               <a href="./Fiti">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h6>Fiti</h6>
               </a>
@@ -535,11 +471,20 @@
           line-height: 21px;
           color: rgba(129, 76, 243, 0.75);
           font-weight: 500;
+          margin-bottom: -1px;
         }
+        margin-bottom: 9px;
+      }
+      @media (max-width: $screen-md) {
+        margin-bottom: 60px;
       }
     }
     .desc {
       margin-top: 0px;
+      padding-right: 12%;
+      p {
+        margin-top: 20px;
+      }
     }
   }
 
@@ -547,15 +492,50 @@
     background-color: rgba(129, 76, 243, 0.15);
     padding: 32px;
     padding-top: 54px;
-    margin-top: 70px;
+    margin-top: 75px;
     @media (max-width: $screen-md) {
       padding: 5%;
       padding-top: 40px;
       padding-bottom: 40px;
     }
 
+    img {
+      width: 100%;
+      @media (max-width: $screen-md) {
+        width: 242px;
+        margin-bottom: 10px;
+      }
+    }
+
     .user-pic {
-      width: 242px;
+      // width: 100% !important;
+      @media (min-width: $screen-md) {
+        max-width: 28% !important;
+      }
+    }
+    .user-bio {
+      // width: 100% !important;
+      @media (min-width: $screen-md) {
+        max-width: 34% !important;
+      }
+
+      .age {
+        padding-right: 20px;
+        max-width: 90px;
+      }
+      .location {
+        padding-left: 0px;
+        padding-right: 20px;
+      }
+      .career {
+        padding-left: 0px;
+      }
+    }
+    .user-list {
+      // width: 100% !important;
+      @media (min-width: $screen-md) {
+        max-width: 38% !important;
+      }
     }
 
     h5 {
@@ -572,12 +552,6 @@
     }
   }
 
-  .triple {
-    padding-right: 7%;
-    padding-left: 7%;
-    margin-bottom: 69px;
-  }
-
   .pic-right {
     display: flex;
     justify-content: center;
@@ -586,7 +560,7 @@
     padding-bottom: 50px;
 
     @media (max-width: $screen-md) {
-      padding-bottom: 80px;
+      padding-bottom: 0px;
     }
 
     h5 {
@@ -617,12 +591,54 @@
     }
   }
 
+  .triple {
+    padding-right: 7%;
+    padding-left: 7%;
+    margin-bottom: 69px;
+
+    @media (max-width: $screen-md) {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    .project-pic-triple {
+      img {
+        width: 239px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 67px;
+        margin-bottom: 72px;
+  
+        @media (max-width: $screen-md) {
+          width: 100%;
+          padding-bottom: 10px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    .triple-center {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+
   .extra-bottom-space {
     margin-bottom: 99px;
+    @media (max-width: $screen-md) {
+      margin-bottom: 0px;
+    }
   }
 
   .extra-bottom-space2 {
     margin-bottom: 78px;
+  }
+
+  .mobile-bottom-space {
+    @media (max-width: $screen-md) {
+      margin-bottom: 81px;
+    }
   }
 
   //Apply bottom margin to all columns in mobile

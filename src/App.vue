@@ -8,7 +8,8 @@
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto">
-          <b-nav-item class="tab" href="./#Projects" right>projects</b-nav-item>
+          <!-- <b-nav-item class="tab" href="./#Projects" right>projects</b-nav-item> -->
+          <b-nav-item class="tab" href="./ePaid" right>projects</b-nav-item>
           <b-nav-item
             class="tab"
             href="https://www.dropbox.com/sh/vcb40o2liwopshn/AABSz1u5-BVe4v6mtpg0E1JEa?dl=0&preview=Resume.pdf"
@@ -32,14 +33,14 @@
     </div>
 
     <!-- Sidebar for project pages -->
-    <aside id="nav">
+    <!-- <aside id="nav">
       <nav>
         <a href="#1" class="active">Punkt 1</a>
         <a href="#2">Punkt 2</a>
         <a href="#3">Punkt 3</a>
         <a href="#4">Punkt 4</a>
       </nav>
-    </aside>
+    </aside> -->
 
     <!-- Footer -->
     <section id="footer">

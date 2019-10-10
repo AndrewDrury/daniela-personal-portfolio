@@ -464,5 +464,4 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
-
 </style>

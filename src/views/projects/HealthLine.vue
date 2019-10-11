@@ -307,9 +307,8 @@
                 <b-col class="content" lg="4" align="left">
                   <h5>Topical Diagnosis Using Computer Vision</h5>
                   <p>
-                    <b>
                       In cases of rashes or external changes on the body,
-                      Manuela is able to put her camera over the body part and
+                      <b>Manuela is able to put her camera over the body part and
                       immedietely receive a diagnosis, treatment, and next steps
                       via SMS.
                     </b>

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app">
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top" id="navbar">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -262,13 +262,6 @@
             </ul>
           </b-col>
         </b-row>
-        <!-- <b-row>
-          <b-col class="col-xs-12 col-sm-12 col-md-12 text-center text-white">
-            <p class="copyright" style="font-size: 20px">
-              &copy; 2019 Daniela Ornelas
-            </p>
-          </b-col>
-        </b-row>-->
       </div>
     </section>
   </div>
@@ -292,6 +285,151 @@
     @media (max-width: $screen-md) {
       margin-left: 5%;
       margin-right: 5%;
+    }
+  }
+}
+
+.home {
+  margin-left: 9.86%;
+  margin-right: 9.86%;
+
+  @media (min-width: $screen-md) {
+    margin-top: 141px;
+  }
+
+  @media (max-width: $screen-md) {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  //Apply bottom margin to all columns in mobile
+  @media all and (max-width: 767px) {
+    [class^="col-sm-"] {
+      margin-bottom: 20px;
+    }
+  }
+
+  .desc {
+    margin-top: 54px;
+    @media (max-width: $screen-sm) {
+      margin-top: 24px;
+    }
+  }
+
+  .content-left {
+    @media (max-width: $screen-sm) {
+      width: 100%;
+    }
+  }
+
+  .top-space {
+    margin-top: 120px;
+    @media (max-width: $screen-sm) {
+      margin-top: 100px;
+    }
+  }
+
+  .name-greeting {
+    font-size: 40px !important;
+    font-weight: 500 !important;
+  }
+
+  .introduction {
+    font-size: 28;
+    color: $primary;
+    font-weight: 400;
+    margin-bottom: 360px;
+    @media (max-width: $screen-md) {
+      margin-bottom: 30px;
+    }
+    .bolded {
+      font-family: AvenirBold, sans-serif;
+      color: $primary;
+    }
+  }
+
+  #Projects {
+    padding-top: 8em;
+    @media (max-width: $screen-sm) {
+      padding-top: 4em;
+    }
+
+    .project-header {
+      font-weight: 500;
+      color: $primary;
+      font-size: 34px;
+    }
+    .arrow-down {
+      transform: rotate(90deg);
+    }
+    .projectRow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding-bottom: 50px;
+
+      @media (max-width: $screen-md) {
+        padding-bottom: 80px;
+      }
+
+      .project-title {
+        font-size: 30px;
+        font-weight: 500;
+      }
+      .category {
+        color: $blackOpac65;
+        font-size: 19px;
+        font-weight: 500;
+        padding-bottom: 15px;
+      }
+      .tag-line {
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 5px;
+      }
+      .skill-title {
+        font-weight: 500;
+        font-size: 19px;
+        color: $gray;
+        margin-top: 64px;
+        @media (max-width: $screen-md) {
+          margin-top: 34px;
+        }
+      }
+      .read-more {
+        color: $primary;
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .description {
+        font-size: 25px;
+      }
+      .skill {
+        padding-right: 32px;
+        align: left;
+        display: inline-block;
+        font-size: 17px;
+        font-weight: 500;
+        color: $gray;
+        @media (max-width: $screen-sm) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .desktop {
+    display: inline;
+    @media (max-width: $screen-sm) {
+      display: none;
+    }
+  }
+
+  .mobile {
+    display: none;
+    @media (max-width: $screen-sm) {
+      display: inline;
     }
   }
 }
@@ -577,6 +715,6 @@ import Vue from "vue";
 // });
 
 export default Vue.extend({
-  name: "home"
+  name: "empty"
 });
 </script>

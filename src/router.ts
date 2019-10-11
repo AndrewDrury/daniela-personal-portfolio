@@ -5,6 +5,7 @@ import About from "./views/About.vue";
 import ePaid from "./views/ePaid.vue";
 import Fiti from "./views/projects/Fiti.vue";
 import HealthLine from "./views/projects/HealthLine.vue";
+import Empty from "./views/Empty.vue";
 
 Vue.use(Router);
 
@@ -12,11 +13,11 @@ export default new Router({
   mode: "history",
   base: process.env.BASE_URL,
   routes: [
-    {
-      path: "/",
-      name: "home",
-      component: Home
-    },
+    // {
+    //   path: "/",
+    //   name: "home",
+    //   component: Home
+    // },
     {
       path: "/about",
       name: "about",

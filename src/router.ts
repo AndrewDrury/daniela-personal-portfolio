@@ -5,7 +5,6 @@ import About from "./views/About.vue";
 import ePaid from "./views/ePaid.vue";
 import Fiti from "./views/projects/Fiti.vue";
 import HealthLine from "./views/projects/HealthLine.vue";
-import Empty from "./views/Empty.vue";
 
 Vue.use(Router);
 

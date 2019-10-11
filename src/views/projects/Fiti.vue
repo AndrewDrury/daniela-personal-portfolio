@@ -37,9 +37,9 @@
               <img
                 class="right-pic"
                 srcset="
-                  @/assets/Fiti-info/right-screen-page.png,
-                  @/assets/Fiti-info/right-screen-page@2x.png 2x,
-                  @/assets/Fiti-info/right-screen-page@3x.png 3x
+                  @/assets/Fiti-info/workout-time-screen-chosen.png,
+                  @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x,
+                  @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x
                 "
                 style="vertical-align: bottom;"
               />

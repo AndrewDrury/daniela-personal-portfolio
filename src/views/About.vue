@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" id="about">
     <b-container fluid>
       <b-row>
         <b-col>

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app">
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top" id="navbar">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -39,7 +39,7 @@
         <a href="#3">Punkt 3</a>
         <a href="#4">Punkt 4</a>
       </nav>
-    </aside> -->
+    </aside>-->
 
     <!-- Footer -->
     <section id="footer">
@@ -100,13 +100,6 @@
             </ul>
           </b-col>
         </b-row>
-        <!-- <b-row>
-          <b-col class="col-xs-12 col-sm-12 col-md-12 text-center text-white">
-            <p class="copyright" style="font-size: 20px">
-              &copy; 2019 Daniela Ornelas
-            </p>
-          </b-col>
-        </b-row>-->
       </div>
     </section>
   </div>

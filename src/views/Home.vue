@@ -5,7 +5,7 @@
         <b-col>
           <b-row class="top-space">
             <b-col class="text-left">
-              <h1 class="name-greeting">Hi! I’m Daniela Ornelas.</h1>
+              <h1 class="name-greeting">Hi! I’m tots Daniela Ornelas.</h1>
             </b-col>
           </b-row>
           <b-row class="desc">

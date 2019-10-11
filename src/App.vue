@@ -7,20 +7,29 @@
         <img src="@/assets/homepage/logo@3x.png" style="width: 50px" />
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
-        <b-navbar-nav class="ml-auto">
+        <b-navbar-nav class="ml-auto top-nav">
+          <!-- TESTING DROPDOWN -->
+          <!-- <li class="dropdown tab" right>
+            <b-nav-item href="./#Projects" class="dropdown-toggle" data-toggle="dropdown">projects</b-nav-item>
+
+            <ul class="dropdown-menu">
+              <b-nav-item to="/ePaid">ePaid</b-nav-item>
+              <b-nav-item to="/Fiti">Fiti</b-nav-item>
+              <b-nav-item to="/HealthLine">HealthLine</b-nav-item>
+            </ul>
+          </li>-->
+          <!-- END TEST -->
+
           <b-nav-item class="tab" href="./#Projects" right>projects</b-nav-item>
           <b-nav-item
             class="tab"
             href="https://www.dropbox.com/sh/vcb40o2liwopshn/AABSz1u5-BVe4v6mtpg0E1JEa?dl=0&preview=Resume.pdf"
             target="_blank"
             right
-            >resume</b-nav-item
-          >
+          >resume</b-nav-item>
           <b-nav-item class="tab" to="/about" right>about</b-nav-item>
           <!-- <b-nav-item class="tab" to="/ePaid" right>ePaid</b-nav-item> -->
-          <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right
-            >let's chat!</b-nav-item
-          >
+          <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right>let's chat!</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -53,17 +62,10 @@
           <b-col class="col-xs-12 col-sm-12 col-md-12">
             <ul class="list-unstyled list-inline social text-center">
               <li class="list-inline-item">
-                <a
-                  href="https://medium.com/@danielaornelas_40338"
-                  target="_blank"
-                >
+                <a href="https://medium.com/@danielaornelas_40338" target="_blank">
                   <!-- <i class="fa fa-medium"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/medium/Shape.png,
-                      @/assets/homepage/medium/Shape@2x.png 2x,
-                      @/assets/homepage/medium/Shape@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/medium/Shape.png, @/assets/homepage/medium/Shape@2x.png 2x, @/assets/homepage/medium/Shape@3x.png 3x"
                     style="width:1.25em"
                   />
                 </a>
@@ -72,27 +74,16 @@
                 <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
                   <!-- <i class="fa fa-envelope"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/envelope.png,
-                      @/assets/homepage/envelope@2x.png 2x,
-                      @/assets/homepage/envelope@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/envelope.png, @/assets/homepage/envelope@2x.png 2x, @/assets/homepage/envelope@3x.png 3x"
                     style="width:1.25em"
                   />
                 </a>
               </li>
               <li class="list-inline-item">
-                <a
-                  href="https://ca.linkedin.com/in/danielaornelas334"
-                  target="_blank"
-                >
+                <a href="https://ca.linkedin.com/in/danielaornelas334" target="_blank">
                   <!-- <i class="fa fa-linkedin"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/linkedin-logo.png,
-                      @/assets/homepage/linkedin-logo@2x.png 2x,
-                      @/assets/homepage/linkedin-logo@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/linkedin-logo.png, @/assets/homepage/linkedin-logo@2x.png 2x, @/assets/homepage/linkedin-logo@3x.png 3x"
                     style="width:1em"
                   />
                 </a>
@@ -125,6 +116,11 @@
       margin-right: 5%;
     }
   }
+}
+
+.dropdown {
+  font-size: 1.25em;
+  color: black;
 }
 
 .tab {
@@ -234,6 +230,13 @@ section {
   @media (max-width: $screen-md) {
     margin-left: 0%;
     margin-right: 0%;
+  }
+}
+
+//Dropdown hover
+@media (min-width: 768px) {
+  .top-nav li:hover > ul.dropdown-menu {
+    display: block;
   }
 }
 </style>

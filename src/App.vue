@@ -8,7 +8,7 @@
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto">
-          <b-nav-item class="tab" href="./#Projects" right>projects</b-nav-item>
+          <b-nav-item class="tab" to="/#Projects" right>projects</b-nav-item>
           <b-nav-item
             class="tab"
             href="https://www.dropbox.com/sh/vcb40o2liwopshn/AABSz1u5-BVe4v6mtpg0E1JEa?dl=0&preview=Resume.pdf"
@@ -75,7 +75,7 @@
                 </a>
                 <b-row class="projectRow">
                   <b-col lg="5" align="left">
-                    <a href="./ePaid">
+                    <a to="/ePaid">
                       <img
                         class="screenshot-epaid"
                         src="@/assets/homepage/ePaidMain.png"
@@ -90,7 +90,7 @@
                       Uses Interac’s e-transfer API to help our user with easy
                       invoicing.
                     </p>
-                    <a class="read-more" href="./ePaid">
+                    <a class="read-more" to="/ePaid">
                       Read More
                       <img
                         srcset="
@@ -123,7 +123,7 @@
                       Fiti provides accessible, affordable, and interesting
                       workouts that are easy to incorperate in all lifestyles.
                     </p>
-                    <a class="read-more" href="./Fiti">
+                    <a class="read-more" to="/Fiti">
                       <!-- <a
                       class="read-more"
                       href="../Fiti-info.pdf"
@@ -149,7 +149,7 @@
                     </b-row>
                   </b-col>
                   <b-col lg="5" align="right">
-                    <a href="./Fiti">
+                    <a to="/Fiti">
                       <!-- <a href="../Fiti-info.pdf" target="_blank"> -->
                       <img
                         class="screenshot"
@@ -171,7 +171,7 @@
                       Fiti provides accessible, affordable, and interesting
                       workouts that are easy to incorperate in all lifestyles.
                     </p>
-                    <a class="read-more" href="./Fiti">
+                    <a class="read-more" to="/Fiti">
                       <!-- <a
                       class="read-more"
                       href="../Fiti-info.pdf"
@@ -200,7 +200,7 @@
 
                 <b-row class="projectRow my-3">
                   <b-col lg="5" align="left">
-                    <a href="./HealthLine">
+                    <a to="/HealthLine">
                       <!-- <a href="../HealthLine-info.pdf" target="_blank"> -->
                       <img
                         class="screenshot"
@@ -222,7 +222,7 @@
                       A diagnosis is made through computer vision and machine
                       learning, and SMS.
                     </p>
-                    <a class="read-more" href="./HealthLine">
+                    <a class="read-more" to="/HealthLine">
                       <!-- <a
                       class="read-more"
                       href="../HealthLine-info.pdf"

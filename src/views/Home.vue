@@ -176,141 +176,142 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
-
-//Apply bottom margin to all columns in mobile
-@media all and (max-width: 767px) {
-  [class^="col-sm-"] {
-    margin-bottom: 20px;
-  }
-}
-
 .home {
-  @media (min-width: $screen-md) {
-    margin-top: 141px;
+  //Apply bottom margin to all columns in mobile
+  @media all and (max-width: 767px) {
+    [class^="col-sm-"] {
+      margin-bottom: 20px;
+    }
   }
-}
 
-.desc {
-  margin-top: 54px;
-  @media (max-width: $screen-sm) {
-    margin-top: 24px;
+  .home {
+    @media (min-width: $screen-md) {
+      margin-top: 141px;
+    }
   }
-}
 
-.content-left {
-  @media (max-width: $screen-sm) {
-    width: 100%;
+  .desc {
+    margin-top: 54px;
+    @media (max-width: $screen-sm) {
+      margin-top: 24px;
+    }
   }
-}
 
-.top-space {
-  margin-top: 120px;
-  @media (max-width: $screen-sm) {
-    margin-top: 100px;
+  .content-left {
+    @media (max-width: $screen-sm) {
+      width: 100%;
+    }
   }
-}
 
-.name-greeting {
-  font-size: 40px !important;
-  font-weight: 500 !important;
-}
-
-.introduction {
-  font-size: 28;
-  color: $primary;
-  font-weight: 400;
-  margin-bottom: 360px;
-  @media (max-width: $screen-md) {
-    margin-bottom: 30px;
+  .top-space {
+    margin-top: 120px;
+    @media (max-width: $screen-sm) {
+      margin-top: 100px;
+    }
   }
-  .bolded {
-    font-family: AvenirBold, sans-serif;
+
+  .name-greeting {
+    font-size: 40px !important;
+    font-weight: 500 !important;
+  }
+
+  .introduction {
+    font-size: 28;
     color: $primary;
-  }
-}
-
-#Projects {
-  padding-top: 8em;
-  @media (max-width: $screen-sm) {
-    padding-top: 4em;
-  }
-
-  .project-header {
-    font-weight: 500;
-    color: $primary;
-    font-size: 34px;
-  }
-  .arrow-down {
-    transform: rotate(90deg);
-  }
-  .projectRow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding-bottom: 50px;
-
+    font-weight: 400;
+    margin-bottom: 360px;
     @media (max-width: $screen-md) {
-      padding-bottom: 80px;
+      margin-bottom: 30px;
     }
-
-    .project-title {
-      font-size: 30px;
-      font-weight: 500;
-    }
-    .category {
-      color: $blackOpac65;
-      font-size: 19px;
-      font-weight: 500;
-      padding-bottom: 15px;
-    }
-    .tag-line {
-      font-size: 25px;
-      font-weight: 500;
-      padding-bottom: 5px;
-    }
-    .skill-title {
-      font-weight: 500;
-      font-size: 19px;
-      color: $gray;
-      margin-top: 64px;
-      @media (max-width: $screen-md) {
-        margin-top: 34px;
-      }
-    }
-    .read-more {
+    .bolded {
+      font-family: AvenirBold, sans-serif;
       color: $primary;
-      font-size: 24px;
-      font-weight: 500;
     }
-    .description {
-      font-size: 25px;
+  }
+
+  #Projects {
+    padding-top: 8em;
+    @media (max-width: $screen-sm) {
+      padding-top: 4em;
     }
-    .skill {
-      padding-right: 32px;
-      align: left;
-      display: inline-block;
-      font-size: 17px;
+
+    .project-header {
       font-weight: 500;
-      color: $gray;
-      @media (max-width: $screen-sm) {
-        width: 100%;
+      color: $primary;
+      font-size: 34px;
+    }
+    .arrow-down {
+      transform: rotate(90deg);
+    }
+    .projectRow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding-bottom: 50px;
+
+      @media (max-width: $screen-md) {
+        padding-bottom: 80px;
+      }
+
+      .project-title {
+        font-size: 30px;
+        font-weight: 500;
+      }
+      .category {
+        color: $blackOpac65;
+        font-size: 19px;
+        font-weight: 500;
+        padding-bottom: 15px;
+      }
+      .tag-line {
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 5px;
+      }
+      .skill-title {
+        font-weight: 500;
+        font-size: 19px;
+        color: $gray;
+        margin-top: 64px;
+        @media (max-width: $screen-md) {
+          margin-top: 34px;
+        }
+      }
+      .read-more {
+        color: $primary;
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .description {
+        font-size: 25px;
+      }
+      .skill {
+        padding-right: 32px;
+        align: left;
+        display: inline-block;
+        font-size: 17px;
+        font-weight: 500;
+        color: $gray;
+        @media (max-width: $screen-sm) {
+          width: 100%;
+        }
       }
     }
   }
-}
 
-.desktop {
-  display: inline;
-  @media (max-width: $screen-sm) {
-    display: none;
-  }
-}
-
-.mobile {
-  display: none;
-  @media (max-width: $screen-sm) {
+  .desktop {
     display: inline;
+    @media (max-width: $screen-sm) {
+      display: none;
+    }
+  }
+
+  .mobile {
+    display: none;
+    @media (max-width: $screen-sm) {
+      display: inline;
+    }
   }
 }
 </style>

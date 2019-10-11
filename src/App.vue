@@ -8,7 +8,7 @@
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto">
-          <b-nav-item class="tab" to="/#Projects" right>projects</b-nav-item>
+          <b-nav-item class="tab" href="./#Projects" right>projects</b-nav-item>
           <b-nav-item
             class="tab"
             href="https://www.dropbox.com/sh/vcb40o2liwopshn/AABSz1u5-BVe4v6mtpg0E1JEa?dl=0&preview=Resume.pdf"
@@ -75,12 +75,12 @@
                 </a>
                 <b-row class="projectRow">
                   <b-col lg="5" align="left">
-                    <a to="/ePaid">
+                    <!-- <router-link to="/ePaid"> -->
                       <img
                         class="screenshot-epaid"
                         src="@/assets/homepage/ePaidMain.png"
                       />
-                    </a>
+                    <!-- </router-link> -->
                   </b-col>
                   <b-col lg="7" align="left">
                     <h3 class="project-title">e-Paid</h3>
@@ -90,7 +90,7 @@
                       Uses Interac’s e-transfer API to help our user with easy
                       invoicing.
                     </p>
-                    <a class="read-more" to="/ePaid">
+                    <!-- <a class="read-more" href="./ePaid">
                       Read More
                       <img
                         srcset="
@@ -99,7 +99,7 @@
                           @/assets/homepage/next@3x.png 3x
                         "
                       />
-                    </a>
+                    </a> -->
                     <h6 class="skill-title">Skills</h6>
                     <b-row align="left">
                       <b-col>
@@ -123,12 +123,12 @@
                       Fiti provides accessible, affordable, and interesting
                       workouts that are easy to incorperate in all lifestyles.
                     </p>
-                    <a class="read-more" to="/Fiti">
-                      <!-- <a
+                    <!-- <a class="read-more" href="./Fiti"> -->
+                      <a
                       class="read-more"
                       href="../Fiti-info.pdf"
                       target="_blank"
-                      >-->
+                      >
                       Read More
                       <img
                         srcset="
@@ -149,8 +149,8 @@
                     </b-row>
                   </b-col>
                   <b-col lg="5" align="right">
-                    <a to="/Fiti">
-                      <!-- <a href="../Fiti-info.pdf" target="_blank"> -->
+                    <!-- <a href="./Fiti"> -->
+                      <a href="../Fiti-info.pdf" target="_blank">
                       <img
                         class="screenshot"
                         srcset="
@@ -171,12 +171,12 @@
                       Fiti provides accessible, affordable, and interesting
                       workouts that are easy to incorperate in all lifestyles.
                     </p>
-                    <a class="read-more" to="/Fiti">
-                      <!-- <a
+                    <!-- <a class="read-more" href="./Fiti"> -->
+                      <a
                       class="read-more"
                       href="../Fiti-info.pdf"
                       target="_blank"
-                      >-->
+                      >
                       Read More
                       <img
                         srcset="
@@ -200,8 +200,8 @@
 
                 <b-row class="projectRow my-3">
                   <b-col lg="5" align="left">
-                    <a to="/HealthLine">
-                      <!-- <a href="../HealthLine-info.pdf" target="_blank"> -->
+                    <!-- <a href="./HealthLine"> -->
+                      <a href="../HealthLine-info.pdf" target="_blank">
                       <img
                         class="screenshot"
                         srcset="
@@ -222,12 +222,12 @@
                       A diagnosis is made through computer vision and machine
                       learning, and SMS.
                     </p>
-                    <a class="read-more" to="/HealthLine">
-                      <!-- <a
+                    <!-- <a class="read-more" href="./HealthLine"> -->
+                      <a
                       class="read-more"
                       href="../HealthLine-info.pdf"
                       target="_blank"
-                      >-->
+                      >
                       Read More
                       <img
                         srcset="

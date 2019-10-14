@@ -245,7 +245,7 @@
   }
 
   .top-space {
-    margin-top: 120px;
+    margin-top: 275px;
     @media (max-width: $screen-sm) {
       margin-top: 100px;
     }

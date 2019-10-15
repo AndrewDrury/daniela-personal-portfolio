@@ -9,7 +9,7 @@ import HealthLine from "./views/projects/HealthLine.vue";
 Vue.use(Router);
 
 export default new Router({
-  // mode: "history",
+  // mode: "history", //If commented out, use hash mode
   base: process.env.BASE_URL,
   routes: [
     {

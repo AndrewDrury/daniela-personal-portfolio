@@ -14,12 +14,12 @@
             <b-col class="top-pics" align="center">
               <img
                 class="left-pic"
-                srcset="@/assets/HealthLine-info/left-middle.png, @/assets/HealthLine-info/left-middle@2x.png 2x, @/assets/HealthLine-info/left-middle@3x.png 3x"
+                srcset="@/assets/HealthLine-info/Group14.png, @/assets/HealthLine-info/Group14@2x.png 2x, @/assets/HealthLine-info/Group14@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="middle-pic"
-                srcset="@/assets/HealthLine-info/middle-screen.png, @/assets/HealthLine-info/middle-screen@2x.png 2x, @/assets/HealthLine-info/middle-screen@3x.png 3x"
+                srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img

@@ -6,11 +6,7 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="
-                  @/assets/Fiti-info/Group.png,
-                  @/assets/Fiti-info/Group@2x.png 2x,
-                  @/assets/Fiti-info/Group@3x.png 3x
-                "
+                srcset="@/assets/Fiti-info/Group.png, @/assets/Fiti-info/Group@2x.png 2x, @/assets/Fiti-info/Group@3x.png 3x"
               />
             </b-col>
           </b-row>
@@ -18,29 +14,17 @@
             <b-col class="top-pics" align="center">
               <img
                 class="left-pic"
-                srcset="
-                  @/assets/Fiti-info/Left-middle-page.png,
-                  @/assets/Fiti-info/Left-middle-page@2x.png 2x,
-                  @/assets/Fiti-info/Left-middle-page@3x.png 3x
-                "
+                srcset="@/assets/Fiti-info/Left-middle-page.png, @/assets/Fiti-info/Left-middle-page@2x.png 2x, @/assets/Fiti-info/Left-middle-page@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="middle-pic"
-                srcset="
-                  @/assets/Fiti-info/middle-home.png,
-                  @/assets/Fiti-info/middle-home@2x.png 2x,
-                  @/assets/Fiti-info/middle-home@3x.png 3x
-                "
+                srcset="@/assets/Fiti-info/middle-home.png, @/assets/Fiti-info/middle-home@2x.png 2x, @/assets/Fiti-info/middle-home@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="right-pic"
-                srcset="
-                  @/assets/Fiti-info/workout-time-screen-chosen.png,
-                  @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x,
-                  @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x
-                "
+                srcset="@/assets/Fiti-info/workout-time-screen-chosen.png, @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x, @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x"
                 style="vertical-align: bottom;"
               />
             </b-col>
@@ -107,11 +91,7 @@
               <b-row class="user vert-center">
                 <b-col align="center" class="user-pic">
                   <img
-                    srcset="
-                      @/assets/Fiti-info/Bio-pic.png,
-                      @/assets/Fiti-info/Bio-pic@2x.png 2x,
-                      @/assets/Fiti-info/Bio-pic@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/Bio-pic.png, @/assets/Fiti-info/Bio-pic@2x.png 2x, @/assets/Fiti-info/Bio-pic@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="user-bio">
@@ -160,9 +140,7 @@
                         <li>Limited amount of time to workout.</li>
                         <li>Unable to find accessible gyms nearby.</li>
                         <li>Cannot find a personal trainer with Paraplegia.</li>
-                        <li>
-                          Fear of getting injured while being physically active.
-                        </li>
+                        <li>Fear of getting injured while being physically active.</li>
                       </ul>
                     </b-col>
                   </b-row>
@@ -188,22 +166,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/Fiti-info/workout-type-screen.png,
-                      @/assets/Fiti-info/workout-type-screen@2x.png 2x,
-                      @/assets/Fiti-info/workout-type-screen@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/workout-type-screen.png, @/assets/Fiti-info/workout-type-screen@2x.png 2x, @/assets/Fiti-info/workout-type-screen@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/Fiti-info/workout-time-screen-chosen.png,
-                      @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x,
-                      @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/workout-time-screen-chosen.png, @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x, @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -221,22 +191,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/Fiti-info/Strength-training.png,
-                      @/assets/Fiti-info/Strength-training@2x.png 2x,
-                      @/assets/Fiti-info/Strength-training@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/Strength-training.png, @/assets/Fiti-info/Strength-training@2x.png 2x, @/assets/Fiti-info/Strength-training@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/Fiti-info/shoulder-gain-opened.png,
-                      @/assets/Fiti-info/shoulder-gain-opened@2x.png 2x,
-                      @/assets/Fiti-info/shoulder-gain-opened@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/shoulder-gain-opened.png, @/assets/Fiti-info/shoulder-gain-opened@2x.png 2x, @/assets/Fiti-info/shoulder-gain-opened@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -265,22 +227,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/Fiti-info/community.png,
-                      @/assets/Fiti-info/community@2x.png 2x,
-                      @/assets/Fiti-info/community@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/community.png, @/assets/Fiti-info/community@2x.png 2x, @/assets/Fiti-info/community@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/Fiti-info/profile.png,
-                      @/assets/Fiti-info/profile@2x.png 2x,
-                      @/assets/Fiti-info/profile@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/profile.png, @/assets/Fiti-info/profile@2x.png 2x, @/assets/Fiti-info/profile@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -342,14 +296,10 @@
           <!-- NEXT PROJECT -->
           <b-row align="right">
             <b-col class="next">
-              <a href="./HealthLine">
+              <a href="./#/HealthLine">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h6>HealthLine</h6>
               </a>

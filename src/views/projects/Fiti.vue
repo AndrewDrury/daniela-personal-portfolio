@@ -340,8 +340,21 @@
             </b-col>
           </b-row>
           <!-- NEXT PROJECT -->
-          <b-row align="right">
-            <b-col class="next">
+          <b-row>
+            <b-col class="next" align="left">
+              <a href="./#/ePaid">
+                <img
+                  class="arrow"
+                  srcset="
+                    @/assets/homepage/prev.png,
+                    @/assets/homepage/prev@2x.png 2x,
+                    @/assets/homepage/prev@3x.png 3x
+                  "
+                />
+                <h6>ePaid</h6>
+              </a>
+            </b-col>
+            <b-col class="next" align="right">
               <a href="./#/HealthLine">
                 <img
                   class="arrow"
@@ -360,5 +373,3 @@
     </b-container>
   </div>
 </template>
-
-<style lang="scss"></style>

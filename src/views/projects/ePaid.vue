@@ -441,8 +441,8 @@
             </b-col>
           </b-row>
           <!-- NEXT PROJECT -->
-          <b-row align="right">
-            <b-col class="next">
+          <b-row>
+            <b-col class="next" align="right">
               <a href="./#/Fiti">
                 <img
                   class="arrow"
@@ -461,16 +461,3 @@
     </b-container>
   </div>
 </template>
-
-<style lang="scss">
-@import "../assets/variables.scss";
-</style>
-
-<script lang="ts">
-//import { Component, Vue } from "vue-property-decorator";
-
-//export default class Home extends Vue {}
-export default {
-  name: "ePaid"
-};
-</script>

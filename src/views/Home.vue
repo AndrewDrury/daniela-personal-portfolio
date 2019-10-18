@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" id="home" name="home">
     <b-container fluid class="verticalCenter">
       <b-row>
         <b-col>

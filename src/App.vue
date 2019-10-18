@@ -3,24 +3,12 @@
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top" id="navbar">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar-brand to="/">
+      <b-navbar-brand :to="{ name: 'home', hash: '' }">
         <img src="@/assets/homepage/logo@3x.png" style="width: 50px" />
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto top-nav">
-          <!-- TESTING DROPDOWN -->
-          <!-- <li class="dropdown tab" right>
-            <b-nav-item href="./#Projects" class="dropdown-toggle" data-toggle="dropdown">projects</b-nav-item>
-
-            <ul class="dropdown-menu">
-              <b-nav-item to="/ePaid">ePaid</b-nav-item>
-              <b-nav-item to="/Fiti">Fiti</b-nav-item>
-              <b-nav-item to="/HealthLine">HealthLine</b-nav-item>
-            </ul>
-          </li>-->
-          <!-- END TEST -->
-
-          <b-nav-item class="tab" href="./#Projects" right>projects</b-nav-item>
+          <b-nav-item class="tab" :to="{ name: 'home', hash: '#Projects' }" right>projects</b-nav-item>
           <b-nav-item
             class="tab"
             href="https://www.dropbox.com/sh/vcb40o2liwopshn/AABSz1u5-BVe4v6mtpg0E1JEa?dl=0&preview=Resume.pdf"
@@ -28,8 +16,7 @@
             right
             >resume</b-nav-item
           >
-          <b-nav-item class="tab" to="/about" right>about</b-nav-item>
-          <!-- <b-nav-item class="tab" to="/ePaid" right>ePaid</b-nav-item> -->
+          <b-nav-item class="tab" :to="{ name: 'about', hash: '' }" right>about</b-nav-item>
           <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right
             >let's chat!</b-nav-item
           >

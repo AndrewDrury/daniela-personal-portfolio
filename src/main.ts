@@ -5,8 +5,10 @@ import "bootstrap/scss/bootstrap.scss";
 import BootstrapVue from "bootstrap-vue";
 import "@/assets/variableOveride.scss";
 import "@/assets/main.scss";
+import VueScrollTo from "vue-scrollto";
 
 Vue.use(BootstrapVue);
+Vue.use(VueScrollTo);
 Vue.config.productionTip = false;
 
 new Vue({

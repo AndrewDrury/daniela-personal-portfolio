@@ -356,8 +356,21 @@
             </b-col>
           </b-row>
           <!-- NEXT PROJECT -->
-          <b-row align="right">
-            <b-col class="next">
+          <b-row>
+            <b-col class="next" align="left">
+              <a href="./#/Fiti">
+                <img
+                  class="arrow"
+                  srcset="
+                    @/assets/homepage/prev.png,
+                    @/assets/homepage/prev@2x.png 2x,
+                    @/assets/homepage/prev@3x.png 3x
+                  "
+                />
+                <h6>Fiti</h6>
+              </a>
+            </b-col>
+            <b-col class="next" align="right">
               <a href="./#/about">
                 <img
                   class="arrow"
@@ -376,5 +389,3 @@
     </b-container>
   </div>
 </template>
-
-<style lang="scss"></style>

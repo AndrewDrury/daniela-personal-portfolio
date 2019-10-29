@@ -6,11 +6,7 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="
-                  @/assets/HealthLine-info/Group6.png,
-                  @/assets/HealthLine-info/Group6@2x.png 2x,
-                  @/assets/HealthLine-info/Group6@3x.png 3x
-                "
+                srcset="@/assets/HealthLine-info/Group6.png, @/assets/HealthLine-info/Group6@2x.png 2x, @/assets/HealthLine-info/Group6@3x.png 3x"
               />
             </b-col>
           </b-row>
@@ -18,29 +14,17 @@
             <b-col class="top-pics" align="center">
               <img
                 class="left-pic"
-                srcset="
-                  @/assets/HealthLine-info/Group14.png,
-                  @/assets/HealthLine-info/Group14@2x.png 2x,
-                  @/assets/HealthLine-info/Group14@3x.png 3x
-                "
+                srcset="@/assets/HealthLine-info/Group14.png, @/assets/HealthLine-info/Group14@2x.png 2x, @/assets/HealthLine-info/Group14@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="middle-pic"
-                srcset="
-                  @/assets/HealthLine-info/Group10.png,
-                  @/assets/HealthLine-info/Group10@2x.png 2x,
-                  @/assets/HealthLine-info/Group10@3x.png 3x
-                "
+                srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="right-pic"
-                srcset="
-                  @/assets/HealthLine-info/Group5.png,
-                  @/assets/HealthLine-info/Group5@2x.png 2x,
-                  @/assets/HealthLine-info/Group5@3x.png 3x
-                "
+                srcset="@/assets/HealthLine-info/Group5.png, @/assets/HealthLine-info/Group5@2x.png 2x, @/assets/HealthLine-info/Group5@3x.png 3x"
                 style="vertical-align: bottom;"
               />
             </b-col>
@@ -131,14 +115,10 @@
                 persona helped me to solve specific problems while also allowing
                 me to fully immerse myself into her shoes.
               </p>
-              <b-row class="user vert-center">
+              <b-row class="user large-screen vert-center">
                 <b-col align="center" class="user-pic">
                   <img
-                    srcset="
-                      @/assets/HealthLine-info/Strength.png,
-                      @/assets/HealthLine-info/Strength@2x.png 2x,
-                      @/assets/HealthLine-info/Strength@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Strength.png, @/assets/HealthLine-info/Strength@2x.png 2x, @/assets/HealthLine-info/Strength@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="user-bio">
@@ -176,9 +156,7 @@
                     <b-col>
                       <h5>Goals</h5>
                       <ul>
-                        <li>
-                          Start a family with her husband in the next year.
-                        </li>
+                        <li>Start a family with her husband in the next year.</li>
                         <li>Introduce veganism to her community.</li>
                         <li>Visit Machu Picchu in 3 months.</li>
                       </ul>
@@ -192,14 +170,80 @@
                           Paraguay has the fifth most expensive internet in the
                           world.
                         </li>
-                        <li>
-                          Requires her best health to achieve all her goals.
-                        </li>
+                        <li>Requires her best health to achieve all her goals.</li>
                         <li>
                           Experiences frequent headaches but is unable to find
                           remedies.
                         </li>
                       </ul>
+                    </b-col>
+                  </b-row>
+                </b-col>
+              </b-row>
+
+              <b-row class="user small-screen vert-center">
+                <b-col align="center" class="user-pic">
+                  <img
+                    srcset="@/assets/HealthLine-info/Strength.png, @/assets/HealthLine-info/Strength@2x.png 2x, @/assets/HealthLine-info/Strength@3x.png 3x"
+                  />
+                </b-col>
+                <b-col>
+                  <b-row>
+                    <b-col class="user-bio">
+                      <b-row>
+                        <b-col align="left">
+                          <h5>Age: 29</h5>
+                          <h5>Location: Paraguay</h5>
+                          <h5>Career: Chef</h5>
+                        </b-col>
+                      </b-row>
+                      <b-row>
+                        <b-col>
+                          <p>
+                            I moved to Paraguay from Rio De Janeiro 5 years ago when
+                            I was offered a job as Chef for one of Paraguay’s best
+                            restaurants. Since then, I’ve learned how to speak
+                            Spanish, I’ve made plenty of friends, and I’ve found my
+                            husband, Antonio. I want to start a family, yet worry as
+                            I feel quite alone. I’m unable to afford internet so my
+                            connection to my family in Brazil is limited. Doctors
+                            are very understaffed, with only 11.1 doctors per 10,000
+                            people. Therefore, I have to wait long periods of time
+                            if I’m sick and I’m unable to do my own research on any
+                            issues I may have.
+                          </p>
+                        </b-col>
+                      </b-row>
+                    </b-col>
+                  </b-row>
+                  <b-row>
+                    <b-col class="user-list">
+                      <b-row>
+                        <b-col>
+                          <h5>Goals</h5>
+                          <ul>
+                            <li>Start a family with her husband in the next year.</li>
+                            <li>Introduce veganism to her community.</li>
+                            <li>Visit Machu Picchu in 3 months.</li>
+                          </ul>
+                        </b-col>
+                      </b-row>
+                      <b-row>
+                        <b-col>
+                          <h5>Frustrations</h5>
+                          <ul>
+                            <li>
+                              Paraguay has the fifth most expensive internet in the
+                              world.
+                            </li>
+                            <li>Requires her best health to achieve all her goals.</li>
+                            <li>
+                              Experiences frequent headaches but is unable to find
+                              remedies.
+                            </li>
+                          </ul>
+                        </b-col>
+                      </b-row>
                     </b-col>
                   </b-row>
                 </b-col>
@@ -239,31 +283,19 @@
                 <b-col class="project-pic-triple">
                   <img
                     align="right"
-                    srcset="
-                      @/assets/HealthLine-info/Group7.png,
-                      @/assets/HealthLine-info/Group7@2x.png 2x,
-                      @/assets/HealthLine-info/Group7@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group7.png, @/assets/HealthLine-info/Group7@2x.png 2x, @/assets/HealthLine-info/Group7@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="project-pic-triple triple-center">
                   <img
                     align="center"
-                    srcset="
-                      @/assets/HealthLine-info/Group8.png,
-                      @/assets/HealthLine-info/Group8@2x.png 2x,
-                      @/assets/HealthLine-info/Group8@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group8.png, @/assets/HealthLine-info/Group8@2x.png 2x, @/assets/HealthLine-info/Group8@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="project-pic-triple">
                   <img
                     align="left"
-                    srcset="
-                      @/assets/HealthLine-info/Group9.png,
-                      @/assets/HealthLine-info/Group9@2x.png 2x,
-                      @/assets/HealthLine-info/Group9@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group9.png, @/assets/HealthLine-info/Group9@2x.png 2x, @/assets/HealthLine-info/Group9@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -280,22 +312,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/HealthLine-info/Group10.png,
-                      @/assets/HealthLine-info/Group10@2x.png 2x,
-                      @/assets/HealthLine-info/Group10@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/HealthLine-info/Group11.png,
-                      @/assets/HealthLine-info/Group11@2x.png 2x,
-                      @/assets/HealthLine-info/Group11@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group11.png, @/assets/HealthLine-info/Group11@2x.png 2x, @/assets/HealthLine-info/Group11@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -311,22 +335,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/HealthLine-info/Group12.png,
-                      @/assets/HealthLine-info/Group12@2x.png 2x,
-                      @/assets/HealthLine-info/Group12@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group12.png, @/assets/HealthLine-info/Group12@2x.png 2x, @/assets/HealthLine-info/Group12@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/HealthLine-info/Group13.png,
-                      @/assets/HealthLine-info/Group13@2x.png 2x,
-                      @/assets/HealthLine-info/Group13@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group13.png, @/assets/HealthLine-info/Group13@2x.png 2x, @/assets/HealthLine-info/Group13@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -350,11 +366,7 @@
                 <b-col>
                   <img
                     class="project-pic-right mobile-bottom-space"
-                    srcset="
-                      @/assets/HealthLine-info/Group14.png,
-                      @/assets/HealthLine-info/Group14@2x.png 2x,
-                      @/assets/HealthLine-info/Group14@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group14.png, @/assets/HealthLine-info/Group14@2x.png 2x, @/assets/HealthLine-info/Group14@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -388,11 +400,7 @@
               <a href="./#/Fiti">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/prev.png,
-                    @/assets/homepage/prev@2x.png 2x,
-                    @/assets/homepage/prev@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/prev.png, @/assets/homepage/prev@2x.png 2x, @/assets/homepage/prev@3x.png 3x"
                 />
                 <h6>Fiti</h6>
               </a>
@@ -401,11 +409,7 @@
               <a href="./#/about">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h6>About Me</h6>
               </a>

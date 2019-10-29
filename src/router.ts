@@ -43,14 +43,29 @@ export default new Router({
       component: Home
     }
   ],
-  scrollBehavior(to, from, savedPosition) {
+  // scrollBehavior(to, from, savedPosition) {
+  //   if (to.hash) {
+  //     // return {
+  //      return window.scrollTo({
+  //       // top: document.querySelector(to.hash).offsetTop,
+  //       top: to.hash,
+  //       // offset: { x: 0, y: 80 },
+  //       behavior: "smooth"
+  //     });
+  //   } else {
+  //     return { x: 0, y: 0 };
+  //   }
+  // }
+  scrollBehavior(to) {
     if (to.hash) {
-      return window.scrollTo({
-        top: document.querySelector(to.hash).offsetTop,
-        behavior: "smooth"
-      });
-    } else {
-      return { x: 0, y: 0 };
+      const element = document.getElementById(to.hash.slice(1));
+      if (element) {
+        return window.scrollTo({
+          top: element.offsetTop,
+          behavior: "smooth"
+        });
+      }
     }
+    return window.scrollTo({ top: 0, behavior: "smooth" });
   }
 });

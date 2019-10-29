@@ -128,6 +128,10 @@
         margin-left: 9.86%;
         margin-right: 9.86%;
       }
+      .about {
+        margin-left: 9.86%;
+        margin-right: 9.86%;
+      }
       .project {
         margin-left: 180px;
         margin-right: 9.86%;

@@ -383,7 +383,7 @@
   .read-more:hover {
     margin-top: -1px;
     text-decoration: none;
-    h6{
+    h6 {
       font-size: 26px !important;
     }
     img {

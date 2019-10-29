@@ -62,11 +62,10 @@ export default new Router({
       if (element) {
         return window.scrollTo({
           top: element.offsetTop,
-          behavior: 'smooth'
+          behavior: "smooth"
         });
       }
     }
-    return window.scrollTo({ top: 0, behavior: 'smooth' });
+    return window.scrollTo({ top: 0, behavior: "smooth" });
   }
-}
-);
+});

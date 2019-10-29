@@ -6,7 +6,11 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="@/assets/HealthLine-info/Group6.png, @/assets/HealthLine-info/Group6@2x.png 2x, @/assets/HealthLine-info/Group6@3x.png 3x"
+                srcset="
+                  @/assets/HealthLine-info/Group6.png,
+                  @/assets/HealthLine-info/Group6@2x.png 2x,
+                  @/assets/HealthLine-info/Group6@3x.png 3x
+                "
               />
             </b-col>
           </b-row>
@@ -14,17 +18,29 @@
             <b-col class="top-pics" align="center">
               <img
                 class="left-pic"
-                srcset="@/assets/HealthLine-info/Group14.png, @/assets/HealthLine-info/Group14@2x.png 2x, @/assets/HealthLine-info/Group14@3x.png 3x"
+                srcset="
+                  @/assets/HealthLine-info/Group14.png,
+                  @/assets/HealthLine-info/Group14@2x.png 2x,
+                  @/assets/HealthLine-info/Group14@3x.png 3x
+                "
                 style="vertical-align: bottom;"
               />
               <img
                 class="middle-pic"
-                srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
+                srcset="
+                  @/assets/HealthLine-info/Group10.png,
+                  @/assets/HealthLine-info/Group10@2x.png 2x,
+                  @/assets/HealthLine-info/Group10@3x.png 3x
+                "
                 style="vertical-align: bottom;"
               />
               <img
                 class="right-pic"
-                srcset="@/assets/HealthLine-info/Group5.png, @/assets/HealthLine-info/Group5@2x.png 2x, @/assets/HealthLine-info/Group5@3x.png 3x"
+                srcset="
+                  @/assets/HealthLine-info/Group5.png,
+                  @/assets/HealthLine-info/Group5@2x.png 2x,
+                  @/assets/HealthLine-info/Group5@3x.png 3x
+                "
                 style="vertical-align: bottom;"
               />
             </b-col>
@@ -118,7 +134,11 @@
               <b-row class="user vert-center">
                 <b-col align="center" class="user-pic">
                   <img
-                    srcset="@/assets/HealthLine-info/Strength.png, @/assets/HealthLine-info/Strength@2x.png 2x, @/assets/HealthLine-info/Strength@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Strength.png,
+                      @/assets/HealthLine-info/Strength@2x.png 2x,
+                      @/assets/HealthLine-info/Strength@3x.png 3x
+                    "
                   />
                 </b-col>
                 <b-col class="user-bio">
@@ -156,7 +176,9 @@
                     <b-col>
                       <h5>Goals</h5>
                       <ul>
-                        <li>Start a family with her husband in the next year.</li>
+                        <li>
+                          Start a family with her husband in the next year.
+                        </li>
                         <li>Introduce veganism to her community.</li>
                         <li>Visit Machu Picchu in 3 months.</li>
                       </ul>
@@ -170,7 +192,9 @@
                           Paraguay has the fifth most expensive internet in the
                           world.
                         </li>
-                        <li>Requires her best health to achieve all her goals.</li>
+                        <li>
+                          Requires her best health to achieve all her goals.
+                        </li>
                         <li>
                           Experiences frequent headaches but is unable to find
                           remedies.
@@ -215,19 +239,31 @@
                 <b-col class="project-pic-triple">
                   <img
                     align="right"
-                    srcset="@/assets/HealthLine-info/Group7.png, @/assets/HealthLine-info/Group7@2x.png 2x, @/assets/HealthLine-info/Group7@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Group7.png,
+                      @/assets/HealthLine-info/Group7@2x.png 2x,
+                      @/assets/HealthLine-info/Group7@3x.png 3x
+                    "
                   />
                 </b-col>
                 <b-col class="project-pic-triple triple-center">
                   <img
                     align="center"
-                    srcset="@/assets/HealthLine-info/Group8.png, @/assets/HealthLine-info/Group8@2x.png 2x, @/assets/HealthLine-info/Group8@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Group8.png,
+                      @/assets/HealthLine-info/Group8@2x.png 2x,
+                      @/assets/HealthLine-info/Group8@3x.png 3x
+                    "
                   />
                 </b-col>
                 <b-col class="project-pic-triple">
                   <img
                     align="left"
-                    srcset="@/assets/HealthLine-info/Group9.png, @/assets/HealthLine-info/Group9@2x.png 2x, @/assets/HealthLine-info/Group9@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Group9.png,
+                      @/assets/HealthLine-info/Group9@2x.png 2x,
+                      @/assets/HealthLine-info/Group9@3x.png 3x
+                    "
                   />
                 </b-col>
               </b-row>
@@ -244,14 +280,22 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Group10.png,
+                      @/assets/HealthLine-info/Group10@2x.png 2x,
+                      @/assets/HealthLine-info/Group10@3x.png 3x
+                    "
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="@/assets/HealthLine-info/Group11.png, @/assets/HealthLine-info/Group11@2x.png 2x, @/assets/HealthLine-info/Group11@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Group11.png,
+                      @/assets/HealthLine-info/Group11@2x.png 2x,
+                      @/assets/HealthLine-info/Group11@3x.png 3x
+                    "
                   />
                 </b-col>
               </b-row>
@@ -267,14 +311,22 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="@/assets/HealthLine-info/Group12.png, @/assets/HealthLine-info/Group12@2x.png 2x, @/assets/HealthLine-info/Group12@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Group12.png,
+                      @/assets/HealthLine-info/Group12@2x.png 2x,
+                      @/assets/HealthLine-info/Group12@3x.png 3x
+                    "
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="@/assets/HealthLine-info/Group13.png, @/assets/HealthLine-info/Group13@2x.png 2x, @/assets/HealthLine-info/Group13@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Group13.png,
+                      @/assets/HealthLine-info/Group13@2x.png 2x,
+                      @/assets/HealthLine-info/Group13@3x.png 3x
+                    "
                   />
                 </b-col>
               </b-row>
@@ -298,7 +350,11 @@
                 <b-col>
                   <img
                     class="project-pic-right mobile-bottom-space"
-                    srcset="@/assets/HealthLine-info/Group14.png, @/assets/HealthLine-info/Group14@2x.png 2x, @/assets/HealthLine-info/Group14@3x.png 3x"
+                    srcset="
+                      @/assets/HealthLine-info/Group14.png,
+                      @/assets/HealthLine-info/Group14@2x.png 2x,
+                      @/assets/HealthLine-info/Group14@3x.png 3x
+                    "
                   />
                 </b-col>
               </b-row>
@@ -332,7 +388,11 @@
               <a href="./#/Fiti">
                 <img
                   class="arrow"
-                  srcset="@/assets/homepage/prev.png, @/assets/homepage/prev@2x.png 2x, @/assets/homepage/prev@3x.png 3x"
+                  srcset="
+                    @/assets/homepage/prev.png,
+                    @/assets/homepage/prev@2x.png 2x,
+                    @/assets/homepage/prev@3x.png 3x
+                  "
                 />
                 <h6>Fiti</h6>
               </a>
@@ -341,7 +401,11 @@
               <a href="./#/about">
                 <img
                   class="arrow"
-                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
+                  srcset="
+                    @/assets/homepage/next.png,
+                    @/assets/homepage/next@2x.png 2x,
+                    @/assets/homepage/next@3x.png 3x
+                  "
                 />
                 <h6>About Me</h6>
               </a>

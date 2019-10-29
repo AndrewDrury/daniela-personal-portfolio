@@ -8,25 +8,15 @@
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto top-nav">
-          <b-nav-item
-            class="tab"
-            :to="{ name: 'home', hash: '#Projects' }"
-            right
-            >projects</b-nav-item
-          >
+          <b-nav-item class="tab" :to="{ name: 'home', hash: '#Projects' }" right>projects</b-nav-item>
           <b-nav-item
             class="tab"
             href="https://www.dropbox.com/sh/vcb40o2liwopshn/AABSz1u5-BVe4v6mtpg0E1JEa?dl=0&preview=Resume.pdf"
             target="_blank"
             right
-            >resume</b-nav-item
-          >
-          <b-nav-item class="tab" :to="{ name: 'about', hash: '' }" right
-            >about</b-nav-item
-          >
-          <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right
-            >let's chat!</b-nav-item
-          >
+          >resume</b-nav-item>
+          <b-nav-item class="tab" :to="{ name: 'about', hash: '' }" right>about</b-nav-item>
+          <b-nav-item class="tab" href="mailto:ddanielaornelas@gmail.com" right>let's chat!</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -59,17 +49,10 @@
           <b-col class="col-xs-12 col-sm-12 col-md-12">
             <ul class="list-unstyled list-inline social text-center">
               <li class="list-inline-item">
-                <a
-                  href="https://medium.com/@danielaornelas_40338"
-                  target="_blank"
-                >
+                <a href="https://medium.com/@danielaornelas_40338" target="_blank">
                   <!-- <i class="fa fa-medium"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/medium/Shape.png,
-                      @/assets/homepage/medium/Shape@2x.png 2x,
-                      @/assets/homepage/medium/Shape@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/medium/Shape.png, @/assets/homepage/medium/Shape@2x.png 2x, @/assets/homepage/medium/Shape@3x.png 3x"
                     style="width:1.25em"
                   />
                 </a>
@@ -78,27 +61,16 @@
                 <a href="mailto:ddanielaornelas@gmail.com" target="_blank">
                   <!-- <i class="fa fa-envelope"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/envelope.png,
-                      @/assets/homepage/envelope@2x.png 2x,
-                      @/assets/homepage/envelope@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/envelope.png, @/assets/homepage/envelope@2x.png 2x, @/assets/homepage/envelope@3x.png 3x"
                     style="width:1.25em"
                   />
                 </a>
               </li>
               <li class="list-inline-item">
-                <a
-                  href="https://ca.linkedin.com/in/danielaornelas334"
-                  target="_blank"
-                >
+                <a href="https://ca.linkedin.com/in/danielaornelas334" target="_blank">
                   <!-- <i class="fa fa-linkedin"></i> -->
                   <img
-                    srcset="
-                      @/assets/homepage/linkedin-logo.png,
-                      @/assets/homepage/linkedin-logo@2x.png 2x,
-                      @/assets/homepage/linkedin-logo@3x.png 3x
-                    "
+                    srcset="@/assets/homepage/linkedin-logo.png, @/assets/homepage/linkedin-logo@2x.png 2x, @/assets/homepage/linkedin-logo@3x.png 3x"
                     style="width:1em"
                   />
                 </a>
@@ -123,8 +95,16 @@
   // background-color: rgb(100, 100, 100);
 
   #main {
-    margin-left: 9.86%;
-    margin-right: 9.86%;
+    @media (min-width: $screen-md) {
+      .home {
+        margin-left: 9.86%;
+        margin-right: 9.86%;
+      }
+      .project {
+        margin-left: 180px;
+        margin-right: 9.86%;
+      }
+    }
 
     @media (max-width: $screen-md) {
       margin-left: 5%;

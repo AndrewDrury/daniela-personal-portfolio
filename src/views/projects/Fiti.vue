@@ -6,11 +6,7 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="
-                  @/assets/Fiti-info/Group.png,
-                  @/assets/Fiti-info/Group@2x.png 2x,
-                  @/assets/Fiti-info/Group@3x.png 3x
-                "
+                srcset="@/assets/Fiti-info/Group.png, @/assets/Fiti-info/Group@2x.png 2x, @/assets/Fiti-info/Group@3x.png 3x"
               />
             </b-col>
           </b-row>
@@ -18,35 +14,46 @@
             <b-col class="top-pics" align="center">
               <img
                 class="left-pic"
-                srcset="
-                  @/assets/Fiti-info/Left-middle-page.png,
-                  @/assets/Fiti-info/Left-middle-page@2x.png 2x,
-                  @/assets/Fiti-info/Left-middle-page@3x.png 3x
-                "
+                srcset="@/assets/Fiti-info/Left-middle-page.png, @/assets/Fiti-info/Left-middle-page@2x.png 2x, @/assets/Fiti-info/Left-middle-page@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="middle-pic"
-                srcset="
-                  @/assets/Fiti-info/middle-home.png,
-                  @/assets/Fiti-info/middle-home@2x.png 2x,
-                  @/assets/Fiti-info/middle-home@3x.png 3x
-                "
+                srcset="@/assets/Fiti-info/middle-home.png, @/assets/Fiti-info/middle-home@2x.png 2x, @/assets/Fiti-info/middle-home@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="right-pic"
-                srcset="
-                  @/assets/Fiti-info/workout-time-screen-chosen.png,
-                  @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x,
-                  @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x
-                "
+                srcset="@/assets/Fiti-info/workout-time-screen-chosen.png, @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x, @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x"
                 style="vertical-align: bottom;"
               />
             </b-col>
           </b-row>
+          <!-- Sidebar for project pages -->
+          <div class="sidemenu">
+            <ul>
+              <router-link :to="{ name: 'Fiti', hash: '#Summary' }">
+                <li>Summary</li>
+              </router-link>
+              <router-link :to="{ name: 'Fiti', hash: '#MyRole' }">
+                <li>My Role</li>
+              </router-link>
+              <router-link :to="{ name: 'Fiti', hash: '#Who' }">
+                <li>Who is this for?</li>
+              </router-link>
+              <router-link :to="{ name: 'Fiti', hash: '#Solution' }">
+                <li>Solution</li>
+              </router-link>
+              <router-link :to="{ name: 'Fiti', hash: '#UserTest' }">
+                <li>User Test</li>
+              </router-link>
+              <router-link :to="{ name: 'Fiti', hash: '#NextSteps' }">
+                <li>Next Steps</li>
+              </router-link>
+            </ul>
+          </div>
           <!-- SUMMARY -->
-          <b-row id="summary" name="Summary" class="summary">
+          <b-row id="Summary" name="Summary" class="summary">
             <b-col class="sidebar" md="3">
               <h4>Skills</h4>
               <ul>
@@ -76,13 +83,17 @@
               </p>
             </b-col>
           </b-row>
-          <!-- MY ROLE -->
-          <b-row id="myRole" name="My Role">
+          <b-row>
             <b-col>
               <h1>
                 “How might I provide in-home accessible workouts for people
                 living with Paraplegia?”
               </h1>
+            </b-col>
+          </b-row>
+          <!-- MY ROLE -->
+          <b-row id="MyRole" name="My Role">
+            <b-col>
               <h2>My Role</h2>
               <p>
                 <b>I created and designed Fiti.</b> I began to investigate what
@@ -95,7 +106,7 @@
             </b-col>
           </b-row>
           <!-- WHO IS THIS FOR? -->
-          <b-row id="who" name="Who?">
+          <b-row id="Who" name="Who?">
             <b-col>
               <h2>Who is Fiti for? Meet Alex</h2>
               <p>
@@ -107,11 +118,7 @@
               <b-row class="user vert-center">
                 <b-col align="center" class="user-pic">
                   <img
-                    srcset="
-                      @/assets/Fiti-info/Bio-pic.png,
-                      @/assets/Fiti-info/Bio-pic@2x.png 2x,
-                      @/assets/Fiti-info/Bio-pic@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/Bio-pic.png, @/assets/Fiti-info/Bio-pic@2x.png 2x, @/assets/Fiti-info/Bio-pic@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="user-bio">
@@ -160,9 +167,7 @@
                         <li>Limited amount of time to workout.</li>
                         <li>Unable to find accessible gyms nearby.</li>
                         <li>Cannot find a personal trainer with Paraplegia.</li>
-                        <li>
-                          Fear of getting injured while being physically active.
-                        </li>
+                        <li>Fear of getting injured while being physically active.</li>
                       </ul>
                     </b-col>
                   </b-row>
@@ -171,7 +176,7 @@
             </b-col>
           </b-row>
           <!-- SOLUTION -->
-          <b-row id="solution" name="Solution">
+          <b-row id="Solution" name="Solution">
             <b-col>
               <h2>Solution</h2>
               <h3>Choosing Workouts</h3>
@@ -188,22 +193,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/Fiti-info/workout-type-screen.png,
-                      @/assets/Fiti-info/workout-type-screen@2x.png 2x,
-                      @/assets/Fiti-info/workout-type-screen@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/workout-type-screen.png, @/assets/Fiti-info/workout-type-screen@2x.png 2x, @/assets/Fiti-info/workout-type-screen@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/Fiti-info/workout-time-screen-chosen.png,
-                      @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x,
-                      @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/workout-time-screen-chosen.png, @/assets/Fiti-info/workout-time-screen-chosen@2x.png 2x, @/assets/Fiti-info/workout-time-screen-chosen@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -221,22 +218,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/Fiti-info/Strength-training.png,
-                      @/assets/Fiti-info/Strength-training@2x.png 2x,
-                      @/assets/Fiti-info/Strength-training@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/Strength-training.png, @/assets/Fiti-info/Strength-training@2x.png 2x, @/assets/Fiti-info/Strength-training@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/Fiti-info/shoulder-gain-opened.png,
-                      @/assets/Fiti-info/shoulder-gain-opened@2x.png 2x,
-                      @/assets/Fiti-info/shoulder-gain-opened@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/shoulder-gain-opened.png, @/assets/Fiti-info/shoulder-gain-opened@2x.png 2x, @/assets/Fiti-info/shoulder-gain-opened@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -265,22 +254,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/Fiti-info/community.png,
-                      @/assets/Fiti-info/community@2x.png 2x,
-                      @/assets/Fiti-info/community@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/community.png, @/assets/Fiti-info/community@2x.png 2x, @/assets/Fiti-info/community@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/Fiti-info/profile.png,
-                      @/assets/Fiti-info/profile@2x.png 2x,
-                      @/assets/Fiti-info/profile@3x.png 3x
-                    "
+                    srcset="@/assets/Fiti-info/profile.png, @/assets/Fiti-info/profile@2x.png 2x, @/assets/Fiti-info/profile@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -298,7 +279,7 @@
             </b-col>
           </b-row>
           <!-- USER TESTING -->
-          <b-row id="userTesting" name="User Testing">
+          <b-row id="UserTest" name="User Test">
             <b-col>
               <h2>User Testing</h2>
               <p>
@@ -328,7 +309,7 @@
             </b-col>
           </b-row>
           <!-- NEXT STEPS -->
-          <b-row id="nextSteps" name="Next Steps">
+          <b-row id="NextSteps" name="Next Steps">
             <b-col>
               <h2>Next Steps</h2>
               <p>
@@ -345,11 +326,7 @@
               <a href="./#/ePaid">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/prev.png,
-                    @/assets/homepage/prev@2x.png 2x,
-                    @/assets/homepage/prev@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/prev.png, @/assets/homepage/prev@2x.png 2x, @/assets/homepage/prev@3x.png 3x"
                 />
                 <h6>ePaid</h6>
               </a>
@@ -358,11 +335,7 @@
               <a href="./#/HealthLine">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h6>HealthLine</h6>
               </a>

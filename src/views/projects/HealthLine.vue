@@ -6,11 +6,7 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="
-                  @/assets/HealthLine-info/Group6.png,
-                  @/assets/HealthLine-info/Group6@2x.png 2x,
-                  @/assets/HealthLine-info/Group6@3x.png 3x
-                "
+                srcset="@/assets/HealthLine-info/Group6.png, @/assets/HealthLine-info/Group6@2x.png 2x, @/assets/HealthLine-info/Group6@3x.png 3x"
               />
             </b-col>
           </b-row>
@@ -18,35 +14,46 @@
             <b-col class="top-pics" align="center">
               <img
                 class="left-pic"
-                srcset="
-                  @/assets/HealthLine-info/Group14.png,
-                  @/assets/HealthLine-info/Group14@2x.png 2x,
-                  @/assets/HealthLine-info/Group14@3x.png 3x
-                "
+                srcset="@/assets/HealthLine-info/Group14.png, @/assets/HealthLine-info/Group14@2x.png 2x, @/assets/HealthLine-info/Group14@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="middle-pic"
-                srcset="
-                  @/assets/HealthLine-info/Group10.png,
-                  @/assets/HealthLine-info/Group10@2x.png 2x,
-                  @/assets/HealthLine-info/Group10@3x.png 3x
-                "
+                srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
                 style="vertical-align: bottom;"
               />
               <img
                 class="right-pic"
-                srcset="
-                  @/assets/HealthLine-info/Group5.png,
-                  @/assets/HealthLine-info/Group5@2x.png 2x,
-                  @/assets/HealthLine-info/Group5@3x.png 3x
-                "
+                srcset="@/assets/HealthLine-info/Group5.png, @/assets/HealthLine-info/Group5@2x.png 2x, @/assets/HealthLine-info/Group5@3x.png 3x"
                 style="vertical-align: bottom;"
               />
             </b-col>
           </b-row>
+          <!-- Sidebar for project pages -->
+          <div class="sidemenu">
+            <ul>
+              <router-link :to="{ name: 'HealthLine', hash: '#Summary' }">
+                <li>Summary</li>
+              </router-link>
+              <router-link :to="{ name: 'HealthLine', hash: '#MyRole' }">
+                <li>My Role</li>
+              </router-link>
+              <router-link :to="{ name: 'HealthLine', hash: '#Who' }">
+                <li>Who is this for?</li>
+              </router-link>
+              <router-link :to="{ name: 'HealthLine', hash: '#Why' }">
+                <li>Why?</li>
+              </router-link>
+              <router-link :to="{ name: 'HealthLine', hash: '#Solution' }">
+                <li>Solution</li>
+              </router-link>
+              <router-link :to="{ name: 'HealthLine', hash: '#NextSteps' }">
+                <li>Next Steps</li>
+              </router-link>
+            </ul>
+          </div>
           <!-- SUMMARY -->
-          <b-row id="summary" name="Summary" class="summary">
+          <b-row id="Summary" name="Summary" class="summary">
             <b-col class="sidebar" md="3">
               <h4>Skills</h4>
               <ul>
@@ -76,13 +83,17 @@
               </p>
             </b-col>
           </b-row>
-          <!-- MY ROLE -->
-          <b-row id="myRole" name="My Role">
+          <b-row>
             <b-col>
               <h1>
                 “How might I help diagnose those with limited access to
                 healthcare and/or internet?”
               </h1>
+            </b-col>
+          </b-row>
+          <!-- MY ROLE -->
+          <b-row id="MyRole" name="My Role">
+            <b-col>
               <h2>My Role</h2>
               <p>
                 <b>I was the lead UI/UX designer of HealthLine.</b> I worked
@@ -95,7 +106,7 @@
             </b-col>
           </b-row>
           <!-- WHO IS THIS FOR? -->
-          <b-row id="who" name="Who?">
+          <b-row id="Who" name="Who?">
             <b-col>
               <h2>Who is HeathLine For? Meet Manuela</h2>
               <p>
@@ -107,11 +118,7 @@
               <b-row class="user vert-center">
                 <b-col align="center" class="user-pic">
                   <img
-                    srcset="
-                      @/assets/HealthLine-info/Strength.png,
-                      @/assets/HealthLine-info/Strength@2x.png 2x,
-                      @/assets/HealthLine-info/Strength@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Strength.png, @/assets/HealthLine-info/Strength@2x.png 2x, @/assets/HealthLine-info/Strength@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="user-bio">
@@ -149,9 +156,7 @@
                     <b-col>
                       <h5>Goals</h5>
                       <ul>
-                        <li>
-                          Start a family with her husband in the next year.
-                        </li>
+                        <li>Start a family with her husband in the next year.</li>
                         <li>Introduce veganism to her community.</li>
                         <li>Visit Machu Picchu in 3 months.</li>
                       </ul>
@@ -165,9 +170,7 @@
                           Paraguay has the fifth most expensive internet in the
                           world.
                         </li>
-                        <li>
-                          Requires her best health to achieve all her goals.
-                        </li>
+                        <li>Requires her best health to achieve all her goals.</li>
                         <li>
                           Experiences frequent headaches but is unable to find
                           remedies.
@@ -180,7 +183,7 @@
             </b-col>
           </b-row>
           <!-- WHY IS THIS IMPORTANT -->
-          <b-row id="why" name="Why?">
+          <b-row id="Why" name="Why?">
             <b-col>
               <h2>Why is this important?</h2>
               <p>
@@ -194,7 +197,7 @@
             </b-col>
           </b-row>
           <!-- SOLUTION -->
-          <b-row id="solution" name="Solution">
+          <b-row id="Solution" name="Solution">
             <b-col>
               <h2>Solution</h2>
               <h3>Onboarding</h3>
@@ -212,31 +215,19 @@
                 <b-col class="project-pic-triple">
                   <img
                     align="right"
-                    srcset="
-                      @/assets/HealthLine-info/Group7.png,
-                      @/assets/HealthLine-info/Group7@2x.png 2x,
-                      @/assets/HealthLine-info/Group7@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group7.png, @/assets/HealthLine-info/Group7@2x.png 2x, @/assets/HealthLine-info/Group7@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="project-pic-triple triple-center">
                   <img
                     align="center"
-                    srcset="
-                      @/assets/HealthLine-info/Group8.png,
-                      @/assets/HealthLine-info/Group8@2x.png 2x,
-                      @/assets/HealthLine-info/Group8@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group8.png, @/assets/HealthLine-info/Group8@2x.png 2x, @/assets/HealthLine-info/Group8@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="project-pic-triple">
                   <img
                     align="left"
-                    srcset="
-                      @/assets/HealthLine-info/Group9.png,
-                      @/assets/HealthLine-info/Group9@2x.png 2x,
-                      @/assets/HealthLine-info/Group9@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group9.png, @/assets/HealthLine-info/Group9@2x.png 2x, @/assets/HealthLine-info/Group9@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -253,22 +244,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/HealthLine-info/Group10.png,
-                      @/assets/HealthLine-info/Group10@2x.png 2x,
-                      @/assets/HealthLine-info/Group10@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group10.png, @/assets/HealthLine-info/Group10@2x.png 2x, @/assets/HealthLine-info/Group10@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/HealthLine-info/Group11.png,
-                      @/assets/HealthLine-info/Group11@2x.png 2x,
-                      @/assets/HealthLine-info/Group11@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group11.png, @/assets/HealthLine-info/Group11@2x.png 2x, @/assets/HealthLine-info/Group11@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -284,22 +267,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/HealthLine-info/Group12.png,
-                      @/assets/HealthLine-info/Group12@2x.png 2x,
-                      @/assets/HealthLine-info/Group12@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group12.png, @/assets/HealthLine-info/Group12@2x.png 2x, @/assets/HealthLine-info/Group12@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/HealthLine-info/Group13.png,
-                      @/assets/HealthLine-info/Group13@2x.png 2x,
-                      @/assets/HealthLine-info/Group13@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group13.png, @/assets/HealthLine-info/Group13@2x.png 2x, @/assets/HealthLine-info/Group13@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -323,18 +298,14 @@
                 <b-col>
                   <img
                     class="project-pic-right mobile-bottom-space"
-                    srcset="
-                      @/assets/HealthLine-info/Group14.png,
-                      @/assets/HealthLine-info/Group14@2x.png 2x,
-                      @/assets/HealthLine-info/Group14@3x.png 3x
-                    "
+                    srcset="@/assets/HealthLine-info/Group14.png, @/assets/HealthLine-info/Group14@2x.png 2x, @/assets/HealthLine-info/Group14@3x.png 3x"
                   />
                 </b-col>
               </b-row>
             </b-col>
           </b-row>
           <!-- NEXT STEPS -->
-          <b-row id="nextSteps" name="Next Steps">
+          <b-row id="NextSteps" name="Next Steps">
             <b-col>
               <h2>Next Steps</h2>
               <p>
@@ -361,11 +332,7 @@
               <a href="./#/Fiti">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/prev.png,
-                    @/assets/homepage/prev@2x.png 2x,
-                    @/assets/homepage/prev@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/prev.png, @/assets/homepage/prev@2x.png 2x, @/assets/homepage/prev@3x.png 3x"
                 />
                 <h6>Fiti</h6>
               </a>
@@ -374,11 +341,7 @@
               <a href="./#/about">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h6>About Me</h6>
               </a>

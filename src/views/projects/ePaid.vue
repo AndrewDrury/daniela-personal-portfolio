@@ -6,60 +6,57 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                srcset="
-                  @/assets/epaid-info/Group2.png,
-                  @/assets/epaid-info/Group2@2x.png 2x,
-                  @/assets/epaid-info/Group2@3x.png 3x
-                "
+                srcset="@/assets/epaid-info/Group2.png, @/assets/epaid-info/Group2@2x.png 2x, @/assets/epaid-info/Group2@3x.png 3x"
+              />
+            </b-col>
+          </b-row>
+          <b-row col="12">
+            <b-col class="top-pics" align="center">
+              <img
+                class="left-pic"
+                srcset="@/assets/epaid-info/paid-screen.png, @/assets/epaid-info/paid-screen@1x.png 1x, @/assets/epaid-info/paid-screen@3x.png 3x"
+                style="vertical-align: bottom;"
+              />
+              <img
+                class="middle-pic"
+                srcset="@/assets/epaid-info/create-task.png, @/assets/epaid-info/create-task@1x.png 1x, @/assets/epaid-info/create-task@3x.png 3x"
+                style="vertical-align: bottom;"
+              />
+              <img
+                class="right-pic"
+                srcset="@/assets/epaid-info/create-task-unfinshed.png, @/assets/epaid-info/create-task-unfinshed@1x.png 1x, @/assets/epaid-info/create-task-unfinshed@3x.png 3x"
+                style="vertical-align: bottom;"
               />
             </b-col>
           </b-row>
           <!-- Sidebar for project pages -->
           <div class="sidemenu">
             <ul>
-              <router-link :to="{ name: 'ePaid', hash: '#summary' }"
-                ><li>Summary</li></router-link
-              >
-              <li>My Role</li>
-              <li>Who is this for?</li>
-              <li>Solution</li>
-              <li>User Test</li>
-              <li>Next Steps</li>
+              <router-link :to="{ name: 'ePaid', hash: '#Summary' }">
+                <li>Summary</li>
+              </router-link>
+              <router-link :to="{ name: 'ePaid', hash: '#MyRole' }">
+                <li>My Role</li>
+              </router-link>
+              <router-link :to="{ name: 'ePaid', hash: '#UserInterview' }">
+                <li>User Interview</li>
+              </router-link>
+              <router-link :to="{ name: 'ePaid', hash: '#Who' }">
+                <li>Who is this for?</li>
+              </router-link>
+              <router-link :to="{ name: 'ePaid', hash: '#Solution' }">
+                <li>Solution</li>
+              </router-link>
+              <router-link :to="{ name: 'ePaid', hash: '#Challenges' }">
+                <li>Challenges</li>
+              </router-link>
+              <router-link :to="{ name: 'ePaid', hash: '#Outcome' }">
+                <li>Outcome</li>
+              </router-link>
             </ul>
           </div>
-          <b-row col="12">
-            <b-col class="top-pics" align="center">
-              <img
-                class="left-pic"
-                srcset="
-                  @/assets/epaid-info/paid-screen.png,
-                  @/assets/epaid-info/paid-screen@1x.png 1x,
-                  @/assets/epaid-info/paid-screen@3x.png 3x
-                "
-                style="vertical-align: bottom;"
-              />
-              <img
-                class="middle-pic"
-                srcset="
-                  @/assets/epaid-info/create-task.png,
-                  @/assets/epaid-info/create-task@1x.png 1x,
-                  @/assets/epaid-info/create-task@3x.png 3x
-                "
-                style="vertical-align: bottom;"
-              />
-              <img
-                class="right-pic"
-                srcset="
-                  @/assets/epaid-info/create-task-unfinshed.png,
-                  @/assets/epaid-info/create-task-unfinshed@1x.png 1x,
-                  @/assets/epaid-info/create-task-unfinshed@3x.png 3x
-                "
-                style="vertical-align: bottom;"
-              />
-            </b-col>
-          </b-row>
           <!-- SUMMARY -->
-          <b-row id="summary" name="Summary" class="summary">
+          <b-row id="Summary" name="Summary" class="summary">
             <b-col class="sidebar" md="3">
               <h4>Skills</h4>
               <ul>
@@ -96,13 +93,17 @@
               </p>
             </b-col>
           </b-row>
-          <!-- MY ROLE -->
-          <b-row id="myRole" name="My Role">
+          <b-row>
             <b-col>
               <h1>
                 “How might I help freelancers manage their work and organize
                 who's paid them?”
               </h1>
+            </b-col>
+          </b-row>
+          <!-- MY ROLE -->
+          <b-row id="MyRole" name="My Role">
+            <b-col>
               <h2>My Role</h2>
               <p>
                 The e-Paid team consisted of one
@@ -113,8 +114,8 @@
                 is currently facing.
                 <b>
                   We were required to solve this problem in 5 days
-                  (Monday-Friday) </b
-                >. Day 1 and 2 consisted of gathering as much information as
+                  (Monday-Friday)
+                </b>. Day 1 and 2 consisted of gathering as much information as
                 possible. In order to do this, we conducted interviews, built
                 personas, and conducted user research. Day 3 and 4 focused on
                 crafting the UI/UX of the app, as well as developing it. Day 5
@@ -123,7 +124,7 @@
             </b-col>
           </b-row>
           <!-- USER INTERVIEW -->
-          <b-row id="userInterview" name="User Interview">
+          <b-row id="UserInterview" name="User Interview">
             <b-col>
               <h2>User Interview</h2>
               <p>
@@ -139,9 +140,7 @@
                 contact book, calender, and texts messages. It becomes
                 overwhelming and can cause me to seem unprofessional.”
               </p>
-              <h3>
-                How did you determine your value as a freelance web designer?
-              </h3>
+              <h3>How did you determine your value as a freelance web designer?</h3>
               <p>
                 “Determining my value was one of the most difficult problems
                 that I encountered. Initally, I would charge for the entire
@@ -157,7 +156,7 @@
             </b-col>
           </b-row>
           <!-- WHO IS THIS FOR? -->
-          <b-row id="whoIsThisFor" name="Who is this for?">
+          <b-row id="Who" name="Who is this for?">
             <b-col>
               <h2>Who is e-Paid for? Meet Jenny</h2>
               <p>
@@ -169,11 +168,7 @@
               <b-row class="user vert-center">
                 <b-col align="center" class="user-pic">
                   <img
-                    srcset="
-                      @/assets/epaid-info/Strength.png,
-                      @/assets/epaid-info/Strength@2x.png 2x,
-                      @/assets/epaid-info/Strength@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/Strength.png, @/assets/epaid-info/Strength@2x.png 2x, @/assets/epaid-info/Strength@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="user-bio">
@@ -234,10 +229,11 @@
                   </b-row>
                 </b-col>
               </b-row>
+              
             </b-col>
           </b-row>
           <!-- SOLUTION -->
-          <b-row id="solution" name="Solution">
+          <b-row id="Solution" name="Solution">
             <b-col>
               <h2>Solution</h2>
               <h3>Create an Account</h3>
@@ -257,31 +253,19 @@
                 <b-col class="project-pic-triple">
                   <img
                     align="right"
-                    srcset="
-                      @/assets/epaid-info/e-paid-onboard1.png,
-                      @/assets/epaid-info/e-paid-onboard1@1x.png 1x,
-                      @/assets/epaid-info/e-paid-onboard1@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/e-paid-onboard1.png, @/assets/epaid-info/e-paid-onboard1@1x.png 1x, @/assets/epaid-info/e-paid-onboard1@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="project-pic-triple triple-center">
                   <img
                     align="center"
-                    srcset="
-                      @/assets/epaid-info/e-paid-onboard2.png,
-                      @/assets/epaid-info/e-paid-onboard2@1x.png 1x,
-                      @/assets/epaid-info/e-paid-onboard2@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/e-paid-onboard2.png, @/assets/epaid-info/e-paid-onboard2@1x.png 1x, @/assets/epaid-info/e-paid-onboard2@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="project-pic-triple">
                   <img
                     align="left"
-                    srcset="
-                      @/assets/epaid-info/e-paid-onboard3.png,
-                      @/assets/epaid-info/e-paid-onboard3@1x.png 1x,
-                      @/assets/epaid-info/e-paid-onboard3@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/e-paid-onboard3.png, @/assets/epaid-info/e-paid-onboard3@1x.png 1x, @/assets/epaid-info/e-paid-onboard3@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -302,11 +286,7 @@
                 <b-col>
                   <img
                     class="project-pic"
-                    srcset="
-                      @/assets/epaid-info/e-paid-draft.png,
-                      @/assets/epaid-info/e-paid-draft@1x.png 1x,
-                      @/assets/epaid-info/e-paid-draft@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/e-paid-draft.png, @/assets/epaid-info/e-paid-draft@1x.png 1x, @/assets/epaid-info/e-paid-draft@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -322,22 +302,14 @@
                   <img
                     class="project-pic"
                     align="right"
-                    srcset="
-                      @/assets/epaid-info/e-paid-create-task.png,
-                      @/assets/epaid-info/e-paid-create-task@1x.png 1x,
-                      @/assets/epaid-info/e-paid-create-task@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/e-paid-create-task.png, @/assets/epaid-info/e-paid-create-task@1x.png 1x, @/assets/epaid-info/e-paid-create-task@3x.png 3x"
                   />
                 </b-col>
                 <b-col class="right-pic">
                   <img
                     class="project-pic mobile-bottom-space"
                     align="left"
-                    srcset="
-                      @/assets/epaid-info/Epaid-create-task.png,
-                      @/assets/epaid-info/Epaid-create-task@1x.png 1x,
-                      @/assets/epaid-info/Epaid-create-task@3x.png 3x
-                    "
+                    srcset="@/assets/epaid-info/Epaid-create-task.png, @/assets/epaid-info/Epaid-create-task@1x.png 1x, @/assets/epaid-info/Epaid-create-task@3x.png 3x"
                   />
                 </b-col>
               </b-row>
@@ -411,16 +383,13 @@
                   </p>
                 </b-col>
                 <b-col>
-                  <img
-                    class="project-pic-right"
-                    src="@/assets/epaid-info/e-paid-done.png"
-                  />
+                  <img class="project-pic-right" src="@/assets/epaid-info/e-paid-done.png" />
                 </b-col>
               </b-row>
             </b-col>
           </b-row>
           <!-- CHALLENGES -->
-          <b-row id="challenges" name="Challenges">
+          <b-row id="Challenges" name="Challenges">
             <b-col>
               <h2>Challenges</h2>
               <p>
@@ -441,7 +410,7 @@
             </b-col>
           </b-row>
           <!-- OUTCOME -->
-          <b-row id="outcome" name="Outcome">
+          <b-row id="Outcome" name="Outcome">
             <b-col>
               <h2>Outcome</h2>
               <p>
@@ -459,11 +428,7 @@
               <a href="./#/Fiti">
                 <img
                   class="arrow"
-                  srcset="
-                    @/assets/homepage/next.png,
-                    @/assets/homepage/next@2x.png 2x,
-                    @/assets/homepage/next@3x.png 3x
-                  "
+                  srcset="@/assets/homepage/next.png, @/assets/homepage/next@2x.png 2x, @/assets/homepage/next@3x.png 3x"
                 />
                 <h6>Fiti</h6>
               </a>
@@ -484,24 +449,4 @@ export default Vue.extend({
 
 <style lang="scss">
 @import "@/assets/variables.scss";
-
-.sidemenu {
-  position: fixed;
-  top: 300px;
-  z-index: 99;
-  left: 24px;
-
-  @media (max-width: $screen-md) {
-    display: none;
-  }
-
-  li {
-    color: rgba(129, 76, 243, 0.5);
-    margin-bottom: 19px;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.15px;
-    line-height: 21px;
-  }
-}
 </style>

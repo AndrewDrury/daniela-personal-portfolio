@@ -95,7 +95,7 @@
                 often leading to a sedentary lifestyle, increasing your risk of
                 obesity and other chronic conditions such as heart disease. Fiti
                 provides accessible, affordable, and interesting workouts that
-                are easy to incorperate in all lifestyles.
+                are easy to incorporate in all lifestyles.
               </p>
             </b-col>
           </b-row>

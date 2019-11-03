@@ -131,7 +131,7 @@
                 persona helped me to solve specific problems while also allowing
                 me to fully immerse myself into her shoes.
               </p>
-              <b-row class="user vert-center">
+              <b-row class="user large-screen vert-center">
                 <b-col align="center" class="user-pic">
                   <img
                     srcset="
@@ -200,6 +200,83 @@
                           remedies.
                         </li>
                       </ul>
+                    </b-col>
+                  </b-row>
+                </b-col>
+              </b-row>
+
+              <b-row class="user small-screen vert-center">
+                <b-col align="center" class="user-pic">
+                  <img
+                    srcset="
+                      @/assets/HealthLine-info/Strength.png,
+                      @/assets/HealthLine-info/Strength@2x.png 2x,
+                      @/assets/HealthLine-info/Strength@3x.png 3x
+                    "
+                  />
+                </b-col>
+                <b-col>
+                  <b-row>
+                    <b-col class="user-bio">
+                      <b-row>
+                        <b-col align="left">
+                          <h5>Age: 29</h5>
+                          <h5>Location: Paraguay</h5>
+                          <h5>Career: Chef</h5>
+                        </b-col>
+                      </b-row>
+                      <b-row>
+                        <b-col>
+                          <p>
+                            I moved to Paraguay from Rio De Janeiro 5 years ago
+                            when I was offered a job as Chef for one of
+                            Paraguay’s best restaurants. Since then, I’ve
+                            learned how to speak Spanish, I’ve made plenty of
+                            friends, and I’ve found my husband, Antonio. I want
+                            to start a family, yet worry as I feel quite alone.
+                            I’m unable to afford internet so my connection to my
+                            family in Brazil is limited. Doctors are very
+                            understaffed, with only 11.1 doctors per 10,000
+                            people. Therefore, I have to wait long periods of
+                            time if I’m sick and I’m unable to do my own
+                            research on any issues I may have.
+                          </p>
+                        </b-col>
+                      </b-row>
+                    </b-col>
+                  </b-row>
+                  <b-row>
+                    <b-col class="user-list">
+                      <b-row>
+                        <b-col>
+                          <h5>Goals</h5>
+                          <ul>
+                            <li>
+                              Start a family with her husband in the next year.
+                            </li>
+                            <li>Introduce veganism to her community.</li>
+                            <li>Visit Machu Picchu in 3 months.</li>
+                          </ul>
+                        </b-col>
+                      </b-row>
+                      <b-row>
+                        <b-col>
+                          <h5>Frustrations</h5>
+                          <ul>
+                            <li>
+                              Paraguay has the fifth most expensive internet in
+                              the world.
+                            </li>
+                            <li>
+                              Requires her best health to achieve all her goals.
+                            </li>
+                            <li>
+                              Experiences frequent headaches but is unable to
+                              find remedies.
+                            </li>
+                          </ul>
+                        </b-col>
+                      </b-row>
                     </b-col>
                   </b-row>
                 </b-col>

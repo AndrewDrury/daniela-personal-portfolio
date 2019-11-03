@@ -95,7 +95,7 @@
                 often leading to a sedentary lifestyle, increasing risk of
                 obesity and other chronic conditions such as heart disease. Fiti
                 provides accessible, affordable, and interesting workouts that
-                are easy to incorperate in all lifestyles.
+                are easy to incorporate in all lifestyles.
               </p>
             </b-col>
           </b-row>
@@ -131,7 +131,7 @@
                 solve specific problems while also allowing me to fully immerse
                 myself into his shoes.
               </p>
-              <b-row class="user vert-center">
+              <b-row class="user large-screen vert-center">
                 <b-col align="center" class="user-pic">
                   <img
                     srcset="
@@ -191,6 +191,77 @@
                           Fear of getting injured while being physically active.
                         </li>
                       </ul>
+                    </b-col>
+                  </b-row>
+                </b-col>
+              </b-row>
+              <b-row class="user small-screen vert-center">
+                <b-col align="center" class="user-pic">
+                  <img
+                    srcset="
+                      @/assets/Fiti-info/Bio-pic.png,
+                      @/assets/Fiti-info/Bio-pic@2x.png 2x,
+                      @/assets/Fiti-info/Bio-pic@3x.png 3x
+                    "
+                  />
+                </b-col>
+                <b-col>
+                  <b-row>
+                    <b-col class="user-bio">
+                      <b-row>
+                        <b-col align="left">
+                          <h5>Age: 26</h5>
+                          <h5>Location: Toronto</h5>
+                          <h5>Career: Accountant</h5>
+                        </b-col>
+                      </b-row>
+                      <b-row>
+                        <b-col>
+                          <p>
+                            I moved to Toronto in 2014 upon receiving a job
+                            offer. The move forced me to become very
+                            independent. In 2016, I was in a car accident, which
+                            left me with no sensation from my lower spine to my
+                            toes. For the past 3 years, it’s been an uphill
+                            battle to become comfortable in my skin to become
+                            accepting of my new ability. I want to join a sports
+                            team, regularly be active, and form new
+                            relationships with other people living with
+                            Paraplegia.
+                          </p>
+                        </b-col>
+                      </b-row>
+                    </b-col>
+                  </b-row>
+                  <b-row>
+                    <b-col class="user-list">
+                      <b-row>
+                        <b-col>
+                          <h5>Goals</h5>
+                          <ul>
+                            <li>Physical activity 3x per day.</li>
+                            <li>Decrease unhealthy eating.</li>
+                            <li>Build stronger arms.</li>
+                            <li>Participate in a sport in the community.</li>
+                          </ul>
+                        </b-col>
+                      </b-row>
+                      <b-row>
+                        <b-col>
+                          <h5>Frustrations</h5>
+                          <ul>
+                            <li>Limited amount of time to workout.</li>
+                            <li>Unable to find accessible gyms nearby.</li>
+                            <li>
+                              Cannot find a personal trainer with Paraplegia.
+                            </li>
+                            <li>
+                              Fear of getting injured while being physically
+                              active.
+                            </li>
+                          </ul>
+                        </b-col>
+                      </b-row>
                     </b-col>
                   </b-row>
                 </b-col>

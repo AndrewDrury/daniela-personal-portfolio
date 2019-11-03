@@ -183,7 +183,7 @@
                 solve specific problems while also allowing me to fully immerse
                 myself into her shoes.
               </p>
-              <b-row class="user vert-center">
+              <b-row class="user large-screen vert-center">
                 <b-col align="center" class="user-pic">
                   <img
                     srcset="
@@ -247,6 +247,82 @@
                         <li>Remind her of her tutoring appointments.</li>
                         <li>Does not know how much to charge her clients.</li>
                       </ul>
+                    </b-col>
+                  </b-row>
+                </b-col>
+              </b-row>
+
+              <b-row class="user small-screen vert-center">
+                <b-col align="center" class="user-pic">
+                  <img
+                    srcset="
+                      @/assets/epaid-info/Strength.png,
+                      @/assets/epaid-info/Strength@2x.png 2x,
+                      @/assets/epaid-info/Strength@3x.png 3x
+                    "
+                  />
+                </b-col>
+                <b-col>
+                  <b-row>
+                    <b-col class="user-bio">
+                      <b-row>
+                        <b-col align="left">
+                          <h5>Age: 18</h5>
+                          <h5>Location: Vancouver</h5>
+                          <h5>Career: Student</h5>
+                        </b-col>
+                      </b-row>
+                      <b-row>
+                        <b-col>
+                          <p>
+                            I will be starting my first year of university at
+                            the University of British Columbia, and I couldn’t
+                            be more excited! Since I will be paying for most of
+                            my expenses, I want to continue tutoring elementary
+                            school students in order to help me with my
+                            finances. Since I do not usually come in face to
+                            face contact with the parents of the students I
+                            tutor, I need a simplified way to send them invoices
+                            to promptly pay me for my services. After all,
+                            Vancouver does have some of the highest rent prices
+                            in Canada!
+                          </p>
+                        </b-col>
+                      </b-row>
+                    </b-col>
+                  </b-row>
+                  <b-row>
+                    <b-col class="user-list">
+                      <b-row>
+                        <b-col>
+                          <h5>Goals</h5>
+                          <ul>
+                            <li>Make money on her own terms.</li>
+                            <li>Work less than 10 hours per week.</li>
+                            <li>
+                              Collect payment on the spot without having to
+                              remind customer.
+                            </li>
+                            <li>
+                              Tutor elementary school students all sciences.
+                            </li>
+                          </ul>
+                        </b-col>
+                      </b-row>
+                      <b-row>
+                        <b-col>
+                          <h5>Frustrations</h5>
+                          <ul>
+                            <li>Does not want to chase customers for money.</li>
+                            <li>Needs easy scheduling system.</li>
+                            <li>Automatically send invoices to customers.</li>
+                            <li>Remind her of her tutoring appointments.</li>
+                            <li>
+                              Does not know how much to charge her clients.
+                            </li>
+                          </ul>
+                        </b-col>
+                      </b-row>
                     </b-col>
                   </b-row>
                 </b-col>

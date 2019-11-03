@@ -58,7 +58,7 @@
                     invoicing.
                   </p>
                   <!-- <router-link class="read-more" to="/ePaid">
-                      Read More
+                      <h6>Read More</h6>
                       <img
                         srcset="
                           @/assets/homepage/next.png,
@@ -68,7 +68,7 @@
                       />
                   </router-link>-->
                   <a class="read-more" href="./#/ePaid">
-                    Read More
+                    <h6>Read More</h6>
                     <img
                       srcset="
                         @/assets/homepage/next.png,
@@ -102,7 +102,7 @@
                   </p>
                   <a class="read-more" href="./#/Fiti">
                     <!-- <a class="read-more" href="../Fiti-info.pdf" target="_blank"> -->
-                    Read More
+                    <h6>Read More</h6>
                     <img
                       srcset="
                         @/assets/homepage/next.png,
@@ -146,7 +146,7 @@
                   </p>
                   <a class="read-more" href="./#/Fiti">
                     <!-- <a class="read-more" href="../Fiti-info.pdf" target="_blank"> -->
-                    Read More
+                    <h6>Read More</h6>
                     <img
                       srcset="
                         @/assets/homepage/next.png,
@@ -197,7 +197,7 @@
                     href="../HealthLine-info.pdf"
                     target="_blank"
                     >-->
-                    Read More
+                    <h6>Read More</h6>
                     <img
                       srcset="
                         @/assets/homepage/next.png,
@@ -330,9 +330,22 @@
         }
       }
       .read-more {
-        color: $primary;
-        font-size: 24px;
-        font-weight: 500;
+        h6 {
+          float: left;
+          color: $primary;
+          font-size: 24px;
+          font-weight: 500;
+          -webkit-transition: 0.5s all ease;
+          -moz-transition: 0.5s all ease;
+          transition: 0.5s all ease;
+        }
+        img {
+          position: relative;
+          left: 6px;
+          -webkit-transition: 0.5s all ease;
+          -moz-transition: 0.5s all ease;
+          transition: 0.5s all ease;
+        }
       }
       .description {
         font-size: 25px;
@@ -362,6 +375,20 @@
     display: none;
     @media (max-width: $screen-sm) {
       display: inline;
+    }
+  }
+}
+
+.projectRow {
+  .read-more:hover {
+    margin-top: -1px;
+    text-decoration: none;
+    h6 {
+      font-size: 26px !important;
+    }
+    img {
+      width: 14px;
+      height: 22px;
     }
   }
 }

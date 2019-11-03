@@ -100,7 +100,7 @@ ul {
     .right-pic {
       width: 172px;
       @media (max-width: $screen-md) {
-        width: 30%;
+        width: 29%;
       }
     }
     .middle-pic {
@@ -108,10 +108,26 @@ ul {
       margin-right: 21px;
       margin-left: 21px;
       @media (max-width: $screen-md) {
-        width: 35%;
-        margin-right: 10px;
-        margin-left: 10px;
+        width: 34%;
+        margin-right: 8px;
+        margin-left: 8px;
       }
+    }
+
+    @media (max-width: $screen-md) {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+
+  .small-screen {
+    @media (min-width: $screen-md) {
+      display: none;
+    }
+  }
+  .large-screen {
+    @media (max-width: $screen-md) {
+      display: none;
     }
   }
 
@@ -147,6 +163,10 @@ ul {
       width: 20px;
       height: 34px;
       margin-bottom: 5px;
+
+      -webkit-transition: 0.5s all ease;
+      -moz-transition: 0.5s all ease;
+      transition: 0.5s all ease;
     }
     h6 {
       color: $primary;
@@ -154,9 +174,25 @@ ul {
       font-weight: 500;
       letter-spacing: 0.18px;
       line-height: 31px;
+
+      -webkit-transition: 0.5s all ease;
+      -moz-transition: 0.5s all ease;
+      transition: 0.5s all ease;
     }
     margin-top: 70px;
     margin-bottom: 125px;
+
+    a:hover {
+      margin-top: -2px;
+      .arrow {
+        width: 22px;
+        height: 37px;
+      }
+      h6 {
+        font-size: 26px;
+      }
+      text-decoration: none;
+    }
   }
 
   b {
@@ -398,7 +434,9 @@ ul {
 
 .sidemenu {
   position: fixed;
-  top: 280px;
+  top: 58%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 99;
   left: 24px;
 
@@ -420,11 +458,12 @@ ul {
   }
 
   li:hover {
-    font-size: 22px;
-    margin-top: 3px;
+    font-size: 18px;
+    margin-top: 1px;
     color: #814CF3;
   }
 
-
-
+  a:hover {
+    text-decoration: none;
+  }
 }

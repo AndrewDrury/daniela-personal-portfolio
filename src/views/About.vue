@@ -24,8 +24,7 @@
                   My name's Daniela Ornelas. I'm an aspiring UX designer and a
                   third-year Psychology student at York University, currently
                   residing in Toronto, Canada. UX design combines all my
-                  passions: design, psychology, communication (I love talking to
-                  people!), and learning.
+                  passions: design, psychology, communication, and learning.
                 </p>
                 <p class="paragraph">
                   When I’m not designing, I’m either listening to music, doing

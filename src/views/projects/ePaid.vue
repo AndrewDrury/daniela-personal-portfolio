@@ -103,7 +103,7 @@
                 </b>
                 TD Lab aims to develop solutions that create exceptional user
                 experience for employees and customers. During TD Lab’s Mid-Term
-                Hack, the problem is to help freelancers and people with side
+                Hack, the problem was to help freelancers and people with side
                 hustles get paid faster. As part of the problem, we were
                 required to incorperate Interac’s API.
               </p>
@@ -122,7 +122,7 @@
             <b-col>
               <h2>My Role</h2>
               <p>
-                The e-Paid team consisted of one
+                The E-Paid team consisted of one
                 <b>UX/UI designer (me!)</b> and one software developer co-op
                 student. The co-op roles (UI/UX designers, and software
                 developers) were immersed in user experience problems and were
@@ -176,9 +176,9 @@
           <!-- WHO IS THIS FOR? -->
           <b-row id="Who" name="Who is this for?">
             <b-col>
-              <h2>Who is e-Paid for? Meet Jenny</h2>
+              <h2>Who is E-Paid for? Meet Jenny</h2>
               <p>
-                Jenny is an example user that would want to use e-Paid. For the
+                Jenny is an example user that would want to use E-Paid. For the
                 purpose of designing, I created Jenny. This persona helped me to
                 solve specific problems while also allowing me to fully immerse
                 myself into her shoes.
@@ -415,7 +415,7 @@
                 <b-col>
                   <img
                     class="project-pic mobile-bottom-space"
-                    src="@/assets/epaid-info/iPhone8.png"
+                    src="@/assets/epaid-info/e-paid-more-details.png"
                   />
                 </b-col>
               </b-row>

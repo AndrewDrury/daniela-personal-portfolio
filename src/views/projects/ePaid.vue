@@ -105,7 +105,7 @@
                 experience for employees and customers. During TD Lab’s Mid-Term
                 Hack, the problem was to help freelancers and people with side
                 hustles get paid faster. As part of the problem, we were
-                required to incorperate Interac’s API.
+                required to incorporate Interac’s API.
               </p>
             </b-col>
           </b-row>
@@ -528,7 +528,7 @@
                 </b>
                 To solve this problem, we stripped down our unrealistic approach
                 and focused on the true problem presented, which is to allow a
-                platform for freelancers to get paid faster by incorperating the
+                platform for freelancers to get paid faster by incorporating the
                 Interac API.
               </p>
             </b-col>

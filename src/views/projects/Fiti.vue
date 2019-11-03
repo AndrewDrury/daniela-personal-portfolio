@@ -400,7 +400,8 @@
             <b-col>
               <h2>User Testing</h2>
               <p>
-                I was able to able to perform user testing on an individual who lives with paralysis.
+                I was able to able to perform user testing on an individual who
+                lives with paralysis.
               </p>
               <h3>Why does Fiti work for you?</h3>
               <p>

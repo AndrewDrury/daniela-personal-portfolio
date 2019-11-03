@@ -92,10 +92,10 @@
               <p>
                 HealthLine was an app that was created for RU Hacks May 2019.
                 HealthLine allows users to receive a diagnosis of their symptoms
-                through computer vision, machine learning, and SMS
-                texting. The themes for the hackathon were interconnectivity,
-                world issues, communication and worldwide information exchange.
-                We managed to incorporate all these themes into our app.
+                through computer vision, machine learning, and SMS texting. The
+                themes for the hackathon were interconnectivity, world issues,
+                communication and worldwide information exchange. We managed to
+                incorporate all these themes into our app.
               </p>
             </b-col>
           </b-row>

@@ -124,7 +124,7 @@
           <!-- WHO IS THIS FOR? -->
           <b-row id="Who" name="Who?">
             <b-col>
-              <h2>Who is HeathLine For? Meet Manuela</h2>
+              <h2>Who is HeathLine for? Meet Manuela</h2>
               <p>
                 I used Manuela as an example user that would want to use
                 HealthLine. For the purpose of designing, I created Manuela This

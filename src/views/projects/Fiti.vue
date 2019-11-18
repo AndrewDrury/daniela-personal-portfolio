@@ -89,10 +89,10 @@
               </ul>
             </b-col>
             <b-col class="desc">
-              <h3>A fitness app for people with paraplegia.</h3>
+              <h3>A fitness app for people with paralysis.</h3>
               <p>
                 Paraplegia causes paralysis and muscle loss in the lower body,
-                often leading to a sedentary lifestyle, increasing your risk of
+                often leading to a sedentary lifestyle, increasing risk of
                 obesity and other chronic conditions such as heart disease. Fiti
                 provides accessible, affordable, and interesting workouts that
                 are easy to incorporate in all lifestyles.
@@ -103,7 +103,7 @@
             <b-col>
               <h1>
                 “How might I provide in-home accessible workouts for people
-                living with Paraplegia?”
+                living with paralysis?”
               </h1>
             </b-col>
           </b-row>
@@ -115,7 +115,7 @@
                 <b>I created and designed Fiti.</b> I began to investigate what
                 tools were out there for those who may want to consider at home
                 workouts. I was unable to find many apps or technologies that
-                would help a person with paraplegia partake in at-home workouts.
+                would help a person with paralysis partake in at-home workouts.
                 Therefore, I created a new file, and began my research phase of
                 the design process.
               </p>
@@ -276,7 +276,7 @@
               <p>
                 Alex can pick categories that interest him.
                 <b>
-                  For people with paraplegia, it’s most important to do strength
+                  For people with paralysis, it’s most important to do strength
                   training, areobic, and flexibility exercises. Therefore, those
                   categories remain at the top.
                 </b>
@@ -400,8 +400,8 @@
             <b-col>
               <h2>User Testing</h2>
               <p>
-                I was able to able to perform user testing on an individual
-                named John, who lives with paraplegia.
+                I was able to able to perform user testing on an individual who
+                lives with paralysis.
               </p>
               <h3>Why does Fiti work for you?</h3>
               <p>

@@ -214,6 +214,7 @@ section {
 }
 #footer {
   background: rgba(129, 76, 243, 0.15) !important;
+  z-index: 99;
 }
 #footer ul.social li a i {
   margin-right: 15px;

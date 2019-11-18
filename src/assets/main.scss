@@ -434,10 +434,11 @@ ul {
 
 .sidemenu {
   position: fixed;
-  top: 58%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 99;
+  // top: 58%;
+  // -ms-transform: translateY(-50%);
+  // transform: translateY(-50%);
+  top: 270px;
+  z-index: 2;
   left: 24px;
 
   @media (max-width: $screen-md) {

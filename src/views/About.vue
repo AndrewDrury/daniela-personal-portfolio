@@ -53,7 +53,7 @@
           <b-row>
             <b-col align="left" style="padding-left: 0px; padding-right: 0px">
               <h4 class="status">
-                I’m currently seeking UX/UI design, product design, and project
+                I’m currently seeking UX/UI design, product design, and product
                 management internship opportunities for Summer 2020.
               </h4>
             </b-col>

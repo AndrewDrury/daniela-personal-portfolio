@@ -37,16 +37,6 @@
       </transition>
     </div>
 
-    <!-- Sidebar for project pages -->
-    <!-- <aside id="nav">
-      <nav>
-        <a href="#1" class="active">Punkt 1</a>
-        <a href="#2">Punkt 2</a>
-        <a href="#3">Punkt 3</a>
-        <a href="#4">Punkt 4</a>
-      </nav>
-    </aside>-->
-
     <!-- Footer -->
     <section id="footer">
       <div class="container">
@@ -191,7 +181,9 @@
 #navbar {
   background-color: white;
   @media (min-width: $screen-md) {
-    height: 130px;
+    height: 60px;
+    padding-top: 50px;
+    padding-bottom: 35px;
   }
 
   /* change the link color */

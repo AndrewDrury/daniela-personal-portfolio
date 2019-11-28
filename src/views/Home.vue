@@ -12,7 +12,7 @@
             <b-col md="11" class="text-left">
               <h4 class="introduction" style="margin-bottom: 60px">
                 I’m a curious
-                <b class="bolded" style="font-size: 30px">UX designer.</b> I ask
+                <b class="bolded" style="font-size: 30px">user experience designer.</b> I ask
                 all the questions, so that the user doesn’t have to. Living and
                 learning in Toronto, Canada.
                 <img

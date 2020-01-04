@@ -12,9 +12,9 @@ echo Building. this may take a minute...
 npm run build
 
 # if you are deploying to a custom domain
-cd dist
-echo 'danielaornelas.com' > CNAME
-cd ..
+# cd dist
+# echo $'danielaornelas.com\nwww.danielaornelas.com' > CNAME
+# cd ..
 
 echo Deploying..
 git add dist

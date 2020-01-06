@@ -5,14 +5,18 @@
         <b-col>
           <b-row class="top-space">
             <b-col class="text-left">
-              <b class='name' style='opacity:100'>Daniela Ornelas&nbsp;</b>
-              <b class='name-greeting'>is a product designer and a psychology student.</b>
+              <b class="name" style="opacity:100">Daniela Ornelas&nbsp;</b>
+              <b class="name-greeting"
+                >is a product designer and a psychology student.</b
+              >
             </b-col>
           </b-row>
           <b-row class="desc">
             <b-col md="11" class="text-left">
               <h4 class="introduction" style="margin-bottom: 60px">
-                Experienced in FinTech and creating awesome financial solutions for students by using interaction &amp; visual design, and product-thinking.<br/>
+                Experienced in FinTech and creating awesome financial solutions
+                for students by using interaction &amp; visual design, and
+                product-thinking.<br />
                 Living and learning in Toronto, Canada.
                 <img
                   srcset="
@@ -20,26 +24,29 @@
                     @/assets/homepage/maple-leaf@2x.png 2x,
                     @/assets/homepage/maple-leaf@3x.png 3x
                   "
-                  style='color:black'
+                  style="color:black"
                 />
               </h4>
             </b-col>
           </b-row>
           <b-row id="Projects" name="Projects">
             <b-col>
-              <div style='margin-bottom: 60px'>
-                <router-link class ='view-work' :to="{ name: 'home', hash: '#Projects' }">
+              <div style="margin-bottom: 60px">
+                <router-link
+                  class="view-work"
+                  :to="{ name: 'home', hash: '#Projects' }"
+                >
                   <h2 class="project-header" href="#Projects">
                     View my work!
                   </h2>
                   <img
-                      class="arrow-down"
-                      srcset="
-                        @/assets/homepage/next.png,
-                        @/assets/homepage/next@2x.png 2x,
-                        @/assets/homepage/next@3x.png 3x
-                      "
-                    />
+                    class="arrow-down"
+                    srcset="
+                      @/assets/homepage/next.png,
+                      @/assets/homepage/next@2x.png 2x,
+                      @/assets/homepage/next@3x.png 3x
+                    "
+                  />
                 </router-link>
               </div>
               <b-row class="projectRow">
@@ -57,9 +64,12 @@
                 </b-col>
                 <b-col lg="7" align="left">
                   <h3 class="project-title">TD Lab</h3>
-                  <h4 class="category">UI/UX Designer Intern - Winter/Spring 2019</h4>
+                  <h4 class="category">
+                    UI/UX Designer Intern - Winter/Spring 2019
+                  </h4>
                   <p class="description">
-                    Worked in dynamic teams to design and develop financial banking solutions for Generation Z.
+                    Worked in dynamic teams to design and develop financial
+                    banking solutions for Generation Z.
                   </p>
                   <a class="read-more" href="./#/ePaid">
                     <h6>See more</h6>
@@ -136,7 +146,6 @@
                         @/assets/homepage/fiti@3x.png 3x
                       "
                     />
-                    
                   </a>
                 </b-col>
                 <b-col lg="7" align="left">
@@ -212,12 +221,12 @@
   }
 
   .name {
-      font-size: 35px !important;
-      font-weight: 500 !important;
-      letter-spacing: 0.21px !important;
-      line-height: 37px !important;
-      color: $primary !important;
-    }
+    font-size: 35px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.21px !important;
+    line-height: 37px !important;
+    color: $primary !important;
+  }
 
   .introduction {
     font-size: 28;
@@ -259,8 +268,8 @@
       }
     }
     .view-work:hover {
-        margin-top: -1px;
-        text-decoration: none;
+      margin-top: -1px;
+      text-decoration: none;
       .project-header {
         font-size: 21px !important;
       }
@@ -371,7 +380,6 @@
     }
   }
 }
-
 </style>
 
 <script lang="ts">

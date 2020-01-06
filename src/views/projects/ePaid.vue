@@ -23,7 +23,13 @@
             <b-col id="Internship" name="Internship">
               <h2>UI/UX Designer</h2>
               <p>
-                TD Lab, located in Kitchener-Waterloo, Ontario, has given me a hands-on learning experience that has introduced me to design, business, and technology. During my internship at TD, I designed apps to help Generation Z manage their finances to prepare for future student loans, payments and mortgages. A week in the life of a designer at TD consisted of user research, customer journey mapping, wireframing, prototyping, and user-testing, 
+                TD Lab, located in Kitchener-Waterloo, Ontario, has given me a
+                hands-on learning experience that has introduced me to design,
+                business, and technology. During my internship at TD, I designed
+                apps to help Generation Z manage their finances to prepare for
+                future student loans, payments and mortgages. A week in the life
+                of a designer at TD consisted of user research, customer journey
+                mapping, wireframing, prototyping, and user-testing.
               </p>
             </b-col>
           </b-row>
@@ -621,5 +627,4 @@ export default Vue.extend({
 .top-space-epaid {
   margin-top: 2px;
 }
-
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="app">
-    <div class='top-white-strip'></div>
+    <div class="top-white-strip"></div>
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top" id="navbar">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -183,7 +183,7 @@
   width: 100%;
   position: fixed;
   height: 85px;
-  background:white;
+  background: white;
   z-index: 3;
   @media (max-width: $screen-md) {
     display: none;
@@ -258,7 +258,6 @@ section {
 //   color: $primary;
 //   font-size: 22px;
 // }
-
 
 .fixed-top {
   margin-left: 9.86%;

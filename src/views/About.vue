@@ -11,7 +11,7 @@
           <b-row class="bio">
             <b-col class="vert-center bio-pic" lg="5" align="left">
               <img
-                class='images hide'
+                class="images hide"
                 srcset="
                   @/assets/aboutme-info/pic-2.png,
                   @/assets/aboutme-info/pic-2@2x.png 2x,
@@ -19,7 +19,7 @@
                 "
               />
               <img
-                class='images hide'
+                class="images hide"
                 srcset="
                   @/assets/aboutme-info/pic-3.png,
                   @/assets/aboutme-info/pic-3@2x.png 2x,
@@ -27,7 +27,7 @@
                 "
               />
               <img
-                class='images'
+                class="images"
                 srcset="
                   @/assets/aboutme-info/pic-1.png,
                   @/assets/aboutme-info/pic-1@2x.png 2x,
@@ -38,7 +38,15 @@
             <b-col class="vert-center no-pad" lg="7" align="left">
               <div>
                 <p class="paragraph">
-                  I am a third-year Psychology student at York University in Toronto, Canada. I love creating things from scratch, and generating larger-than-life ideas all while keeping the user in mind. With my experience as a UI/UX Designer for TD Lab in Kitchener-Waterloo, Canada, I gained hands-on learning experience that has introduced me to design, business, and technology. During my internship at TD, I designed apps to help Generation Z manage their finances to prepare for future student loans, payments and mortgages.
+                  I am a third-year Psychology student at York University in
+                  Toronto, Canada. I love creating things from scratch, and
+                  generating larger-than-life ideas all while keeping the user
+                  in mind. With my experience as a UI/UX Designer for TD Lab in
+                  Kitchener-Waterloo, Canada, I gained hands-on learning
+                  experience that has introduced me to design, business, and
+                  technology. During my internship at TD, I designed apps to
+                  help Generation Z manage their finances to prepare for future
+                  student loans, payments and mortgages.
                 </p>
               </div>
             </b-col>
@@ -46,7 +54,9 @@
           <b-row>
             <b-col align="left" style="padding-left: 0px; padding-right: 0px">
               <p class="paragraph">
-                Outside of school and work, I enjoy exploring new cities, cooking new recipes, reading, contributing to initiatives I care about, and refining my skills as a designer.
+                Outside of school and work, I enjoy exploring new cities,
+                cooking new recipes, reading, contributing to initiatives I care
+                about, and refining my skills as a designer.
               </p>
             </b-col>
           </b-row>
@@ -68,19 +78,20 @@
 import Vue from "vue";
 var index = 0;
 var triggered = false;
-const classHide = 'hide';
+const classHide = "hide";
 var images, count;
 
-addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
+addEventListener("load", () => {
+  // "load" is safe but "DOMContentLoaded" starts earlier
   images = document.querySelectorAll(".images");
   count = images.length;
-  index = count-1;
+  index = count - 1;
 
   nextSlide();
   function nextSlide() {
-      images[(index ++) % count].classList.add(classHide);
-      images[index % count].classList.remove(classHide);
-      setTimeout(nextSlide, 1000);
+    images[index++ % count].classList.add(classHide);
+    images[index % count].classList.remove(classHide);
+    setTimeout(nextSlide, 1000);
   }
 });
 
@@ -106,7 +117,6 @@ addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts 
 //       images[index % count].classList.remove(classHide);
 //   }
 // });
-
 
 export default Vue.extend({
   //SIDEBAR FOR PROJECTS
@@ -144,7 +154,6 @@ export default Vue.extend({
   }
 
   .bio-pic {
-
     margin-bottom: 40px;
     @media (min-width: $screen-md) {
       padding-right: 82px;

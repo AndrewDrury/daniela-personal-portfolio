@@ -9,7 +9,7 @@
       <b-row>
         <b-col align="center">
           <img
-            class='full-width-mobile'
+            class="full-width-mobile"
             srcset="
               @/assets/epaid-info/pic-middle-grouped.png,
               @/assets/epaid-info/pic-middle-grouped@2x.png 2x,
@@ -37,7 +37,7 @@
           <b-row>
             <b-col class="logo" align="center">
               <img
-                class='full-width-mobile'
+                class="full-width-mobile"
                 srcset="
                   @/assets/epaid-info/e-paid-group.png,
                   @/assets/epaid-info/e-paid-group@2x.png 2x,
@@ -616,7 +616,7 @@ export default Vue.extend({
 
 @media (max-width: $screen-sm) {
   .full-width-mobile {
-    width:100%;
+    width: 100%;
   }
 }
 

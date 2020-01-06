@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="app">
+    <div class='top-white-strip'></div>
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top" id="navbar">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -177,6 +178,18 @@
   font-size: 1.25em;
 }
 
+.top-white-strip {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  height: 85px;
+  background:white;
+  z-index: 3;
+  @media (max-width: $screen-md) {
+    display: none;
+  }
+}
+
 // Navbar
 #navbar {
   background-color: white;
@@ -246,34 +259,6 @@ section {
 //   font-size: 22px;
 // }
 
-// SIDEBAR FOR PROJECTS
-#nav {
-  width: 25%;
-  position: fixed;
-  left: 20px;
-  z-index: 1;
-}
-
-// Sidebar
-// #nav nav {
-//   position: fixed;
-//   width: 25%;
-// }
-
-#nav a {
-  border-bottom: 1px solid #666;
-  color: #333;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-}
-
-#nav a:hover,
-#nav a.active {
-  background: #666;
-  color: #fff;
-}
 
 .fixed-top {
   margin-left: 9.86%;
@@ -296,25 +281,6 @@ section {
 <script lang="ts">
 import Vue from "vue";
 // @ is an alias to /src
-
-//SIDEBAR FOR PROJECTS
-// $("#nav nav a").on("click", function(event) {
-//   $(this)
-//     .parent()
-//     .find("a")
-//     .removeClass("active");
-//   $(this).addClass("active");
-// });
-
-// $(window).on("scroll", function() {
-//   $(".target").each(function() {
-//     if ($(window).scrollTop() >= $(this).offset().top) {
-//       var id = $(this).attr("id");
-//       $("#nav nav a").removeClass("active");
-//       $("#nav nav a[href=#" + id + "]").addClass("active");
-//     }
-//   });
-// });
 
 export default Vue.extend({
   name: "home"

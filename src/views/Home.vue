@@ -5,43 +5,43 @@
         <b-col>
           <b-row class="top-space">
             <b-col class="text-left">
-              <h1 class="name-greeting">Hi! I’m Daniela Ornelas.</h1>
+              <b class='name' style='opacity:100'>Daniela Ornelas&nbsp;</b>
+              <b class='name-greeting'>is a product designer and a psychology student.</b>
             </b-col>
           </b-row>
           <b-row class="desc">
             <b-col md="11" class="text-left">
               <h4 class="introduction" style="margin-bottom: 60px">
-                I’m a curious
-                <b class="bolded" style="font-size: 30px"
-                  >user experience designer.</b
-                >
-                I ask all the questions, so that the user doesn’t have to.
+                Experienced in FinTech and creating awesome financial solutions for students by using interaction &amp; visual design, and product-thinking.<br/>
                 Living and learning in Toronto, Canada.
                 <img
                   srcset="
-                    @/assets/homepage/maple-leaf/Shape.png,
-                    @/assets/homepage/maple-leaf/Shape@2x.png 2x,
-                    @/assets/homepage/maple-leaf/Shape@3x.png 3x
+                    @/assets/homepage/maple-leaf.png,
+                    @/assets/homepage/maple-leaf@2x.png 2x,
+                    @/assets/homepage/maple-leaf@3x.png 3x
                   "
+                  style='color:black'
                 />
               </h4>
             </b-col>
           </b-row>
           <b-row id="Projects" name="Projects">
             <b-col>
-              <a>
-                <h2 class="project-header mb-5" href="#Projects">
-                  My Projects
+              <div style='margin-bottom: 60px'>
+                <router-link class ='view-work' :to="{ name: 'home', hash: '#Projects' }">
+                  <h2 class="project-header" href="#Projects">
+                    View my work!
+                  </h2>
                   <img
-                    class="arrow-down pb-2"
-                    srcset="
-                      @/assets/homepage/next.png,
-                      @/assets/homepage/next@2x.png 2x,
-                      @/assets/homepage/next@3x.png 3x
-                    "
-                  />
-                </h2>
-              </a>
+                      class="arrow-down"
+                      srcset="
+                        @/assets/homepage/next.png,
+                        @/assets/homepage/next@2x.png 2x,
+                        @/assets/homepage/next@3x.png 3x
+                      "
+                    />
+                </router-link>
+              </div>
               <b-row class="projectRow">
                 <b-col lg="5" align="left">
                   <a href="./#/ePaid">
@@ -52,12 +52,11 @@
                   </a>
                 </b-col>
                 <b-col lg="7" align="left">
-                  <h3 class="project-title">e-Paid</h3>
-                  <h4 class="category">TD Lab</h4>
-                  <h5 class="tag-line">Help freelancers get paid faster.</h5>
+                  <h3 class="project-title">TD Lab</h3>
+                  <h4 class="category">UI/UX Designer Intern - Winter/Spring 2019</h4>
+                  <!-- <h5 class="tag-line">Help freelancers get paid faster.</h5> -->
                   <p class="description">
-                    Uses Interac’s e-transfer API to help our user with easy
-                    invoicing.
+                    Worked in dynamic teams to design and develop financial banking solutions for Generation Z.
                   </p>
                   <!-- <router-link class="read-more" to="/ePaid">
                       <h6>Read More</h6>
@@ -70,7 +69,7 @@
                       />
                   </router-link>-->
                   <a class="read-more" href="./#/ePaid">
-                    <h6>Read More</h6>
+                    <h6>See more</h6>
                     <img
                       srcset="
                         @/assets/homepage/next.png,
@@ -79,7 +78,7 @@
                       "
                     />
                   </a>
-                  <h6 class="skill-title">Skills</h6>
+                  <!-- <h6 class="skill-title">Skills</h6>
                   <b-row align="left">
                     <b-col>
                       <div class="skill">User Interviews</div>
@@ -87,24 +86,28 @@
                       <div class="skill">Project Management</div>
                       <div class="skill">UI/UX Design</div>
                     </b-col>
-                  </b-row>
+                  </b-row> -->
                 </b-col>
               </b-row>
 
               <b-row class="projectRow">
                 <b-col class="desktop" lg="7" align="left">
-                  <h3 class="project-title">Fiti</h3>
-                  <h4 class="category">Passion Project</h4>
-                  <h5 class="tag-line">
-                    A fitness app for people with paraplegia.
-                  </h5>
+                  <h3 class="project-title">Healthline</h3>
+                  <h4 class="category">Design Challenge - Summer 2019</h4>
+                  <!-- <h5 class="tag-line">
+                    Receive a diagnosis of your symptoms.
+                  </h5> -->
                   <p class="description">
-                    Fiti provides accessible, affordable, and interesting
-                    workouts that are easy to incorperate in all lifestyles.
+                    A diagnosis is made through computer vision and machine
+                    learning, and SMS.
                   </p>
-                  <a class="read-more" href="./#/Fiti">
-                    <!-- <a class="read-more" href="../Fiti-info.pdf" target="_blank"> -->
-                    <h6>Read More</h6>
+                  <a class="read-more" href="./#/HealthLine">
+                   <!-- <a
+                    class="read-more"
+                    href="../HealthLine-info.pdf"
+                    target="_blank"
+                    >-->
+                    <h6>See More</h6>
                     <img
                       srcset="
                         @/assets/homepage/next.png,
@@ -113,66 +116,19 @@
                       "
                     />
                   </a>
-                  <h6 class="skill-title">Skills</h6>
+                  <!-- <h6 class="skill-title">Skills</h6>
                   <b-row align="left">
                     <b-col>
+                      <div class="skill">Project Management</div>
+                      <div class="skill">Ideation</div>
                       <div class="skill">Research</div>
-                      <div class="skill">Personas</div>
                       <div class="skill">UI/UX Design</div>
-                      <div class="skill">Product Design</div>
                     </b-col>
-                  </b-row>
+                  </b-row> -->
                 </b-col>
                 <b-col lg="5" align="right">
-                  <a href="./#/Fiti">
-                    <!-- <a href="../Fiti-info.pdf" target="_blank"> -->
-                    <img
-                      class="screenshot"
-                      srcset="
-                        @/assets/homepage/dark.png,
-                        @/assets/homepage/dark@2x.png 2x,
-                        @/assets/homepage/dark@3x.png 3x
-                      "
-                    />
-                  </a>
-                </b-col>
-                <b-col class="mobile" align="left">
-                  <h3 class="project-title">Fiti</h3>
-                  <h4 class="category">Passion Project</h4>
-                  <h5 class="tag-line">
-                    A fitness app for people with paraplegia.
-                  </h5>
-                  <p class="description">
-                    Fiti provides accessible, affordable, and interesting
-                    workouts that are easy to incorperate in all lifestyles.
-                  </p>
-                  <a class="read-more" href="./#/Fiti">
-                    <!-- <a class="read-more" href="../Fiti-info.pdf" target="_blank"> -->
-                    <h6>Read More</h6>
-                    <img
-                      srcset="
-                        @/assets/homepage/next.png,
-                        @/assets/homepage/next@2x.png 2x,
-                        @/assets/homepage/next@3x.png 3x
-                      "
-                    />
-                  </a>
-                  <h6 class="skill-title">Skills</h6>
-                  <b-row align="left">
-                    <b-col>
-                      <div class="skill">Research</div>
-                      <div class="skill">Personas</div>
-                      <div class="skill">UI/UX Design</div>
-                      <div class="skill">Product Design</div>
-                    </b-col>
-                  </b-row>
-                </b-col>
-              </b-row>
-
-              <b-row class="projectRow my-3">
-                <b-col lg="5" align="left">
                   <a href="./#/HealthLine">
-                    <!-- <a href="../HealthLine-info.pdf" target="_blank"> -->
+                    <!-- <a href="../Fiti-info.pdf" target="_blank"> -->
                     <img
                       class="screenshot"
                       srcset="
@@ -183,23 +139,18 @@
                     />
                   </a>
                 </b-col>
-                <b-col lg="7" align="left">
-                  <h3 class="project-title">HealthLine</h3>
-                  <h4 class="category">RU Hacks</h4>
-                  <h5 class="tag-line">
+                <b-col class="mobile" align="left">
+                  <h3 class="project-title">Healthline</h3>
+                  <h4 class="category">Design Challenge - Summer 2019</h4>
+                  <!-- <h5 class="tag-line">
                     Receive a diagnosis of your symptoms.
-                  </h5>
+                  </h5> -->
                   <p class="description">
                     A diagnosis is made through computer vision and machine
                     learning, and SMS.
                   </p>
                   <a class="read-more" href="./#/HealthLine">
-                    <!-- <a
-                    class="read-more"
-                    href="../HealthLine-info.pdf"
-                    target="_blank"
-                    >-->
-                    <h6>Read More</h6>
+                    <h6>See More</h6>
                     <img
                       srcset="
                         @/assets/homepage/next.png,
@@ -208,7 +159,7 @@
                       "
                     />
                   </a>
-                  <h6 class="skill-title">Skills</h6>
+                  <!-- <h6 class="skill-title">Skills</h6>
                   <b-row align="left">
                     <b-col>
                       <div class="skill">Project Management</div>
@@ -216,7 +167,51 @@
                       <div class="skill">Research</div>
                       <div class="skill">UI/UX Design</div>
                     </b-col>
-                  </b-row>
+                  </b-row> -->
+                </b-col>
+              </b-row>
+
+              <b-row class="projectRow my-3">
+                <b-col lg="5" align="left">
+                  <a href="./#/Fiti">
+                    <img
+                      class="screenshot"
+                      srcset="
+                        @/assets/homepage/dark.png,
+                        @/assets/homepage/dark@2x.png 2x,
+                        @/assets/homepage/dark@3x.png 3x
+                      "
+                    />
+                    
+                  </a>
+                </b-col>
+                <b-col lg="7" align="left">
+                  <h3 class="project-title">Fiti</h3>
+                  <h4 class="category">Passion Project - Summer 2019</h4>
+                  <!-- <h5 class="tag-line">A fitness app for people with paraplegia.</h5> -->
+                  <p class="description">
+                    Fiti provides accessible, affordable, and interesting
+                    workouts that are easy to incorperate in all lifestyles.
+                  </p>
+                  <a class="read-more" href="./#/Fiti">
+                    <h6>See more</h6>
+                    <img
+                      srcset="
+                        @/assets/homepage/next.png,
+                        @/assets/homepage/next@2x.png 2x,
+                        @/assets/homepage/next@3x.png 3x
+                      "
+                    />
+                  </a>
+                  <!-- <h6 class="skill-title">Skills</h6>
+                  <b-row align="left">
+                    <b-col>
+                      <div class="skill">Research</div>
+                      <div class="skill">Personas</div>
+                      <div class="skill">UI/UX Design</div>
+                      <div class="skill">Product Design</div>
+                    </b-col>
+                  </b-row> -->
                 </b-col>
               </b-row>
             </b-col>
@@ -264,13 +259,24 @@
   }
 
   .name-greeting {
-    font-size: 40px !important;
-    font-weight: 500 !important;
+    font-size: 32px !important;
+    font-weight: 400 !important;
+    color: $primary !important;
+    letter-spacing: 0.19px !important;
+    line-height: 37px !important;
+    opacity: 0.5 !important;
   }
+
+  .name {
+      font-size: 35px !important;
+      font-weight: 500 !important;
+      letter-spacing: 0.21px !important;
+      line-height: 37px !important;
+      color: $primary !important;
+    }
 
   .introduction {
     font-size: 28;
-    color: $primary;
     font-weight: 400;
     margin-bottom: 360px;
     @media (max-width: $screen-md) {
@@ -278,7 +284,6 @@
     }
     .bolded {
       font-family: AvenirBold, sans-serif;
-      color: $primary;
     }
   }
 
@@ -288,14 +293,40 @@
       padding-top: 4em;
     }
 
-    .project-header {
-      font-weight: 500;
-      color: $primary;
-      font-size: 34px;
+    .view-work {
+      .project-header {
+        font-weight: 500;
+        color: $primary;
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: 0.16px;
+        margin-bottom: 15px;
+        -webkit-transition: 0.5s all ease;
+        -moz-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+      }
+      .arrow-down {
+        transform: rotate(90deg);
+        width: 19px;
+        height: 32px;
+        -webkit-transition: 0.5s all ease;
+        -moz-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+      }
     }
-    .arrow-down {
-      transform: rotate(90deg);
+    .view-work:hover {
+        margin-top: -1px;
+        text-decoration: none;
+      .project-header {
+        font-size: 21px !important;
+      }
+      .arrow-down {
+        width: 21px;
+        height: 35px;
+        margin-bottom: -3px;
+      }
     }
+
     .projectRow {
       display: flex;
       justify-content: center;
@@ -351,6 +382,8 @@
       }
       .description {
         font-size: 25px;
+        letter-spacing: 0.13px;
+        line-height: 33px;
       }
       .skill {
         padding-right: 32px;
@@ -383,7 +416,7 @@
 
 .projectRow {
   .read-more:hover {
-    margin-top: -1px;
+    margin-top: -2px;
     text-decoration: none;
     h6 {
       font-size: 26px !important;

@@ -11,43 +11,43 @@
           <b-row class="bio">
             <b-col class="vert-center bio-pic" lg="5" align="left">
               <img
+                class='images hide'
                 srcset="
-                  @/assets/aboutme-info/Strength.png,
-                  @/assets/aboutme-info/Strength@2x.png 2x,
-                  @/assets/aboutme-info/Strength@3x.png 3x
+                  @/assets/aboutme-info/pic-2.png,
+                  @/assets/aboutme-info/pic-2@2x.png 2x,
+                  @/assets/aboutme-info/pic-2@3x.png 3x
+                "
+              />
+              <img
+                class='images hide'
+                srcset="
+                  @/assets/aboutme-info/pic-3.png,
+                  @/assets/aboutme-info/pic-3@2x.png 2x,
+                  @/assets/aboutme-info/pic-3@3x.png 3x
+                "
+              />
+              <img
+                class='images'
+                srcset="
+                  @/assets/aboutme-info/pic-1.png,
+                  @/assets/aboutme-info/pic-1@2x.png 2x,
+                  @/assets/aboutme-info/pic-1@3x.png 3x
                 "
               />
             </b-col>
-            <b-col class="vert-center" lg="7" align="left">
+            <b-col class="vert-center no-pad" lg="7" align="left">
               <div>
                 <p class="paragraph">
-                  My name's Daniela Ornelas. I'm an aspiring UX designer and a
-                  third-year Psychology student at York University, currently
-                  residing in Toronto, Canada. UX design combines all my
-                  passions: design, psychology, communication, and learning.
-                </p>
-                <p class="paragraph">
-                  When I’m not designing, I’m either listening to music, doing
-                  Muay Thai, reading Medium posts, looking for the best Italian
-                  food I can find in Toronto, or spending my time with friends
-                  and family.
+                  I am a third-year Psychology student at York University in Toronto, Canada. I love creating things from scratch, and generating larger-than-life ideas all while keeping the user in mind. With my experience as a UI/UX Designer for TD Lab in Kitchener-Waterloo, Canada, I gained hands-on learning experience that has introduced me to design, business, and technology. During my internship at TD, I designed apps to help Generation Z manage their finances to prepare for future student loans, payments and mortgages.
                 </p>
               </div>
             </b-col>
           </b-row>
-          <b-row class="work-section vert-center">
-            <b-col align="left" md="8">
-              <h3 class="work-title">Internship at TD Lab</h3>
-              <p class="work-description">
-                TD Lab, located in Kitchener-Waterloo, Ontario, has given me a
-                hands-on learning experience that has introduced me to design,
-                business, and technology. During my internship at TD, I designed
-                apps to help Generation Z manage their finances to prepare for
-                future student loans, payments and mortgages.
+          <b-row>
+            <b-col align="left" style="padding-left: 0px; padding-right: 0px">
+              <p class="paragraph">
+                Outside of school and work, I enjoy exploring new cities, cooking new recipes, reading, contributing to initiatives I care about, and refining my skills as a designer.
               </p>
-            </b-col>
-            <b-col md="4" align="center">
-              <img src="@/assets/aboutme-info/TDLab.png" />
             </b-col>
           </b-row>
           <b-row>
@@ -63,6 +63,55 @@
     </b-container>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from "vue";
+var index = 0;
+var triggered = false;
+const classHide = 'hide';
+var images, count;
+
+addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
+  images = document.querySelectorAll(".images");
+  count = images.length;
+  index = count-1;
+
+  nextSlide();
+  function nextSlide() {
+      images[(index ++) % count].classList.add(classHide);
+      images[index % count].classList.remove(classHide);
+      setTimeout(nextSlide, 1000);
+  }
+});
+
+// addEventListener("pointermove",() => { // "load" is safe but "DOMContentLoaded" starts earlier
+//   if(triggered == false) {
+//     triggered = true;
+//     nextSlide();
+//     function nextSlide() {
+//         images[(index ++) % count].classList.add(classHide);
+//         images[index % count].classList.remove(classHide);
+//         setTimeout(nextSlide, 1000);
+//     }
+
+//   }
+// });
+
+// addEventListener("click",() => { // "load" is safe but "DOMContentLoaded" starts earlier
+//   const images = document.querySelectorAll(".images");
+//   const classHide = "hide", count = images.length;
+//   nextSlide();
+//   function nextSlide() {
+//       images[(index ++) % count].classList.add(classHide);
+//       images[index % count].classList.remove(classHide);
+//   }
+// });
+
+
+export default Vue.extend({
+  //SIDEBAR FOR PROJECTS
+});
+</script>
 
 <style lang="scss">
 @import "../assets/variables.scss";
@@ -84,7 +133,7 @@
   display: flex;
   justify-content: center;
   align-items: left;
-  margin-bottom: 147px;
+  margin-bottom: 66px;
 
   @media (max-width: $screen-md) {
     margin-bottom: 40px;
@@ -95,6 +144,7 @@
   }
 
   .bio-pic {
+
     margin-bottom: 40px;
     @media (min-width: $screen-md) {
       padding-right: 82px;
@@ -132,11 +182,19 @@
 .status {
   font-size: 29px;
   font-weight: 500;
-  padding-top: 97px;
+  padding-top: 51px;
   padding-bottom: 93px;
   @media (max-width: $screen-md) {
-    padding-top: 55px;
+    padding-top: 25px;
     padding-bottom: 55px;
+  }
+}
+
+.no-pad {
+  @media (max-width: $screen-md) {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-top: 5px;
   }
 }
 </style>

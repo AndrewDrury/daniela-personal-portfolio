@@ -1,15 +1,39 @@
 <template>
   <div class="ePaid project">
     <b-container fluid class="verticalCenter">
-      <b-row class="top-space">
+      <b-row>
+        <b-col>
+          <h6 class="top-question">Internship at TD Lab - Winter 2019</h6>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col align="center">
+          <img
+            srcset="
+              @/assets/epaid-info/pic-middle-grouped.png,
+              @/assets/epaid-info/pic-middle-grouped@2x.png 2x,
+              @/assets/epaid-info/pic-middle-grouped@3x.png 3x
+            "
+          />
+        </b-col>
+      </b-row>
+      <b-row class="top-space-epaid">
         <b-col align="left">
+          <b-row>
+            <b-col id="Internship" name="Internship">
+              <h2>UI/UX Designer</h2>
+              <p>
+                TD Lab, located in Kitchener-Waterloo, Ontario, has given me a hands-on learning experience that has introduced me to design, business, and technology. During my internship at TD, I designed apps to help Generation Z manage their finances to prepare for future student loans, payments and mortgages. A week in the life of a designer at TD consisted of user research, customer journey mapping, wireframing, prototyping, and user-testing, 
+              </p>
+            </b-col>
+          </b-row>
           <b-row>
             <b-col class="logo" align="center">
               <img
                 srcset="
-                  @/assets/epaid-info/Group2.png,
-                  @/assets/epaid-info/Group2@2x.png 2x,
-                  @/assets/epaid-info/Group2@3x.png 3x
+                  @/assets/epaid-info/e-paid-group.png,
+                  @/assets/epaid-info/e-paid-group@2x.png 2x,
+                  @/assets/epaid-info/e-paid-group@3x.png 3x
                 "
               />
             </b-col>
@@ -48,8 +72,11 @@
           <!-- Sidebar for project pages -->
           <div class="sidemenu">
             <ul>
+              <router-link :to="{ name: 'ePaid', hash: '#Internship' }">
+                <li>Internship</li>
+              </router-link>
               <router-link :to="{ name: 'ePaid', hash: '#Summary' }">
-                <li>Summary</li>
+                <li>E-Paid Summary</li>
               </router-link>
               <router-link :to="{ name: 'ePaid', hash: '#MyRole' }">
                 <li>My Role</li>
@@ -570,6 +597,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+
 export default Vue.extend({
   //SIDEBAR FOR PROJECTS
 });
@@ -577,4 +605,21 @@ export default Vue.extend({
 
 <style lang="scss">
 @import "@/assets/variables.scss";
+
+.top-question {
+  font-weight: 500;
+  font-size: 36px;
+  color: $primary;
+  margin-top: 150px;
+  margin-bottom: 80px;
+
+  @media (max-width: $screen-sm) {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+}
+.top-space-epaid {
+  margin-top: 2px;
+}
+
 </style>

@@ -14,10 +14,7 @@
           <b-row class="desc">
             <b-col md="11" class="text-left">
               <h4 class="introduction" style="margin-bottom: 60px">
-                Experienced in FinTech and creating awesome financial solutions
-                for students by using interaction &amp; visual design, and
-                product-thinking.<br />
-                Living and learning in Toronto, Canada.
+                Experienced in FinTech, innovation, and interaction &amp; visual design. Creating simple solutions for complex problems. Learning in Toronto, Canada.
                 <img
                   srcset="
                     @/assets/homepage/maple-leaf.png,

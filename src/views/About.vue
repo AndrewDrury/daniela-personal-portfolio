@@ -27,6 +27,38 @@
                 "
               />
               <img
+                class="images hide"
+                srcset="
+                  @/assets/aboutme-info/pic-4.png,
+                  @/assets/aboutme-info/pic-4@2x.png 2x,
+                  @/assets/aboutme-info/pic-4@3x.png 3x
+                "
+              />
+              <img
+                class="images hide"
+                srcset="
+                  @/assets/aboutme-info/pic-5.png,
+                  @/assets/aboutme-info/pic-5@2x.png 2x,
+                  @/assets/aboutme-info/pic-5@3x.png 3x
+                "
+              />
+              <img
+                class="images hide"
+                srcset="
+                  @/assets/aboutme-info/pic-6.png,
+                  @/assets/aboutme-info/pic-6@2x.png 2x,
+                  @/assets/aboutme-info/pic-6@3x.png 3x
+                "
+              />
+              <img
+                class="images hide"
+                srcset="
+                  @/assets/aboutme-info/pic-7.png,
+                  @/assets/aboutme-info/pic-7@2x.png 2x,
+                  @/assets/aboutme-info/pic-7@3x.png 3x
+                "
+              />
+              <img
                 class="images"
                 srcset="
                   @/assets/aboutme-info/pic-1.png,
@@ -91,7 +123,7 @@ addEventListener("load", () => {
   function nextSlide() {
     images[index++ % count].classList.add(classHide);
     images[index % count].classList.remove(classHide);
-    setTimeout(nextSlide, 1000);
+    setTimeout(nextSlide, 5000);
   }
 });
 

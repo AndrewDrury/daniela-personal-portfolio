@@ -11,54 +11,6 @@
           <b-row class="bio">
             <b-col class="vert-center bio-pic" lg="5" align="left">
               <img
-                class="images hide"
-                srcset="
-                  @/assets/aboutme-info/pic-2.png,
-                  @/assets/aboutme-info/pic-2@2x.png 2x,
-                  @/assets/aboutme-info/pic-2@3x.png 3x
-                "
-              />
-              <img
-                class="images hide"
-                srcset="
-                  @/assets/aboutme-info/pic-3.png,
-                  @/assets/aboutme-info/pic-3@2x.png 2x,
-                  @/assets/aboutme-info/pic-3@3x.png 3x
-                "
-              />
-              <img
-                class="images hide"
-                srcset="
-                  @/assets/aboutme-info/pic-4.png,
-                  @/assets/aboutme-info/pic-4@2x.png 2x,
-                  @/assets/aboutme-info/pic-4@3x.png 3x
-                "
-              />
-              <img
-                class="images hide"
-                srcset="
-                  @/assets/aboutme-info/pic-5.png,
-                  @/assets/aboutme-info/pic-5@2x.png 2x,
-                  @/assets/aboutme-info/pic-5@3x.png 3x
-                "
-              />
-              <img
-                class="images hide"
-                srcset="
-                  @/assets/aboutme-info/pic-6.png,
-                  @/assets/aboutme-info/pic-6@2x.png 2x,
-                  @/assets/aboutme-info/pic-6@3x.png 3x
-                "
-              />
-              <img
-                class="images hide"
-                srcset="
-                  @/assets/aboutme-info/pic-7.png,
-                  @/assets/aboutme-info/pic-7@2x.png 2x,
-                  @/assets/aboutme-info/pic-7@3x.png 3x
-                "
-              />
-              <img
                 class="images"
                 srcset="
                   @/assets/aboutme-info/pic-1.png,
@@ -113,19 +65,19 @@ var triggered = false;
 const classHide = "hide";
 var images, count;
 
-addEventListener("load", () => {
-  // "load" is safe but "DOMContentLoaded" starts earlier
-  images = document.querySelectorAll(".images");
-  count = images.length;
-  index = count - 1;
+// addEventListener("load", () => {
+//   // "load" is safe but "DOMContentLoaded" starts earlier
+//   images = document.querySelectorAll(".images");
+//   count = images.length;
+//   index = count - 1;
 
-  nextSlide();
-  function nextSlide() {
-    images[index++ % count].classList.add(classHide);
-    images[index % count].classList.remove(classHide);
-    setTimeout(nextSlide, 5000);
-  }
-});
+//   nextSlide();
+//   function nextSlide() {
+//     images[index++ % count].classList.add(classHide);
+//     images[index % count].classList.remove(classHide);
+//     setTimeout(nextSlide, 5000);
+//   }
+// });
 
 // addEventListener("pointermove",() => { // "load" is safe but "DOMContentLoaded" starts earlier
 //   if(triggered == false) {

@@ -80,7 +80,7 @@
               </li>
               <li class="list-inline-item">
                 <a
-                  href="https://ca.linkedin.com/in/danielaornelas334"
+                  href="https://www.linkedin.com/in/danielaornelas/"
                   target="_blank"
                 >
                   <!-- <i class="fa fa-linkedin"></i> -->

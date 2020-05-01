@@ -36,7 +36,7 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col align="left" style="padding-left: 0px; padding-right: 0px">
+            <b-col align="left" style="padding-left: 0px; padding-right: 0px; padding-bottom: 80px;">
               <p class="paragraph">
                 Outside of school and work, I enjoy exploring new cities,
                 cooking new recipes, reading, contributing to initiatives I care
@@ -44,14 +44,14 @@
               </p>
             </b-col>
           </b-row>
-          <b-row>
+          <!-- <b-row>
             <b-col align="left" style="padding-left: 0px; padding-right: 0px">
               <h4 class="status">
                 I’m currently seeking UX/UI design, product design, and product
                 management internship opportunities for Summer 2020.
               </h4>
             </b-col>
-          </b-row>
+          </b-row> -->
         </b-col>
       </b-row>
     </b-container>

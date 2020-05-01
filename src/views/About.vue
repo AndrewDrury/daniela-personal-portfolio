@@ -36,7 +36,10 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col align="left" style="padding-left: 0px; padding-right: 0px; padding-bottom: 80px;">
+            <b-col
+              align="left"
+              style="padding-left: 0px; padding-right: 0px; padding-bottom: 80px;"
+            >
               <p class="paragraph">
                 Outside of school and work, I enjoy exploring new cities,
                 cooking new recipes, reading, contributing to initiatives I care
